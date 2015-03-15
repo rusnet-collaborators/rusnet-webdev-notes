@@ -12,5 +12,5 @@ notifications:
   irc:
     channels:
       - "irc.lucky.net#webdev"
-    on_success: always
+    on_success: change
     on_failure: always
