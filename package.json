@@ -1,0 +1,25 @@
+{
+  "name": "rusnet-webdev-notes",
+  "version": "1.0.0",
+  "description": "#webdev channel support on RusNet",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rusnet-collaborators/rusnet-webdev-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rusnet-collaborators/rusnet-webdev-notes/issues"
+  },
+  "homepage": "https://github.com/rusnet-collaborators/rusnet-webdev-notes",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-markdown": "^1.0.0",
+    "gulp-shell": "^0.4.0"
+  }
+}
