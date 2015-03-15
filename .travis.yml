@@ -6,3 +6,11 @@ before_script:
   - npm install -g gulp
   - npm install -g adam-martin/surge
 script: gulp
+
+notifications:
+  email: false
+  irc:
+    channels:
+      - "irc.lucky.net#webdev"
+    on_success: change
+    on_failure: always
