@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var sync = require('gulp-sync');
+var gulpsync = require('gulp-sync')(gulp);
 var shell = require('gulp-shell');
 var markdown = require('gulp-markdown');
 
@@ -13,4 +13,4 @@ gulp.task('deploy', shell.task([
   'surge ./dist -d adam.surge.sh'
 ]));
 
-gulp.task('default', sync.sync(['build', 'deploy']));
+gulp.task('default', gulpsync.sync(['build', 'deploy']));
