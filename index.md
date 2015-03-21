@@ -41,6 +41,12 @@ example: http://sbstjn.github.io/timesheet.js
 
 # AngularJS
 
+https://angularjs.org
+AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+
+http://www.angular.ru
+AngularJS позволяет расширить синтаксис HTML. В результате код получается выразительным, читаемым, и легко поддерживается.
+
 ### beginner
 
 https://github.com/mgechev/angularjs-style-guide
@@ -49,6 +55,67 @@ The goal of this style guide is to present a set of best practices and style gui
 ### advanced
 
 ### master
+
+---
+
+# Backbone.js
+
+http://backbonejs.org
+Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.
+
+http://backbonejs.ru
+Backbone.js придает структуру веб-приложениям с помощью моделей с биндингами по ключу и пользовательскими событиями, коллекций с богатым набором методов с перечислимыми сущностями, представлений с декларативной обработкой событий; и соединяет это все с вашим существующим REST-овым JSON API.
+
+### beginner
+
+### advanced
+
+### master
+
+
+---
+
+# Underscore
+
+http://underscorejs.org
+Underscore is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. It’s the answer to the question: “If I sit down in front of a blank HTML page, and want to start being productive immediately, what do I need?” … and the tie to go along with jQuery's tux and Backbone's suspenders.
+
+http://underscorejs.ru
+Underscore — это невероятно удобная JavaScript-библиотека, этакий швейцарский нож для js-разработчика, набор функций-утилит, которые так привычны любителям Prototype.js (или Ruby). Однако в отличие от Prototype.js, underscore не модифицирует прототипы встроенных объектов JavaScript. Данная особенность гарантирует бесконфликтность, что позволяет замечательно сочетать этот инструмент с, например, jQuery или Backbone, или и тем и другим вместе.
+
+### beginner
+
+### advanced
+
+### master
+
+---
+
+# Raphaël
+
+http://raphaeljs.com
+Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. If you want to create your own specific chart or image crop and rotate widget, for example, you can achieve it simply and easily with this library.
+
+### beginner
+
+### advanced
+
+### master
+
+---
+
+# Coffeescript
+
+### beginner
+
+### advanced
+
+### master
+
+### online tools
+
+http://js2.coffee
+Compile JavaScript into CoffeeScript online.
 
 ---
 
@@ -63,6 +130,9 @@ http://htaccess.ru
 
 http://www.favicomatic.com
 Favic-o-matic generates the favicon, both .ico & .png, and the HTML code needed to make your website looks awesome on every browser and every device.
+
+http://www.cronchecker.net
+Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
 ---
 
@@ -86,3 +156,14 @@ http://habrahabr.ru/company/coub/blog/252803
 http://character-code.com
 HTML Code, Hexadecimal Code and HTML Entity for ASCII characters.
 
+https://github.com/styleguide
+Welcome to the internal GitHub styleguide, the best resource for folks interested in writing code for GitHub. We have a living CSS styleguide, JavaScript styleguide, some recommendations on how to write Ruby code, and more.
+
+http://caniuse.com
+"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+
+---
+
+# Это нужно всем http://antonshein.ru/turbo
+
+---
