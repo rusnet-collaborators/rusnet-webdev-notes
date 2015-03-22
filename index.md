@@ -19,10 +19,22 @@ The aim of this document is to get you started with developing applications with
 http://learn.javascript.ru
 Перед вами современный учебник по JavaScript, начиная с основ, включающий в себя DOM, замыкания, ООП, тонкости и много практических задач. От основ к продвинутой, грамотной разработке. Хорошего чтения!
 
+http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56c
+Understanding node.js
+
+http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop
+Understanding the node.js event loop
+
+http://nodeguide.ru
+Это перевод руководств, опубликованных Felix Geisendörfer.
+
 ### advanced
 
 http://callbackhell.com
 A guide to writing asynchronous javascript programs
+
+http://habrahabr.ru/post/219873
+15 шаблонизаторов для фронтенд-разработки
 
 ### master
 
@@ -36,6 +48,31 @@ Static Web Publishing for Front-End Developers
 https://github.com/sbstjn/timesheet.js
 Simple JavaScript library to create HTML time sheets.
 example: http://sbstjn.github.io/timesheet.js
+
+---
+
+# Express
+
+http://expressjs.com
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+http://jsman.ru/express ~!
+Express: веб-фреймворк для Node.js. Руководство пользователя
+
+http://express-js.ru/expressjs ~!
+Руководство по ExpressJS
+
+### beginner
+
+http://habrahabr.ru/post/207930
+Базовое Node.JS приложение с использованием express
+
+http://habrahabr.ru/post/146983
+Web-разработка на node.js и express. Изучаем node.js на практике
+
+### advanced
+
+### master
 
 ---
 
@@ -164,6 +201,11 @@ http://caniuse.com
 
 ---
 
+# in wiki
+
+---
+
 # Это нужно всем http://antonshein.ru/turbo
 
 ---
+
