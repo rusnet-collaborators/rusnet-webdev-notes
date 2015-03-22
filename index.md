@@ -238,5 +238,7 @@ DB Browser for SQLite
 # ecmascript6
 
 dev forum https://esdiscuss.org/
+
 wiki http://wiki.ecmascript.org/doku.php
+
 lastest spec https://people.mozilla.org/~jorendorff/es6-draft.html
