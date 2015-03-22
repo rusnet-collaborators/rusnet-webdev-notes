@@ -219,6 +219,13 @@ http://caniuse.com
 
 ---
 
+# useful help tools
+
+http://sqlitebrowser.org
+DB Browser for SQLite
+
+---
+
 # in wiki
 
 ---
