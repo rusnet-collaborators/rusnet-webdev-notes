@@ -74,6 +74,24 @@ Web-разработка на node.js и express. Изучаем node.js на п
 
 ### master
 
+### examples in real life
+
+https://github.com/shuvalov-anton/node-blog
+Проект блога на Express.JS для курса на hexlet.org
+
+### templates
+
+http://ejs.co
+Effective JavaScript templating
+
+### ---
+
+http://singlepageappbook.com
+Content and site generator for Single page apps in depth (my book on single page applications)
+
+https://github.com/substack/stream-handbook
+This document covers the basics of how to write node.js programs with streams.
+
 ---
 
 # AngularJS
