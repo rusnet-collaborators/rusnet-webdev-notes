@@ -10,7 +10,7 @@ gulp.task('build', function (cb) {
 });
 
 gulp.task('deploy', shell.task([
-  'surge ./dist -d adam.surge.sh'
+  'surge ./dist -d rusnet-webdev.surge.sh'
 ]));
 
 gulp.task('default', gulpsync.sync(['build', 'deploy']));
