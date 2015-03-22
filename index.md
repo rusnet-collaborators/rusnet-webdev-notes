@@ -25,6 +25,7 @@ Understanding node.js
 http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop
 Understanding the node.js event loop
 
+
 http://nodeguide.ru
 Это перевод руководств, опубликованных Felix Geisendörfer.
 
@@ -234,3 +235,8 @@ DB Browser for SQLite
 
 ---
 
+# ecmascript6
+
+dev forum https://esdiscuss.org/
+wiki http://wiki.ecmascript.org/doku.php
+lastest spec https://people.mozilla.org/~jorendorff/es6-draft.html
