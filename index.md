@@ -196,6 +196,10 @@ Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
 ### beginner
 
+http://rusrails.ru
+Ruby on Rails — это веб-фреймворк с открытым кодом, от которого программисты становятся счастливыми, код — красивым, а разработка — устойчивой и быстрой.
+На этом сайте выложены переводы официального руководства по Rails. Надеемся, эти руководства позволят вам немедленно приступить к использованию Rails и помогут разобраться, что и как в нем работает.
+
 ### advanced
 
 ### master
@@ -204,6 +208,16 @@ Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
 http://habrahabr.ru/company/coub/blog/252803
 Туториал по Coub API
+
+### gems
+
+https://github.com/RubyMoney
+Integration of RubyMoney - Money with Rails
+
+https://github.com/plataformatec/devise
+Flexible authentication solution for Rails with Warden
+
+
 
 ---
 
