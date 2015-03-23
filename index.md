@@ -112,6 +112,11 @@ The goal of this style guide is to present a set of best practices and style gui
 
 ### master
 
+### ---
+
+http://ng-inspector.org
+The AngularJS inspector pane for your browser
+
 ---
 
 # Backbone.js
@@ -217,8 +222,6 @@ Integration of RubyMoney - Money with Rails
 https://github.com/plataformatec/devise
 Flexible authentication solution for Rails with Warden
 
-
-
 ---
 
 # useful help resources
@@ -231,6 +234,9 @@ Welcome to the internal GitHub styleguide, the best resource for folks intereste
 
 http://caniuse.com
 "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+
+http://www.mysql.ru
+Вы сможете получить ответы на интересующие вас вопросы, связанные с MySQL, настройке программного обеспечения, и другую полезную информацию.
 
 ---
 
