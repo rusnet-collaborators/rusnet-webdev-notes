@@ -14,6 +14,6 @@ TODO
 
 ---
 
-* irc rusnet #webdev channeli
+* irc rusnet #webdev channel
 
 ---
