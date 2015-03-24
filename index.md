@@ -25,7 +25,6 @@ Understanding node.js
 http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop
 Understanding the node.js event loop
 
-
 http://nodeguide.ru
 Это перевод руководств, опубликованных Felix Geisendörfer.
 
@@ -49,6 +48,14 @@ Static Web Publishing for Front-End Developers
 https://github.com/sbstjn/timesheet.js
 Simple JavaScript library to create HTML time sheets.
 example: http://sbstjn.github.io/timesheet.js
+
+http://vitalets.github.io/x-editable
+This library allows you to create editable elements on your page. It can be used with any engine (bootstrap, jquery-ui, jquery only) and includes both popup and inline modes. Please try out demo to see how it works.
+
+### ---
+
+https://nodejsmodules.org
+Node.JS Modules
 
 ---
 
@@ -224,6 +231,21 @@ Flexible authentication solution for Rails with Warden
 
 ---
 
+# python
+
+### beginner
+
+### advanced
+
+### master
+
+### ---
+
+http://pep8.ru
+Сайт pep8.ru - это русскоязычная интернет-площадка для общения людей, так или иначе связанных с языком программирования Python.
+
+---
+
 # useful help resources
 
 http://character-code.com
@@ -238,6 +260,13 @@ http://caniuse.com
 http://www.mysql.ru
 Вы сможете получить ответы на интересующие вас вопросы, связанные с MySQL, настройке программного обеспечения, и другую полезную информацию.
 
+http://bakhirev.biz
+Книга «Сюрреализм на JavaScript»
+В книге содержатся различные рекомендации, советы и идеи касательно разработки сложного фронтенда на JavaScript. Рассматривается архитектура игровых движков и проблемы создания веб-игр и веб-приложений. Так же в книге приведено множество рекомендаций касательно верстки интерфейсов под различные устройства и особенностей разработки на JavaScript под различные платформы.
+
+https://css-tricks.com
+CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily about CSS! Over the years, despite the hokey name, CSS-Tricks has come to become a site about all things web design and development.
+
 ---
 
 # useful help tools
@@ -251,7 +280,11 @@ DB Browser for SQLite
 
 ---
 
-# Это нужно всем http://antonshein.ru/turbo
+# Это нужно всем
+
+http://antonshein.ru/turbo
+
+http://programming-motherfucker.com
 
 ---
 
@@ -262,3 +295,4 @@ dev forum https://esdiscuss.org/
 wiki http://wiki.ecmascript.org/doku.php
 
 lastest spec https://people.mozilla.org/~jorendorff/es6-draft.html
+
