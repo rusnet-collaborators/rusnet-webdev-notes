@@ -3,13 +3,11 @@ gulpsync     = require('gulp-sync')(gulp)
 shell        = require('gulp-shell')
 markdown     = require('gulp-markdown')
 includer     = require('gulp-htmlincluder')
-sass         = require('gulp-sass')
 coffee       = require('gulp-coffee')
 gutil        = require('gulp-util')
 
-gulp.task 'gen_css', ->
-  gulp.src('src/*.scss')
-    .pipe sass()
+gulp.task 'copy_css', ->
+  gulp.src('src/*.css')
     .pipe gulp.dest 'dist/'
 
 gulp.task 'gen_js', ->
@@ -30,7 +28,7 @@ gulp.task 'gen_html', ->
 gulp.task 'deploy', shell.task [ 'surge ./dist -d rusnet-webdev.surge.sh' ]
 
 gulp.task 'default', gulpsync.sync [
-  'gen_css'
+  'copy_css'
   'gen_js'
   'gen_markdown'
   'gen_html'
