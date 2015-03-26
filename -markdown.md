@@ -1,5 +1,3 @@
----
-
 # markdown
 
 ### markdown online editors
@@ -7,7 +5,6 @@
 http://dillinger.io
 Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
 
----
 
 # nodejs & javascript
 
@@ -57,7 +54,6 @@ This library allows you to create editable elements on your page. It can be used
 https://nodejsmodules.org
 Node.JS Modules
 
----
 
 # Express
 
@@ -100,7 +96,6 @@ Content and site generator for Single page apps in depth (my book on single page
 https://github.com/substack/stream-handbook
 This document covers the basics of how to write node.js programs with streams.
 
----
 
 # AngularJS
 
@@ -124,7 +119,6 @@ The goal of this style guide is to present a set of best practices and style gui
 http://ng-inspector.org
 The AngularJS inspector pane for your browser
 
----
 
 # Backbone.js
 
@@ -141,8 +135,6 @@ Backbone.js придает структуру веб-приложениям с �
 ### master
 
 
----
-
 # Underscore
 
 http://underscorejs.org
@@ -157,7 +149,6 @@ Underscore — это невероятно удобная JavaScript-библи�
 
 ### master
 
----
 
 # Raphaël
 
@@ -170,7 +161,6 @@ Raphaël is a small JavaScript library that should simplify your work with vecto
 
 ### master
 
----
 
 # Coffeescript
 
@@ -185,7 +175,6 @@ Raphaël is a small JavaScript library that should simplify your work with vecto
 http://js2.coffee
 Compile JavaScript into CoffeeScript online.
 
----
 
 # HTTP Server & environment
 
@@ -202,7 +191,6 @@ Favic-o-matic generates the favicon, both .ico & .png, and the HTML code needed 
 http://www.cronchecker.net
 Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
----
 
 # Ruby on Rails
 
@@ -229,7 +217,6 @@ Integration of RubyMoney - Money with Rails
 https://github.com/plataformatec/devise
 Flexible authentication solution for Rails with Warden
 
----
 
 # python
 
@@ -244,7 +231,6 @@ Flexible authentication solution for Rails with Warden
 http://pep8.ru
 Сайт pep8.ru - это русскоязычная интернет-площадка для общения людей, так или иначе связанных с языком программирования Python.
 
----
 
 # useful help resources
 
@@ -267,18 +253,15 @@ http://bakhirev.biz
 https://css-tricks.com
 CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily about CSS! Over the years, despite the hokey name, CSS-Tricks has come to become a site about all things web design and development.
 
----
 
 # useful help tools
 
 http://sqlitebrowser.org
 DB Browser for SQLite
 
----
 
 # in wiki
 
----
 
 # Это нужно всем
 
@@ -286,7 +269,6 @@ http://antonshein.ru/turbo
 
 http://programming-motherfucker.com
 
----
 
 # ecmascript6
 
