@@ -76,4 +76,4 @@ $RECYCLE.BIN/
 *.lnk
 .zedstate
 tags
-src/
+src/-markdown.html
