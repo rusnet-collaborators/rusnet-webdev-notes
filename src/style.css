@@ -30,3 +30,7 @@ h1 {
 li[role=presentation] {
   min-width: 360px;
 }
+
+.space {
+  padding: 100px 0;
+}
