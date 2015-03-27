@@ -1,1 +1,1 @@
-$('h1').addClass('page-header')
+$('h1').addClass 'page-header' 

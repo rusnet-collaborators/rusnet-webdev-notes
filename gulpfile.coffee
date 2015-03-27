@@ -6,6 +6,7 @@ includer     = require('gulp-htmlincluder')
 coffee       = require('gulp-coffee')
 gutil        = require('gulp-util')
 
+
 gulp.task 'copy_css', ->
   gulp.src('src/*.css')
     .pipe gulp.dest 'dist/'
@@ -20,12 +21,17 @@ gulp.task 'gen_markdown', ->
     .pipe markdown()
     .pipe gulp.dest 'src/'
 
-gulp.task 'gen_html', ->
+gulp.task 'gen_html',  (cb)->
   gulp.src('src/*.html')
     .pipe includer()
     .pipe gulp.dest 'dist/'
+  cb()
 
-gulp.task 'deploy', shell.task [ 'surge ./dist -d rusnet-webdev.surge.sh' ]
+gulp.task 'predeploy', ->
+  gulp.src 'CNAME' 
+    .pipe gulp.dest 'dist/'
+
+gulp.task 'deploy', ['predeploy'], shell.task [ 'surge ./dist' ]
 
 gulp.task 'default', gulpsync.sync [
   'copy_css'

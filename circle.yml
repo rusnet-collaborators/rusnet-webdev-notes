@@ -4,4 +4,4 @@ machine:
 
 dependencies:
   pre:
-    - npm install adam-martin/surge -g
+    - npm install surge -g
