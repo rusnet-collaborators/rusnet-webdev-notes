@@ -4,6 +4,29 @@ body {
 h1 {
   margin: 36px 0 21px 0; }
 
-.row {
-  margin-bottom: 50px;
+.center {
+  text-align: center;
+}
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: none;
+}
+
+.navbar {
+  min-height: 0;
+  margin-bottom: 0;
+}
+
+.block {
+  display: block;
+  padding: 20px 0 0 0;
+}
+
+.page-header {
+  border-bottom: 1px solid #bbbbbb;
+}
+
+li[role=presentation] {
+  min-width: 360px;
 }
