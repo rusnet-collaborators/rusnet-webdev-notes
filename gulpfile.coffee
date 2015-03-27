@@ -21,14 +21,14 @@ gulp.task 'gen_markdown', ->
     .pipe markdown()
     .pipe gulp.dest 'src/'
 
-gulp.task 'gen_html',  (cb)->
+gulp.task 'gen_html',  (cb) ->
   gulp.src('src/*.html')
     .pipe includer()
     .pipe gulp.dest 'dist/'
   cb()
 
 gulp.task 'predeploy', ->
-  gulp.src 'CNAME' 
+  gulp.src 'CNAME'
     .pipe gulp.dest 'dist/'
 
 gulp.task 'deploy', ['predeploy'], shell.task [ 'surge ./dist' ]
