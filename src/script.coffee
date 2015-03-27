@@ -20,7 +20,7 @@ for i in items
     $(li).append(link_menu)
     $(menu).append(li)
 
-notes = $('#notes_wrap').find('a')
+notes = $('#notes_wrap p a')
 for i in notes
   do (i) ->
     $(i).attr('target', '_blank')
