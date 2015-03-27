@@ -80,3 +80,10 @@ li[role=presentation] {
   margin-right: auto;
   text-align: center;
 }
+
+.badge {
+  background-color: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 3px;
+  color: #262626;
+}
