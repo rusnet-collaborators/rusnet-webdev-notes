@@ -272,12 +272,14 @@ http://programming-motherfucker.com
 
 # ecmascript6
 
-dev forum https://esdiscuss.org/
+https://esdiscuss.org
+dev forum
 
-wiki http://wiki.ecmascript.org/doku.php
+http://wiki.ecmascript.org/doku.php
+This is a wiki for the ongoing specification work of Ecma TC39, the technical committee tasked with standardization of the ECMAScript programming language.
 
-lastest spec https://people.mozilla.org/~jorendorff/es6-draft.html
-
+https://people.mozilla.org/~jorendorff/es6-draft.html
+This is not the official ECMAScript Language Specification. This is a draft of the next edition of the standard.
 
 # Книги, нужные и полезные
 
