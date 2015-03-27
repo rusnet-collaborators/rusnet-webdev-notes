@@ -1,4 +1,4 @@
-# markdown
+# Markdown
 
 ### markdown online editors
 
@@ -6,7 +6,7 @@ http://dillinger.io
 Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
 
 
-# nodejs & javascript
+# Nodejs & Javascript
 
 ### beginner
 
@@ -162,7 +162,7 @@ Raphaël is a small JavaScript library that should simplify your work with vecto
 ### master
 
 
-# jquery
+# Jquery
 
 http://jquery-docs.ru
 Русская документация по jQuery. Перевод официальной документации jQuery на русский язык.
@@ -231,7 +231,7 @@ https://github.com/plataformatec/devise
 Flexible authentication solution for Rails with Warden
 
 
-# python
+# Python
 
 ### beginner
 
@@ -245,7 +245,7 @@ http://pep8.ru
 Сайт pep8.ru - это русскоязычная интернет-площадка для общения людей, так или иначе связанных с языком программирования Python.
 
 
-# useful help resources
+# Useful help resources
 
 http://character-code.com
 HTML Code, Hexadecimal Code and HTML Entity for ASCII characters.
@@ -267,13 +267,13 @@ https://css-tricks.com
 CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily about CSS! Over the years, despite the hokey name, CSS-Tricks has come to become a site about all things web design and development.
 
 
-# useful help tools
+# Useful help tools
 
 http://sqlitebrowser.org
 DB Browser for SQLite
 
 
-# in wiki
+# Wiki
 
 
 # Это нужно всем
@@ -283,7 +283,7 @@ http://antonshein.ru/turbo
 http://programming-motherfucker.com
 
 
-# ecmascript6
+# EcmaScript 6
 
 https://esdiscuss.org
 dev forum
@@ -299,7 +299,7 @@ This is not the official ECMAScript Language Specification. This is a draft of t
 http://goo.gl/SJc4o4
 
 
-# vim
+# Vim
 
 http://vimregex.com
 VIM Regular Expressions
