@@ -162,6 +162,12 @@ Raphaël is a small JavaScript library that should simplify your work with vecto
 ### master
 
 
+# jquery
+
+http://jquery-docs.ru
+Русская документация по jQuery. Перевод официальной документации jQuery на русский язык.
+
+
 # Coffeescript
 
 ### beginner
@@ -174,6 +180,9 @@ Raphaël is a small JavaScript library that should simplify your work with vecto
 
 http://js2.coffee
 Compile JavaScript into CoffeeScript online.
+
+http://js2coffee.thomaskalka.de
+Analog js2.coffee. This hacked version of js2coffe tries to preserve comments.
 
 
 # HTTP Server & environment
@@ -284,4 +293,12 @@ This is not the official ECMAScript Language Specification. This is a draft of t
 # Книги, нужные и полезные
 
 http://goo.gl/SJc4o4
+
+
+# vim
+
+http://vimregex.com
+VIM Regular Expressions
+
+
 
