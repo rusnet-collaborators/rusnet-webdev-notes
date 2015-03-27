@@ -7,30 +7,33 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container bg_content">
       <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top navbar-right">
-          <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top container">
             <div id="menu" class="dropdown pull-right">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">
-                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                menu <span class="caret"></span>
               </button>
               <ul class="dropdown-menu dropdown-menu-right" role="menu"></ul>
             </div>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
-              <span class="input-group-addon" id="basic-addon2">поиск</span>
+            <div class="input-group search_field pull-right">
+              <input type="text" class="form-control" placeholder="поиск по тегам, ссылке, описанию" aria-describedby="basic-addon2">
             </div>
-          </div>
         </nav>
       </div>
 
       <div id="notes_wrap" class="row">
         <!--#insert file="-markdown.html" -->
       </div>
-      <div class="row space">
-      </div>
 
+      <div class="row space">
+        <div class="center-block">
+          <h4><a href="https://github.com/rusnet-collaborators/rusnet-webdev-notes" target="_blank">github.com</a></h4>
+        </div>
+        <div class="center-block">
+          <h4>2015</h4>
+        </div>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

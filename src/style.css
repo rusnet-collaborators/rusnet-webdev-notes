@@ -1,5 +1,9 @@
 body {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+  background-image: url("bg.png");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -38,5 +42,39 @@ li[role=presentation] {
 }
 
 .space {
-  padding: 100px 0;
+  padding: 100px 0 30px;
+}
+
+.search_field {
+  width: 360px;
+}
+
+.bg_content {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 15px #505050;
+}
+
+#notes_wrap p {
+  padding: 5px 20px 10px;
+  transition: all 0.3s ease 0s;
+}
+
+#notes_wrap p:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 3px #ffffff;
+}
+
+#notes_wrap h1 {
+  box-shadow: 0 3px 10px -3px #505050;
+}
+
+#notes_wrap h3 {
+  margin: 20px 20px 5px 20px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

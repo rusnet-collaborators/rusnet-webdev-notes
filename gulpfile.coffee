@@ -11,6 +11,10 @@ gulp.task 'copy_css', ->
   gulp.src('src/*.css')
     .pipe gulp.dest 'dist/'
 
+gulp.task 'copy_image', ->
+  gulp.src('src/*.png')
+    .pipe gulp.dest 'dist/'
+
 gulp.task 'gen_js', ->
   gulp.src('src/*.coffee')
     .pipe coffee({bare: true}).on('error', gutil.log)
@@ -35,6 +39,7 @@ gulp.task 'deploy', ['predeploy'], shell.task [ 'surge ./dist' ]
 
 gulp.task 'default', gulpsync.sync [
   'copy_css'
+  'copy_image'
   'gen_js'
   'gen_markdown'
   'gen_html'
