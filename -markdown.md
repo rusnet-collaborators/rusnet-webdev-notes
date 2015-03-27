@@ -33,6 +33,12 @@ A guide to writing asynchronous javascript programs
 http://habrahabr.ru/post/219873
 15 шаблонизаторов для фронтенд-разработки
 
+https://github.com/marcuswestin/store.js
+localStorage wrapper for all browsers without using cookies or flash
+
+https://www.npmjs.com/package/node-localstorage
+A drop-in substitute for the browser native localStorage API that runs on node.js
+
 ### master
 
 ### examples in real life
@@ -303,6 +309,5 @@ http://goo.gl/SJc4o4
 
 http://vimregex.com
 VIM Regular Expressions
-
 
 
