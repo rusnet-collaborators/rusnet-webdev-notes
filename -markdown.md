@@ -278,3 +278,8 @@ wiki http://wiki.ecmascript.org/doku.php
 
 lastest spec https://people.mozilla.org/~jorendorff/es6-draft.html
 
+
+# Книги, нужные и полезные
+
+http://goo.gl/SJc4o4
+
