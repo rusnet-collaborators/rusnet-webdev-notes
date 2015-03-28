@@ -1,6 +1,5 @@
 # Markdown
 
-
 ### cheatsheet
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
@@ -16,6 +15,7 @@ Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
 * markdown
 * online
 * editor
+
 
 # Nodejs & Javascript
 
@@ -315,6 +315,13 @@ Record and share your terminal sessions, the right way.
 
 http://placehold.it
 Welcome to placehold.it. A quick and simple image placeholder service.
+
+http://regexpal.com
+RegexPal — a JavaScript regular expression tester
+* javascript
+* regexp
+* tester
+* online
 
 
 # Wiki
