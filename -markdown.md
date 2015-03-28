@@ -323,6 +323,12 @@ RegexPal — a JavaScript regular expression tester
 * tester
 * online
 
+http://jsbin.com
+JS Bin is a tool for experimenting with web languages. In particular HTML, CSS and JavaScript, but JS Bin also supports other languages too (like Markdown, Jade and Sass).
+* online
+* experimenting
+* tool
+
 
 # Wiki
 
