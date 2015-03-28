@@ -1,5 +1,11 @@
 # Markdown
 
+
+### cheatsheet
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Markdown Cheatsheet
+
 ### markdown online editors
 
 http://dillinger.io
@@ -59,6 +65,12 @@ This library allows you to create editable elements on your page. It can be used
 
 https://nodejsmodules.org
 Node.JS Modules
+
+
+# Gulp
+
+http://frontender.info/no-need-to-grunt-take-a-gulp-of-fresh-air
+Gulp — как глоток свежего воздуха после Grunt
 
 
 # Express
@@ -180,6 +192,12 @@ http://jquery-docs.ru
 
 ### advanced
 
+http://arcturo.github.io/library/coffeescript
+The Little Book on CoffeeScript
+
+http://coffeescript2ru.github.io
+Данная страничка посвящена языку CoffeeScript
+
 ### master
 
 ### online tools
@@ -218,8 +236,11 @@ Ruby on Rails — это веб-фреймворк с открытым кодо�
 https://github.com/arbox/rails-style-guide
 Это руководство по оформлению кода на Rails дает передовые рекомендации. С его помощью обычный программист на Руби будет создавать код, который с легкостью смогут поддерживать и развивать другие обычные разработчики.
 
-
 ### advanced
+
+http://learnrubythehardway.org/book
+Welcome to Learn Ruby the Hard Way, 3rd Edition.
+
 
 ### master
 
@@ -242,6 +263,10 @@ Flexible authentication solution for Rails with Warden
 ### beginner
 
 ### advanced
+
+http://learnpythonthehardway.org/book
+Welcome to the 3rd Edition of Learn Python the Hard Way
+
 
 ### master
 
@@ -278,6 +303,9 @@ CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily 
 http://sqlitebrowser.org
 DB Browser for SQLite
 
+https://asciinema.org
+Record and share your terminal sessions, the right way.
+
 
 # Wiki
 
@@ -309,6 +337,9 @@ http://goo.gl/SJc4o4
 
 http://vimregex.com
 VIM Regular Expressions
+
+http://derekwyatt.org/vim
+Do it all, Do it right, Do it in Vim. Bram Moolenaar, and all of the other authors deserve some serious credit for making this amazing edition of good ol' Vi because it's just about the best app that has ever been written in the history of software.
 
 
 # Алгоритмы
