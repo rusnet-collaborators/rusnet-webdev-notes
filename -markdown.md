@@ -31,6 +31,10 @@ Understanding the node.js event loop
 http://nodeguide.ru
 Это перевод руководств, опубликованных Felix Geisendörfer.
 
+http://bakhirev.biz
+Книга «Сюрреализм на JavaScript»
+В книге содержатся различные рекомендации, советы и идеи касательно разработки сложного фронтенда на JavaScript. Рассматривается архитектура игровых движков и проблемы создания веб-игр и веб-приложений. Так же в книге приведено множество рекомендаций касательно верстки интерфейсов под различные устройства и особенностей разработки на JavaScript под различные платформы.
+
 ### advanced
 
 http://callbackhell.com
@@ -290,13 +294,6 @@ http://caniuse.com
 http://www.mysql.ru
 Вы сможете получить ответы на интересующие вас вопросы, связанные с MySQL, настройке программного обеспечения, и другую полезную информацию.
 
-http://bakhirev.biz
-Книга «Сюрреализм на JavaScript»
-В книге содержатся различные рекомендации, советы и идеи касательно разработки сложного фронтенда на JavaScript. Рассматривается архитектура игровых движков и проблемы создания веб-игр и веб-приложений. Так же в книге приведено множество рекомендаций касательно верстки интерфейсов под различные устройства и особенностей разработки на JavaScript под различные платформы.
-
-https://css-tricks.com
-CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily about CSS! Over the years, despite the hokey name, CSS-Tricks has come to become a site about all things web design and development.
-
 
 # Useful help tools
 
@@ -305,6 +302,9 @@ DB Browser for SQLite
 
 https://asciinema.org
 Record and share your terminal sessions, the right way.
+
+http://placehold.it
+Welcome to placehold.it. A quick and simple image placeholder service.
 
 
 # Wiki
@@ -365,4 +365,7 @@ http://habrahabr.ru/post/254251
 
 http://habrahabr.ru/company/htmlacademy/blog/254171
 Отличные рекомендации по верстке: Что такое хорошо: как мы разрабатывали критерии для оценки качества вёрстки веб-проектов.
+
+https://css-tricks.com
+CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily about CSS! Over the years, despite the hokey name, CSS-Tricks has come to become a site about all things web design and development.
 
