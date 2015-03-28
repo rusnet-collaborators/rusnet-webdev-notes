@@ -3,7 +3,7 @@ items = $('h1')
 menu = $('#menu').find('ul')
 for i in items
   do (i) ->
-    text_wrap = $(i).text()
+    text_wrap = i.textContent
     li = document.createElement('li')
     $(li).attr('role', 'presentation')
 
@@ -35,5 +35,18 @@ notes = $('#notes_wrap p a')
 for i in notes
   do (i) ->
     $(i).attr('target', '_blank')
+      .text( i.textContent.replace(/(http|https):\/\/(www){0,1}\.{0,1}/, '') )
     $('<br/>').insertAfter(i)
+tags = $('#notes_wrap ul li')
+for i in tags
+  do (i) ->
+    link_tag = document.createElement('a')
+    $(link_tag)
+      .attr('href', '#tag-' + i.textContent)
+      .attr('class', 'white')
+      .text(i.textContent)
+    $(i)
+      .attr('class', 'label label-primary')
+      .text('')
+      .append(link_tag)
 

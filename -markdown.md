@@ -5,12 +5,17 @@
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 Markdown Cheatsheet
+* markdown
+* cheatsheet
+* github
 
 ### markdown online editors
 
 http://dillinger.io
 Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
-
+* markdown
+* online
+* editor
 
 # Nodejs & Javascript
 
@@ -18,6 +23,8 @@ Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
 
 http://www.nodebeginner.ru
 The aim of this document is to get you started with developing applications with Node.js, teaching you everything you need to know about "advanced" JavaScript along the way. It goes way beyond your typical "Hello World" tutorial.
+* nodejs
+* teaching
 
 http://learn.javascript.ru
 Перед вами современный учебник по JavaScript, начиная с основ, включающий в себя DOM, замыкания, ООП, тонкости и много практических задач. От основ к продвинутой, грамотной разработке. Хорошего чтения!
@@ -39,9 +46,12 @@ http://bakhirev.biz
 
 http://callbackhell.com
 A guide to writing asynchronous javascript programs
+* callback
 
 http://habrahabr.ru/post/219873
 15 шаблонизаторов для фронтенд-разработки
+* template
+* habrahabr
 
 https://github.com/marcuswestin/store.js
 localStorage wrapper for all browsers without using cookies or flash

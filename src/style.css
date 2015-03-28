@@ -15,6 +15,10 @@ h1 a {
   padding: 20px 0 0 20px;
 }
 
+p {
+  margin: 0;
+}
+
 .center {
   text-align: center;
 }
@@ -69,7 +73,7 @@ li[role=presentation] {
 }
 
 #notes_wrap h3 {
-  margin: 0 10px;
+  margin: 20px 10px 0;
   padding: 20px 10px 5px;
   box-shadow: 0 -7px 10px -7px #bbbbbb;
 }
@@ -86,4 +90,7 @@ li[role=presentation] {
   border: 1px solid #D0D0D0;
   border-radius: 3px;
   color: #262626;
+}
+a.white {
+  color: #ffffff;
 }
