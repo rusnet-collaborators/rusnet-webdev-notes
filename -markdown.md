@@ -80,6 +80,13 @@ This library allows you to create editable elements on your page. It can be used
 https://nodejsmodules.org
 Node.JS Modules
 
+### cheatsheet
+
+http://browsenpm.org/help
+npm cheat sheet
+* npm
+* cheatsheet
+
 
 # Gulp
 
