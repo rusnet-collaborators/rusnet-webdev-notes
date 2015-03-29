@@ -1,8 +1,3 @@
-gutil = require('gulp-util');
-exec = require('child_process').exec;
-
-
-
 $ = (require 'gulp-load-plugins')()
 
 gulp = require 'gulp'
@@ -10,8 +5,10 @@ gulp = require 'gulp'
 config = (require './config.coffee')()
 
 p = require 'path'
+exec = require('child_process').exec;
 
-gulp.task 'version', ->
+
+gulp.task 'version', (_cb) ->
 
   getGitCommitCount = (opt, cb) -> 
     if (!cb || typeof cb != 'function') 
@@ -23,7 +20,7 @@ gulp.task 'version', ->
     if (!opt.cwd)
       opt.cwd = process.cwd()
 
-    cmd = 'git rev-parse --count master'
+    cmd = 'git rev-list --count master'
     exec cmd, cwd: opt.cwd, (err, stdout, stderr) ->
       if (err)
         return cb(err)
@@ -34,6 +31,9 @@ gulp.task 'version', ->
     return
 
 
-  getGitCommitCount {}, (err, data) -> 
-    console.log(data)
+  getGitCommitCount {}, (err, data) ->
+    gulp.src p.join config.prod_path_static, 'index.html'
+      .pipe($.replace(/{{build}}/g, data))
+      .pipe gulp.dest config.prod_path_static
+    _cb()
     return
