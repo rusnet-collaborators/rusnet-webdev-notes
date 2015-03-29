@@ -4,7 +4,7 @@
   "description": "#webdev channel support on RusNet",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "cd build && gulp",
+    "test": "cd ./build && gulp",
     "start": "gulp"
   },
   "repository": {
