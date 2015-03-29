@@ -1,5 +1,5 @@
-gulp = require('gulp');
-p = require('path');
+gulp = require 'gulp'
+p = require 'path'
 
 require('require-dir')(p.join(__dirname, 'gulp-tasks'))
 

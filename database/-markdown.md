@@ -42,6 +42,7 @@ Understanding the node.js event loop
 
 http://nodeguide.ru
 Это перевод руководств, опубликованных Felix Geisendörfer.
+* guide
 
 http://bakhirev.biz
 Книга «Сюрреализм на JavaScript»
@@ -52,6 +53,7 @@ http://bakhirev.biz
 http://callbackhell.com
 A guide to writing asynchronous javascript programs
 * callback
+* javascript
 
 http://habrahabr.ru/post/219873
 15 шаблонизаторов для фронтенд-разработки
@@ -63,6 +65,8 @@ localStorage wrapper for all browsers without using cookies or flash
 
 https://www.npmjs.com/package/node-localstorage
 A drop-in substitute for the browser native localStorage API that runs on node.js
+* local storage
+* nodejs
 
 ### master
 
@@ -84,6 +88,8 @@ This library allows you to create editable elements on your page. It can be used
 
 https://nodejsmodules.org
 Node.JS Modules
+* nodejs
+* modules
 
 ### cheatsheet
 
@@ -99,7 +105,7 @@ http://frontender.info/no-need-to-grunt-take-a-gulp-of-fresh-air
 Gulp — как глоток свежего воздуха после Grunt
 * gulp
 
-http://habrahabr.ru/post/252745/
+http://habrahabr.ru/post/252745
 Самые нужные плагины для Gulp
 * gulp
 * plugins
@@ -215,7 +221,15 @@ Raphaël is a small JavaScript library that should simplify your work with vecto
 # Jquery
 
 http://jquery-docs.ru
-Русская документация по jQuery. Перевод официальной документации jQuery на русский язык.
+Русская документация по jQuery. Перевод официальной документации jQuery на русский язык
+* jquery
+
+### useful plugins
+
+https://github.com/julien-maurel/jQuery-Storage-API
+JQuery Storage is a plugin to simplify access to local and session storage in HTML5
+* local storage
+* jquery
 
 
 # Coffeescript
@@ -341,9 +355,14 @@ http://www.mysql.ru
 
 http://sqlitebrowser.org
 DB Browser for SQLite
+* tool
+* sqlite
 
 https://asciinema.org
 Record and share your terminal sessions, the right way.
+* terminal
+* record
+* demonstration
 
 http://placehold.it
 Welcome to placehold.it. A quick and simple image placeholder service.
@@ -390,8 +409,10 @@ There has always been great resources available online for designers and develop
 # Это нужно всем
 
 http://antonshein.ru/turbo
+Турбокнопка. Помогает побороть прокрастинацию, почувствовать прилив сил и начать работать в турбо-режиме.
 
 http://programming-motherfucker.com
+We are a community of motherfucking programmers who have been humiliated by software development methodologies for years.
 
 
 # EcmaScript 6

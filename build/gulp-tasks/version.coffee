@@ -5,17 +5,17 @@ gulp = require 'gulp'
 config = (require './config.coffee')()
 
 p = require 'path'
-exec = require('child_process').exec;
+exec = require('child_process').exec
 
 
 gulp.task 'version', (_cb) ->
 
-  getGitCommitCount = (opt, cb) -> 
-    if (!cb || typeof cb != 'function') 
+  getGitCommitCount = (opt, cb) ->
+    if (!cb || typeof cb != 'function')
       cb = () ->
     if (!opt)
       opt = {}
-    if (!opt.args) 
+    if (!opt.args)
       opt.args = ' '
     if (!opt.cwd)
       opt.cwd = process.cwd()
