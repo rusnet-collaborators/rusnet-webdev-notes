@@ -8,6 +8,11 @@ Markdown Cheatsheet
 * cheatsheet
 * github
 
+http://assemble.io/docs/Cheatsheet-Markdown.html
+Markdown Cheatsheet
+* markdown
+* cheatsheet
+
 ### markdown online editors
 
 http://dillinger.io
@@ -263,11 +268,15 @@ Ruby on Rails — это веб-фреймворк с открытым кодо�
 https://github.com/arbox/rails-style-guide
 Это руководство по оформлению кода на Rails дает передовые рекомендации. С его помощью обычный программист на Руби будет создавать код, который с легкостью смогут поддерживать и развивать другие обычные разработчики.
 
+http://rgua.github.io
+Rails Girls Guides. Это руководство было создано для того, чтобы познакомить девушек с технологиями, с помощью которых, они могут реализовать свои идеи.
+* rails
+* guide
+
 ### advanced
 
 http://learnrubythehardway.org/book
 Welcome to Learn Ruby the Hard Way, 3rd Edition.
-
 
 ### master
 
@@ -275,6 +284,12 @@ Welcome to Learn Ruby the Hard Way, 3rd Edition.
 
 http://habrahabr.ru/company/coub/blog/252803
 Туториал по Coub API
+
+http://habrahabr.ru/post/146441
+Немного Rails трюков
+
+http://habrahabr.ru/post/144498
+Три полезных совета по Rails консоли
 
 ### gems
 
@@ -294,6 +309,10 @@ Flexible authentication solution for Rails with Warden
 http://learnpythonthehardway.org/book
 Welcome to the 3rd Edition of Learn Python the Hard Way
 
+https://twistedmatrix.com
+Twisted is an event-driven networking engine written in Python and licensed under the open source
+* python
+* server
 
 ### master
 
@@ -342,6 +361,28 @@ JS Bin is a tool for experimenting with web languages. In particular HTML, CSS a
 * experimenting
 * tool
 
+http://cssdeck.com
+CSSDeck is a cool place for HTML/CSS/JS Devs
+* online
+* experimenting
+* web
+* css
+* javascript
+* html
+
+http://regexcrossword.com
+Regex Crossword. Welcome to the fantastic world of nerdy regex fun! Start playing by selecting one of the puzzle challenges below. There are a wide range of difficulties from beginner to expert.
+* regexp
+* game
+* teaching
+* online
+
+http://subtlepatterns.com
+There has always been great resources available online for designers and developers, and I’ve been using these myself since I started making websites some twelve years ago – that’s the fantastic thing about the web community.
+* background
+* image
+* pattern
+
 
 # Wiki
 
@@ -373,9 +414,32 @@ http://goo.gl/SJc4o4
 
 http://vimregex.com
 VIM Regular Expressions
+* vim
+* regexp
 
 http://derekwyatt.org/vim
 Do it all, Do it right, Do it in Vim. Bram Moolenaar, and all of the other authors deserve some serious credit for making this amazing edition of good ol' Vi because it's just about the best app that has ever been written in the history of software.
+
+http://www.cs.swarthmore.edu/help/vim/home.html
+These pages contain some vim tips.
+* vim
+* tips
+* tutorial
+
+http://usevim.com
+A blog all about Vim
+* vim
+* blog
+
+
+# Git
+
+http://git-scm.com/book/ru/v1
+The entire Pro Git book, written by Scott Chacon and Ben Straub and published by Apress, is available here.
+На русском языке
+* git
+* manual
+* book
 
 
 # Алгоритмы
@@ -401,7 +465,39 @@ http://habrahabr.ru/post/254251
 
 http://habrahabr.ru/company/htmlacademy/blog/254171
 Отличные рекомендации по верстке: Что такое хорошо: как мы разрабатывали критерии для оценки качества вёрстки веб-проектов.
+* css
+* manual
+* habrahabr
 
 https://css-tricks.com
 CSS-Tricks launched July 4th, 2007. It used to be, believe it or not, primarily about CSS! Over the years, despite the hokey name, CSS-Tricks has come to become a site about all things web design and development.
+* css
+* tricks
+
+http://www.barelyfitz.com/screencast/html-training/css/positioning
+Learn CSS Positioning in Ten Steps
+* css
+* positioning
+* teaching
+
+http://www.cssmatic.com
+The ultimate CSS tools for web designers
+* css
+* online
+* tool
+
+http://flukeout.github.io
+It's a little game to help you learn CSS selectors.
+* css
+* teaching
+* game
+
+
+# Graphviz
+
+http://graphs.grevian.org
+This site runs on Google App Engine and uses templates from the HTML5 Boilerplate, It uses the (deprecated!) Google Image Charts API to create charts based on GraphViz.
+* graphviz
+* online
+* convert
 
