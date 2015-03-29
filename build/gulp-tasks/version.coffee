@@ -20,7 +20,7 @@ gulp.task 'version', (_cb) ->
     if (!opt.cwd)
       opt.cwd = process.cwd()
 
-    cmd = 'git rev-list --count remote origin'
+    cmd = 'git rev-list --count origin'
     exec cmd, cwd: opt.cwd, (err, stdout, stderr) ->
       if (err)
         return cb(err)
