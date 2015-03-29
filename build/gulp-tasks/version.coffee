@@ -11,7 +11,7 @@ config = (require './config.coffee')()
 
 p = require 'path'
 
-gulp.task 'add_version', ->
+gulp.task 'version', ->
 
   getGitCommitCount = (opt, cb) -> 
     if (!cb || typeof cb != 'function') 
