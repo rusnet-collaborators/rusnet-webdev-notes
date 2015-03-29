@@ -1,10 +1,11 @@
 gulp         = require('gulp')
-gulpsync     = require('gulp-sync')(gulp)
-shell        = require('gulp-shell')
-markdown     = require('gulp-markdown')
-includer     = require('gulp-htmlincluder')
-coffee       = require('gulp-coffee')
-gutil        = require('gulp-util')
+$            = require('gulp-load-plugins')()
+gulpsync     = $.sync(gulp)
+
+del = require('del');
+
+gulp.task 'clean', (cb) ->
+  del('dist', cb)
 
 
 gulp.task 'copy_css', ->
@@ -17,27 +18,28 @@ gulp.task 'copy_image', ->
 
 gulp.task 'gen_js', ->
   gulp.src('src/*.coffee')
-    .pipe coffee({bare: true}).on('error', gutil.log)
+    .pipe $.coffee({bare: true}).on('error', $.util.log)
     .pipe gulp.dest 'dist/'
 
 gulp.task 'gen_markdown', ->
   gulp.src('-markdown.md')
-    .pipe markdown()
+    .pipe $.markdown()
     .pipe gulp.dest 'src/'
 
 gulp.task 'gen_html',  (cb) ->
   gulp.src('src/*.html')
-    .pipe includer()
+    .pipe $.htmlincluder()
     .pipe gulp.dest 'dist/'
-  cb()
+  del('src/-markdown.html', cb)  
 
 gulp.task 'predeploy', ->
   gulp.src 'CNAME'
     .pipe gulp.dest 'dist/'
 
-gulp.task 'deploy', ['predeploy'], shell.task [ 'surge ./dist' ]
+gulp.task 'deploy', ['predeploy'], $.shell.task [ 'surge ./dist' ]
 
 gulp.task 'default', gulpsync.sync [
+  'clean'
   'copy_css'
   'copy_image'
   'gen_js'

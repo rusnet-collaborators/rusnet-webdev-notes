@@ -92,6 +92,12 @@ npm cheat sheet
 
 http://frontender.info/no-need-to-grunt-take-a-gulp-of-fresh-air
 Gulp — как глоток свежего воздуха после Grunt
+* gulp
+
+http://habrahabr.ru/post/252745/
+Самые нужные плагины для Gulp
+* gulp
+* plugins
 
 
 # Express
