@@ -330,6 +330,11 @@ Twisted is an event-driven networking engine written in Python and licensed unde
 
 ### master
 
+http://www.behnel.de/cython200910/talk.html
+Using the Cython Compiler to write fast Python code. Dr. Stefan Behnel
+* python
+* cython
+
 ### ---
 
 http://pep8.ru
