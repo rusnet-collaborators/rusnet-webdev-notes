@@ -84,6 +84,12 @@ example: http://sbstjn.github.io/timesheet.js
 http://vitalets.github.io/x-editable
 This library allows you to create editable elements on your page. It can be used with any engine (bootstrap, jquery-ui, jquery only) and includes both popup and inline modes. Please try out demo to see how it works.
 
+http://d3js.org
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.
+* javascript
+* library
+* data drawing
+
 ### ---
 
 https://nodejsmodules.org
@@ -101,9 +107,16 @@ npm cheat sheet
 
 # Gulp
 
+http://gulpjs.com
+Automate and enhance your workflow. The streaming build system.
+* gulp
+* official site
+
 http://frontender.info/no-need-to-grunt-take-a-gulp-of-fresh-air
 Gulp — как глоток свежего воздуха после Grunt
 * gulp
+* description
+* example
 
 http://habrahabr.ru/post/252745
 Самые нужные плагины для Gulp
@@ -287,6 +300,15 @@ Rails Girls Guides. Это руководство было создано для
 * rails
 * guide
 
+https://www.ruby-lang.org/ru
+Этот сайт с гордостью поддерживается членами сообщества Ruby.
+
+http://rusrails.ru
+На этом сайте выложены переводы официального руководства по Rails. Надеемся, эти руководства позволят вам немедленно приступить к использованию Rails и помогут разобраться, что и как в нем работает.
+* ruby
+* docs
+* guide
+
 ### advanced
 
 http://learnrubythehardway.org/book
@@ -312,6 +334,16 @@ Integration of RubyMoney - Money with Rails
 
 https://github.com/plataformatec/devise
 Flexible authentication solution for Rails with Warden
+
+### useful help tools
+
+http://rubular.com
+a Ruby regular expression editor
+* ruby
+* regexp
+* online
+* tools
+* experimenting
 
 
 # Python
@@ -355,6 +387,12 @@ http://caniuse.com
 http://www.mysql.ru
 Вы сможете получить ответы на интересующие вас вопросы, связанные с MySQL, настройке программного обеспечения, и другую полезную информацию.
 
+http://www.cheat-sheets.org
+The Manual.su's project. All cheat sheets, round-ups, quick reference cards, quick reference guides and quick reference sheets in one page. The only one you need.
+* cheatsheet
+* manual
+* speed
+
 
 # Useful help tools
 
@@ -394,6 +432,15 @@ CSSDeck is a cool place for HTML/CSS/JS Devs
 * javascript
 * html
 
+http://codepen.io
+CodePen is a playground for the front end side of the web. It's all about inspiration, education, and sharing.
+* css
+* html
+* js
+* online
+* experimenting
+* web
+
 http://regexcrossword.com
 Regex Crossword. Welcome to the fantastic world of nerdy regex fun! Start playing by selecting one of the puzzle challenges below. There are a wide range of difficulties from beginner to expert.
 * regexp
@@ -418,6 +465,8 @@ http://antonshein.ru/turbo
 
 http://programming-motherfucker.com
 We are a community of motherfucking programmers who have been humiliated by software development methodologies for years.
+
+https://pp.vk.me/c617725/v617725400/b966/VJHqhoVV23I.jpg
 
 
 # EcmaScript 6
