@@ -1,7 +1,7 @@
 $        = (require 'gulp-load-plugins')()
-gulpsync = $.sync gulp
 config   = (require './config.coffee')()
 gulp     = require 'gulp'
+gulpsync = $.sync gulp
 del      = require 'del'
 
 gulp.task 'clean', (cb) ->
