@@ -1,7 +1,7 @@
 gulp = require 'gulp'
-p = require 'path'
+path = require 'path'
 
-require('require-dir')(p.join(__dirname, 'gulp-tasks'))
+require('require-dir')(path.join(__dirname, 'gulp-tasks'))
 
 gulp.task 'default', ->
   gulp.start 'build_and_deploy'
