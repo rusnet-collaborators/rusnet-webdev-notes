@@ -288,10 +288,6 @@ Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
 ### beginner
 
-http://rusrails.ru
-Ruby on Rails — это веб-фреймворк с открытым кодом, от которого программисты становятся счастливыми, код — красивым, а разработка — устойчивой и быстрой.
-На этом сайте выложены переводы официального руководства по Rails. Надеемся, эти руководства позволят вам немедленно приступить к использованию Rails и помогут разобраться, что и как в нем работает.
-
 https://github.com/arbox/rails-style-guide
 Это руководство по оформлению кода на Rails дает передовые рекомендации. С его помощью обычный программист на Руби будет создавать код, который с легкостью смогут поддерживать и развивать другие обычные разработчики.
 
@@ -313,6 +309,10 @@ http://rusrails.ru
 
 http://learnrubythehardway.org/book
 Welcome to Learn Ruby the Hard Way, 3rd Edition.
+
+http://guides.rubygems.org
+Learn how RubyGems works, and how to make your own.
+The RubyGems software allows you to easily download, install, and use ruby software packages on your system. The software package is called a “gem” and contains a package Ruby application or library.
 
 ### master
 
@@ -453,6 +453,14 @@ There has always been great resources available online for designers and develop
 * background
 * image
 * pattern
+
+http://vue.tufts.edu
+The Visual Understanding Environment (VUE) is an Open Source project based at Tufts University. The VUE project is focused on creating flexible tools for managing and integrating digital resources in support of teaching, learning and research. VUE provides a flexible visual environment for structuring, presenting, and sharing digital information.
+* vue
+* visual
+* environment
+* tufts
+* information
 
 
 # Wiki
