@@ -106,6 +106,9 @@ li[role=presentation] {
   border-radius: 3px;
   color: #262626;
 }
+a:hover, a:focus, a:visited, a:active {
+  outline: 0;
+}
 a.white {
   color: #ffffff;
 }
