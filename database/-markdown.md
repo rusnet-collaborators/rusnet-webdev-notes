@@ -97,6 +97,11 @@ Node.JS Modules
 * nodejs
 * modules
 
+http://semver.npmjs.com
+npm semver calculator
+* npm
+* semver
+
 ### cheatsheet
 
 http://browsenpm.org/help
