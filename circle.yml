@@ -5,3 +5,7 @@ machine:
 dependencies:
   pre:
     - npm install surge -g
+
+notify:
+  webhooks:
+    - url: https://webhooks.gitter.im/e/da1c10fc19f52dab5ba8
