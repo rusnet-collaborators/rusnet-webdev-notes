@@ -13,6 +13,13 @@ h1 {
 
 h1 a {
   padding: 20px 0 0 20px;
+  color: #ffffff;
+}
+h1 a:hover {
+  color: #ffffff;
+}
+h1 a:visited {
+  color: #ffffff;
 }
 
 p {
@@ -38,7 +45,15 @@ p {
 }
 
 .page-header {
-  border-bottom: 1px solid #cccccc;
+  border: none;
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+  background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
 }
 
 li[role=presentation] {
@@ -54,7 +69,7 @@ li[role=presentation] {
 }
 
 .bg_content {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   box-shadow: 0 0 15px #505050;
 }
 
@@ -64,7 +79,7 @@ li[role=presentation] {
 }
 
 #notes_wrap p:hover {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   box-shadow: 0 0 3px #ffffff;
 }
 
@@ -93,4 +108,20 @@ li[role=presentation] {
 }
 a.white {
   color: #ffffff;
+}
+#top {
+  display: block;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+#top img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+.btn {
+  margin: 0 0 0 10px;
 }
