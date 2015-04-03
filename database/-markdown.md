@@ -93,10 +93,14 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 ### ---
 
 https://nodejsmodules.org
-http://semver.npmjs.com/
 Node.JS Modules
 * nodejs
 * modules
+
+http://semver.npmjs.com
+npm semver calculator
+* npm
+* semver
 
 ### cheatsheet
 
