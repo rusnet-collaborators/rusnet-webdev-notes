@@ -109,6 +109,14 @@ npm cheat sheet
 * npm
 * cheatsheet
 
+### интересные статьи
+
+http://habrahabr.ru/post/171359
+10 странностей и секретов JavaScript
+* javascript
+* habrahabr
+* secret
+
 
 # Gulp
 
