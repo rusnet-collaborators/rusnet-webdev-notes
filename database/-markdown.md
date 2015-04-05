@@ -297,7 +297,12 @@ http://www.cronchecker.net
 Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
 
-# Ruby on Rails
+# Ruby & Ruby on Rails
+
+https://github.com/ruby/ruby
+Ruby is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible.
+* ruby
+* git
 
 ### beginner
 
@@ -326,6 +331,8 @@ Welcome to Learn Ruby the Hard Way, 3rd Edition.
 http://guides.rubygems.org
 Learn how RubyGems works, and how to make your own.
 The RubyGems software allows you to easily download, install, and use ruby software packages on your system. The software package is called a “gem” and contains a package Ruby application or library.
+
+https://github.com/ruby/ruby/tree/trunk/doc/syntax
 
 ### master
 
