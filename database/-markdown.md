@@ -281,6 +281,17 @@ http://js2coffee.thomaskalka.de
 Analog js2.coffee. This hacked version of js2coffe tries to preserve comments.
 
 
+# Moment.js
+
+http://momentjs.com
+Parse, validate, manipulate, and display dates in JavaScript
+* momentjs
+* parse
+* validate
+* manipulate
+* dates
+
+
 # HTTP Server & environment
 
 ### htaccess.ru
