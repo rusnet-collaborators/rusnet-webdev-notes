@@ -424,6 +424,15 @@ The Manual.su's project. All cheat sheets, round-ups, quick reference cards, qui
 * manual
 * speed
 
+https://cdnjs.com
+We host it all - JavaScript, CSS, SWF, images, etc!
+
+* cdn
+* host
+* javascript
+* css
+* swf
+
 
 # Useful help tools
 
