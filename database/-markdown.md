@@ -509,6 +509,14 @@ Ultimate CSS Gradient Generator
 * generator
 
 
+# Тренировки и развитие
+
+http://www.codeabbey.com
+We believe that three things lead to success: Practice, Practice and Practice!
+* testing
+* practice
+
+
 # Wiki
 
 
