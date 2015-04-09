@@ -257,6 +257,12 @@ JQuery Storage is a plugin to simplify access to local and session storage in HT
 * local storage
 * jquery
 
+http://www.minijs.com
+A suite of jQuery plugins written in CoffeeScript
+* jquery
+* coffeescript
+* plugins
+
 
 # Coffeescript
 
