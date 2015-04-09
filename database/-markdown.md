@@ -131,6 +131,12 @@ Gulp — как глоток свежего воздуха после Grunt
 * description
 * example
 
+http://frontender.info/getting-started-with-gulp-2
+Простое и удобное gulp‑окружение для разработки html5‑игры меньше, чем за 5 минут
+* gulp
+* environment
+* example
+
 http://habrahabr.ru/post/252745
 Самые нужные плагины для Gulp
 * gulp
@@ -482,6 +488,11 @@ PLEAC - Programming Language Examples Alike Cookbook
 * examples
 * cookbook
 
+http://frontender.info
+Это журнал, в котором регулярно выходят переводы и авторские статьи, связанные с фронтенд‑разработкой
+* frontend
+* journal
+
 
 # Useful help tools
 
@@ -711,5 +722,8 @@ http://codeforces.ru
 
 
 # Интересные блоги
+
+http://dmitry.koprov.ru
+tail -f /dev/mind | vim -
 
 
