@@ -402,6 +402,12 @@ Twisted is an event-driven networking engine written in Python and licensed unde
 * python
 * server
 
+http://python.net/~goodger/projects/pycon/2007/idiomatic
+Code Like a Pythonista: Idiomatic Python
+* python
+* idiomatic
+* pycon
+
 ### master
 
 http://www.behnel.de/cython200910/talk.html
@@ -419,6 +425,13 @@ Skulpt is an entirely in-browser implementation of Python.
 No preprocessing, plugins, or server-side support required, just write Python and reload.
 * python
 * skulpt
+
+http://pleac.sourceforge.net/pleac_python
+PLEAC-Python. PLEAC - Programming Language Examples Alike Cookbook for python.
+* pleac
+* python
+* examples
+* cookbook
 
 
 # Useful help resources
@@ -462,6 +475,12 @@ A collection of about 50 tutorials on special topics, more specific and generall
 * beginner
 * tutorials
 * collections
+
+http://pleac.sourceforge.net
+PLEAC - Programming Language Examples Alike Cookbook
+* pleac
+* examples
+* cookbook
 
 
 # Useful help tools
