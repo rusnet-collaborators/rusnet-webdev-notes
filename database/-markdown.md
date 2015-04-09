@@ -381,6 +381,11 @@ a Ruby regular expression editor
 
 ### beginner
 
+http://pythonworld.ru
+Python 3 для начинающих
+* python
+* beginner
+
 ### advanced
 
 http://learnpythonthehardway.org/book
@@ -402,6 +407,12 @@ Using the Cython Compiler to write fast Python code. Dr. Stefan Behnel
 
 http://pep8.ru
 Сайт pep8.ru - это русскоязычная интернет-площадка для общения людей, так или иначе связанных с языком программирования Python.
+
+http://www.skulpt.org
+Skulpt is an entirely in-browser implementation of Python.
+No preprocessing, plugins, or server-side support required, just write Python and reload.
+* python
+* skulpt
 
 
 # Useful help resources
@@ -432,6 +443,19 @@ We host it all - JavaScript, CSS, SWF, images, etc!
 * javascript
 * css
 * swf
+
+http://xgu.ru
+Xgu.ru — точка обмена знаниями по UNIX/Linux-системам, системам с открытым исходным кодом, сетям и другим родственным вещам.
+* linux
+* knowledge
+* unix
+* open source
+
+http://tutorials.jumpstartlab.com
+A collection of about 50 tutorials on special topics, more specific and generally more advanced than the tutorials. These are the building blocks used to create the Paths above and Hungry Academy curriculum.
+* beginner
+* tutorials
+* collections
 
 
 # Useful help tools
@@ -629,6 +653,16 @@ It's a little game to help you learn CSS selectors.
 * teaching
 * game
 
+http://css.yoksel.ru/css-patterns
+CSS-паттерны. Возможности управления фонами через CSS в cочетании с градиентами дают совершенно невероятные возможности.
+* css
+* patterns
+
+https://css-tricks.com/stripes-css
+Stripes are pretty easy to do in CSS these days.
+* css
+* stripes
+
 
 # Graphviz
 
@@ -645,3 +679,12 @@ http://пора.действовать.jpg.to/
 * тег 1
 * тег 2
 * тег 3
+
+http://codeforces.ru
+Соревнования по программированию 2.0
+* tournament
+
+
+# Интересные блоги
+
+
