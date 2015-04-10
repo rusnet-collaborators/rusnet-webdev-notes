@@ -439,6 +439,15 @@ PLEAC-Python. PLEAC - Programming Language Examples Alike Cookbook for python.
 * examples
 * cookbook
 
+### modules
+
+https://xlsxwriter.readthedocs.org
+XlsxWriter is a Python module for creating Excel XLSX files
+* python
+* module
+* xlsx
+* xls
+
 
 # Useful help resources
 
