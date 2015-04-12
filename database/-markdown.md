@@ -735,6 +735,10 @@ http://codeforces.ru
 http://dmitry.koprov.ru
 tail -f /dev/mind | vim -
 
+### может это и не блог, но тоже полезно
+
+http://imagick.metlan.ru
+Записки ]Mantyr[
 
 # Games & Competition
 
