@@ -76,5 +76,7 @@ $RECYCLE.BIN/
 *.lnk
 .zedstate
 tags
-src/-markdown.html
+/dev/static/-markdown.html
+/dev/static/script.js
 /*.png
+.sass-cache

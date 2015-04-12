@@ -1,25 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>notes. build #{{build}}</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <!--#insert file="-head.html" -->
   </head>
   <body>
     <div class="container bg_content">
       <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top container">
-            <div id="menu" class="dropdown pull-right">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">
-                | | |
-              </button>
-              <ul class="dropdown-menu dropdown-menu-right" role="menu"></ul>
-            </div>
-            <div class="input-group search_field pull-right">
-              <input type="text" class="form-control" placeholder="поиск по тегам, ссылке, описанию" aria-describedby="basic-addon2">
-            </div>
-        </nav>
+        <!--#insert file="-navbar.html" -->
       </div>
       <div id="top" class="row">
         <img src="space_cat.jpg" alt="space cat"></img>
@@ -30,20 +17,9 @@
       </div>
 
       <div class="row space">
-        <div class="center-block">
-          <h4><a href="https://github.com/rusnet-collaborators/rusnet-webdev-notes" target="_blank">github.com</a></h4>
-        </div>
-        <div class="center-block">
-          <h4>2015</h4>
-        </div>
-        <div class="center-block">
-          <h5>build #{{build}}</h5>
-        </div>
+        <!--#insert file="-bottom.html" -->
       </div>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <!--#insert file="-script.html" -->
   </body>
 </html>

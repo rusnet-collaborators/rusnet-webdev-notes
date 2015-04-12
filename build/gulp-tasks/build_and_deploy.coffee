@@ -9,8 +9,8 @@ gulp.task 'clean', (cb) ->
 
 gulp.task 'build_and_deploy', gulpsync.sync [
   'clean'
-  'copy_static'
   'generate_content'
+  'copy_static'
   'version'
   'deploy'
 ]

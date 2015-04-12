@@ -9,5 +9,7 @@ gulp.task 'copy', ->
     .pipe gulp.dest config.prod_path_static
   gulp.src path.join config.dev_path_static, '*.jpg'
     .pipe gulp.dest config.prod_path_static
+  gulp.src path.join config.dev_path_static, '*.js'
+    .pipe gulp.dest config.prod_path_static
 
 gulp.task 'copy_static', ['copy']

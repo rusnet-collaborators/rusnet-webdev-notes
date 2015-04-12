@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "cd ./build && gulp",
-    "start": "gulp"
+    "start": "cd ./build && gulp"
   },
   "repository": {
     "type": "git",
