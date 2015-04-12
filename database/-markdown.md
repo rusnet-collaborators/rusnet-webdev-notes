@@ -500,6 +500,22 @@ http://goo.gl/SJc4o4
 
 # Vim
 
+https://ru.wikibooks.org/wiki/Vim
+Наверно самый обьемный справочник на русском о вим (Его истории, использовании, примеров)
+* vim
+* book
+
+http://www.allaboutvim.ru/
+Блог статей пользователей vim на русском (Конфиги, полезная информация, новости).
+* vim
+* blog
+* news
+
+http://ru.najomi.org/vim
+Статья справочник, много полезной инфы, часто использовал в начале знакомста c вим, очень хорошо помогает понять и использовать мощные возможности вим.
+* vim
+* cheatsheet
+
 http://vimregex.com
 VIM Regular Expressions
 * vim

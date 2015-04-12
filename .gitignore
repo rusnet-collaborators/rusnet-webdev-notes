@@ -78,3 +78,6 @@ $RECYCLE.BIN/
 tags
 src/-markdown.html
 /*.png
+
+#IDE files
+.idea
