@@ -80,3 +80,6 @@ tags
 /dev/static/script.js
 /*.png
 .sass-cache
+
+#IDE files
+.idea
