@@ -70,6 +70,17 @@ A drop-in substitute for the browser native localStorage API that runs on node.j
 
 ### master
 
+http://www.rq.crockford.com/
+RQ is a small JavaScript library for managing asynchronicity in server applications. 
+RQ: Better living through asynchronicity.  Douglas Crockford. 2015-04-14.
+* javascript
+* nodejs
+* async
+* asynchronicity
+* deferred
+* Q
+* RQ
+
 ### examples in real life
 
 http://surge.sh
