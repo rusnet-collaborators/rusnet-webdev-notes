@@ -71,7 +71,7 @@ A drop-in substitute for the browser native localStorage API that runs on node.j
 ### master
 
 http://www.rq.crockford.com/
-RQ is a small JavaScript library for managing asynchronicity in server applications. 
+RQ is a small JavaScript library for managing asynchronicity in server applications.
 RQ: Better living through asynchronicity.  Douglas Crockford. 2015-04-14.
 * javascript
 * nodejs
@@ -597,6 +597,13 @@ Choose Your Stack to Get Started
 * speed
 * code
 
+https://asciinema.org
+Record and share your terminal sessions, the right way. asciinema is a free and open source solution for recording the terminal sessions and sharing them on the web.
+* asciinema
+* record
+* terminal
+* online
+
 
 # Тренировки и развитие
 
@@ -778,4 +785,25 @@ http://imagick.metlan.ru
 
 # Games & Competition
 
+
+# Emmet
+
+http://emmet.io
+Emmet — the essential toolkit for web-developers.
+Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow
+* toolkit
+* dynamic snippets
+* snippets
+* fast coding
+
+http://docs.emmet.io/cheat-sheet
+Emmet Cheatsheet
+* emmet
+* cheatsheet
+
+### example in real life
+
+https://asciinema.org/a/8289
+
+https://asciinema.org/a/4568
 
