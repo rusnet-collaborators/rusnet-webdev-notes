@@ -604,6 +604,14 @@ Record and share your terminal sessions, the right way. asciinema is a free and 
 * terminal
 * online
 
+http://www.paratype.ru
+Шрифты для работы и для дома: шрифтовая библиотека ПараТайп и лучшие кириллические шрифты отечественных и иностранных производителей.
+* fonts
+* free
+* postscript
+* truetype
+* opentype
+
 
 # Тренировки и развитие
 
@@ -750,6 +758,16 @@ https://css-tricks.com/stripes-css
 Stripes are pretty easy to do in CSS these days.
 * css
 * stripes
+
+http://sass-lang.com
+CSS with superpowers :) Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+* css
+* sass
+* syntax
+* speed
+* mixin
+* powerful
+* scss
 
 
 # Graphviz
