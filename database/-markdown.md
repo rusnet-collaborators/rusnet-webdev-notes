@@ -825,3 +825,16 @@ https://asciinema.org/a/8289
 
 https://asciinema.org/a/4568
 
+
+# Browsers
+
+http://caniuse.com
+"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+* browsers
+* html
+* css
+* js
+* standart
+* supported
+
+
