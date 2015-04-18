@@ -6,9 +6,9 @@ path     = require 'path'
 del      = require 'del'
 
 gulp.task 'gen_js', ->
-  gulp.src path.join config.dev_path_static, '*.coffee'
+  gulp.src path.join config.dev_path_coffee, '*.coffee'
     .pipe $.coffee({bare: true}).on 'error', $.util.log
-    .pipe gulp.dest config.dev_path_static
+    .pipe gulp.dest path.join config.prod_path_js
 
 gulp.task 'gen_markdown', ->
   gulp.src path.join config.database_path, '*.md'
