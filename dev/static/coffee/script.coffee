@@ -2,8 +2,8 @@ Rusnet = ->
   return
 
 Rusnet::init_view = ->
-  $('h1').addClass 'page-header'
-  items = $('h1')
+  $('#notes_wrap h1').addClass 'custom-h1-block'
+  items = $('#notes_wrap h1')
   menu = $('#menu').find('ul')
   for i in items
     do (i) ->
@@ -63,8 +63,19 @@ Rusnet::add_tag_link = ->
         .text('')
         .append(link_tag)
 
+Rusnet::hide_content = ->
+  items = $('#notes_wrap h1')
+  for i in items
+    do (i) ->
+      hide_items = $(i).nextUntil('h1')
+      $(hide_items).hide()
+      $(i).find('a').on 'click', (event) ->
+        $(hide_items).toggle()
+        return
+      return
+
 rusnet = new Rusnet()
 rusnet.init_view()
 rusnet.add_target_link()
 rusnet.add_tag_link()
-
+rusnet.hide_content()

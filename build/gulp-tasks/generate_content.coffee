@@ -10,6 +10,29 @@ gulp.task 'gen_js', ->
     .pipe $.coffee({bare: true}).on 'error', $.util.log
     .pipe gulp.dest path.join config.prod_path_js
 
+gulp.task 'gen_css', ->
+  gulp.src path.join config.dev_path_sass, '*.sass'
+    .pipe $.sass( {indentedSyntax: true} )
+    .pipe gulp.dest config.dev_path_css
+
+gulp.task 'gen_preffix', ->
+  gulp.src path.join config.dev_path_css, '*.css'
+    .pipe $.autoprefixer
+      browsers: [
+        'Firefox ESR'
+        'Firefox 14'
+        'Opera 10'
+        'last 2 version'
+        'safari 5'
+        'ie 8'
+        'ie 9'
+        'opera 12.1'
+        'ios 6'
+        'android 4'
+      ]
+      cascade: true
+    .pipe gulp.dest config.prod_path_css
+
 gulp.task 'gen_markdown', ->
   gulp.src path.join config.database_path, '*.md'
     .pipe $.markdown()
@@ -23,6 +46,8 @@ gulp.task 'gen_html', (cb) ->
 
 gulp.task 'generate_content', gulpsync.sync [
   'gen_js'
+  #'gen_css'
+  #'gen_preffix'
   'gen_markdown'
   'gen_html'
 ]
