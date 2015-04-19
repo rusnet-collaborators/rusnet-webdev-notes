@@ -513,6 +513,11 @@ http://frontender.info
 * frontend
 * journal
 
+http://overapi.com
+OverAPI.com - Collecting All Cheat Sheets
+* cheatsheet
+* all
+
 
 # Useful help tools
 
@@ -837,4 +842,21 @@ http://caniuse.com
 * standart
 * supported
 
+
+# BASH
+
+### Cheatsheet
+
+https://github.com/NisreenFarhoud/Bash-Cheatsheet
+
+http://overapi.com/linux
+
+### manual
+
+http://bash.cyberciti.biz/guide/Main_Page
+Linux Shell Scripting Tutorial (LSST) v2.0. Written by Vivek Gite.
+* bash
+* shell
+* sh
+* manual
 
