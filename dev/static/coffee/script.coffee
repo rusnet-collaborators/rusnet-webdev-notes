@@ -1,7 +1,7 @@
 Rusnet = ->
   return
 
-Rusnet::init_view = ->
+Rusnet.init_view = ->
   $('#notes_wrap h1').addClass 'custom-h1-block'
   items = $('#notes_wrap h1')
   menu = $('#menu').find('ul')
@@ -36,11 +36,13 @@ Rusnet::init_view = ->
         .attr('class', 'block')
         .text(text_wrap)
 
-      $(i).text('').append(link_anchor)
+      $(i).text('')
+      $(i).append(link_anchor)
+
       $(li).append(link_menu)
       $(menu).append(li)
 
-Rusnet::add_target_link = ->
+Rusnet.add_target_link = ->
   items = $('#notes_wrap p a')
   for i in items
     do (i) ->
@@ -49,7 +51,7 @@ Rusnet::add_target_link = ->
         .text( i.textContent.replace(/\/$/, '') )
       $('<br/>').insertAfter(i)
 
-Rusnet::add_tag_link = ->
+Rusnet.add_tag_link = ->
   tags = $('#notes_wrap ul li')
   for i in tags
     do (i) ->
@@ -63,19 +65,23 @@ Rusnet::add_tag_link = ->
         .text('')
         .append(link_tag)
 
-Rusnet::hide_content = ->
+Rusnet.wrap_content = ->
   items = $('#notes_wrap h1')
   for i in items
     do (i) ->
-      hide_items = $(i).nextUntil('h1')
-      $(hide_items).hide()
-      $(i).find('a').on 'click', (event) ->
-        $(hide_items).toggle()
-        return
-      return
+      collection = $(i).nextUntil('h1')
+      wrap = document.createElement('div')
+      $(wrap)
+        .attr('class', 'wrap')
+      $(collection).wrapAll(wrap)
 
-rusnet = new Rusnet()
-rusnet.init_view()
-rusnet.add_target_link()
-rusnet.add_tag_link()
-rusnet.hide_content()
+      $(i).find('a').on 'click', (event) ->
+        event.preventDefault()
+        wrap_inner = $(@).parent().next('.wrap')
+        $(wrap_inner).toggleClass('show', 500)
+
+
+Rusnet.init_view()
+Rusnet.add_target_link()
+Rusnet.add_tag_link()
+Rusnet.wrap_content()

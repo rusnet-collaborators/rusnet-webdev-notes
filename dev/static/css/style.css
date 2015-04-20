@@ -10,8 +10,9 @@ h1 {
   background-color: #ffffff; }
   h1 a {
     padding: 10px 0 10px 10px;
-    color: #ffffff; }
-    h1 a:hover, h1 a:visited {
+    color: #ffffff;
+    outline: none; }
+    h1 a:hover, h1 a:visited, h1 a:active, h1 a:link {
       color: #ffffff; }
 
 p {
@@ -132,3 +133,20 @@ a.white {
   position: fixed;
   top: 25px;
   right: 25px; }
+
+.wrap {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: 0; }
+  .wrap.show {
+    height: auto; }
+
+.items-block {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: auto;
+  border: 1px solid #555555; }
