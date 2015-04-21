@@ -860,3 +860,16 @@ Linux Shell Scripting Tutorial (LSST) v2.0. Written by Vivek Gite.
 * sh
 * manual
 
+# JS framework & JS library
+
+http://popcornjs.org
+Popcorn.js is an HTML5 media framework written in JavaScript for filmmakers, web developers, and anyone who wants to create time-based interactive media on the web. Popcorn.js is part of Mozilla's Popcorn project.
+* framework
+* popcornjs
+* html5
+
+http://jplayer.org
+jPlayer is the completely free and open source (MIT) media library written in JavaScript. A jQuery plugin, (and now a Zepto plugin,)  jPlayer allows you to rapidly weave cross platform audio and video into your web pages. jPlayer's comprehensive API allows you to create innovative media solutions while support and encouragement is provided by jPlayer's active and growing community.
+* jplayer
+* jplayer
+
