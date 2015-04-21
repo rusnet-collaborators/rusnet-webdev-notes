@@ -795,6 +795,10 @@ http://codeforces.ru
 Соревнования по программированию 2.0
 * tournament
 
+http://thecodelesscode.com/contents?lang=ru
+An illustrated collection of (sometimes violent) fables concerning the Art and Philosophy of software development, written in the spirit of Zen kōans
+* codeless code
+
 
 # Интересные блоги
 
