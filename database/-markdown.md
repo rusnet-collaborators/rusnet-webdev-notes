@@ -873,3 +873,8 @@ jPlayer is the completely free and open source (MIT) media library written in Ja
 * jplayer
 * jplayer
 
+http://modernizr.com
+Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
+* modernizr
+* library
+
