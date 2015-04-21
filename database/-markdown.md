@@ -846,6 +846,15 @@ http://caniuse.com
 * standart
 * supported
 
+http://html5please.com
+When Can I Use tells you the browser support story, while Modernizr gives you the power of feature detection. HTML5 Please helps you out with recommendations for polyfills and implementation so you can decide if and how to put each of these features to use.
+The recommendations below represent the collective knowledge of developers who have been deep in the HTML5 trenches. We hope they serve you well.
+* html5
+* html
+* css
+* js
+* polyfills
+
 
 # BASH
 
