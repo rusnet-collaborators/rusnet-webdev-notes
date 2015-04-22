@@ -903,3 +903,14 @@ Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the us
 * modernizr
 * library
 
+http://lokeshdhakar.com/projects/lightbox2
+Lightbox is a script used to overlay images on the current page. It's a snap to setup and works on all modern browsers.
+* lightbox
+* gallery
+
+http://owlgraphic.com/owlcarousel
+OWL Carousel -
+Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.
+* owlcarousel
+* gallery
+
