@@ -855,6 +855,18 @@ The recommendations below represent the collective knowledge of developers who h
 * js
 * polyfills
 
+http://html5.by
+html5.by - статьи, новости, события, вопросы и ответы html5, css3, javascript api.
+Что такое html5? Подробные статьи о css3, javascript, api, вопросы и ответы на html5.by. Анонсы мероприятий и событий. Заметки вебмастера.
+* html
+* html5
+* articles
+* news
+* events
+* questions
+* answers
+* api
+
 
 # BASH
 
