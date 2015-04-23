@@ -518,6 +518,12 @@ OverAPI.com - Collecting All Cheat Sheets
 * cheatsheet
 * all
 
+https://www.versioneye.com
+Notification System for Software Libraries
+Because software libraries don't update themselves
+* versioneye
+* notification system
+
 
 # Useful help tools
 
