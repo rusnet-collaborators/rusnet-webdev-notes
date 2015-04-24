@@ -645,6 +645,8 @@ We are a community of motherfucking programmers who have been humiliated by soft
 
 https://pp.vk.me/c617725/v617725400/b966/VJHqhoVV23I.jpg
 
+http://www.nooooooooooooooo.com
+
 
 # EcmaScript 6
 
