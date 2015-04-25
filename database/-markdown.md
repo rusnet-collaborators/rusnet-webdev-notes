@@ -822,6 +822,10 @@ An illustrated collection of (sometimes violent) fables concerning the Art and P
 http://dmitry.koprov.ru
 tail -f /dev/mind | vim -
 
+http://www.hacksparrow.com
+Node.js, JavaScript, and other Tutorials by Cap'n Hack Sparrow
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
