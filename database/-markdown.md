@@ -285,6 +285,12 @@ A suite of jQuery plugins written in CoffeeScript
 
 ### beginner
 
+http://cidocs.ru/coffeescript
+Перевод оригинальной документации CoffeeScript
+* docs
+* coffeescript
+* manual
+
 ### advanced
 
 http://arcturo.github.io/library/coffeescript
