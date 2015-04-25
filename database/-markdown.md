@@ -931,3 +931,13 @@ Touch enabled jQuery plugin that lets you create beautiful responsive carousel s
 * owlcarousel
 * gallery
 
+
+# HTTP
+
+http://www.restapitutorial.com
+Learn REST: A RESTful Tutorial. Building restful web services, like other programming skills is part art, part science. As the Internet industry progresses, creating a REST API becomes more concrete, with emerging best practices.
+* http
+* rest
+* api
+* tutorial
+
