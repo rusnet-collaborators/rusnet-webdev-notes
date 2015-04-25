@@ -291,6 +291,12 @@ http://cidocs.ru/coffeescript
 * coffeescript
 * manual
 
+http://www.coffeelint.org
+CoffeeLint is a style checker that helps keep CoffeeScript code clean and consistent. CoffeeScript does a great job at insulating programmers from many of JavaScript's bad parts, but it won't help enforce a consistent style across a code base. CoffeeLint can help with that.
+* coffeescript
+* coffelint
+* checked code
+
 ### advanced
 
 http://arcturo.github.io/library/coffeescript
