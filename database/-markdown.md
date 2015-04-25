@@ -713,6 +713,12 @@ A blog all about Vim
 * vim
 * blog
 
+http://vimawesome.com
+Vim Awesome is a directory of Vim plugins sourced from GitHub, Vim.org, and user submissions. Plugin usage data is extracted from dotfiles repos on GitHub.
+* vim
+* plugins
+* collection
+
 
 # Git
 
