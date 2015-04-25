@@ -723,6 +723,13 @@ The entire Pro Git book, written by Scott Chacon and Ben Straub and published by
 * manual
 * book
 
+http://gitready.com
+This is a guest post from Ryan Brown.
+As a developer you use code written by other people all the time. To keep upstream changes from breaking your code, you depend on release numbers. Libraries like bootstrap use git tags to track releases and make them available for download.
+* git
+* manual
+* online
+
 ### play with me
 
 http://pcottle.github.io/learnGitBranching
