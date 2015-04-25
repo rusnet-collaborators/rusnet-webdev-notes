@@ -830,6 +830,10 @@ https://nodesource.com/blog
 NodeSource is the Enterprise Node.js and io.js company providing Node.js training, support, software, solutions, and consulting to enterprises worldwide.
 * blog
 
+https://plutov.by
+Web development is my passion. I enjoy making my websites fast, stable and great.
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
