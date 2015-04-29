@@ -536,6 +536,14 @@ Because software libraries don't update themselves
 * versioneye
 * notification system
 
+https://tech.yandex.ru/jslibs
+Разработчики сайтов могут загружать различные JavaScript-фреймворки и библиотеки с открытым исходным кодом с серверов Яндекса по постоянным ссылкам.
+* javascript
+* js
+* library
+* cdn
+* collection
+
 
 # Useful help tools
 
