@@ -68,6 +68,14 @@ A drop-in substitute for the browser native localStorage API that runs on node.j
 * local storage
 * nodejs
 
+https://strongloop.com
+StrongLoop offers a subscription-based product known as StrongLoop Suite. StrongLoop Suite includes three components: an open source private mobile Backend-as-a-Service mBaaS named LoopBack; a second component called StrongOps, which provides operations and real-time performance monitoring in a console; and a supported package of Node.js called StrongNode, containing advanced debugging, clustering and support for private npm registries.
+* strongloop
+* management
+* deploy
+* npm
+* packages
+
 ### master
 
 http://www.rq.crockford.com/
@@ -544,6 +552,18 @@ https://tech.yandex.ru/jslibs
 * cdn
 * collection
 
+http://colorsafe.co
+Empowering designers with beautiful and accessible color palettes based on WCAG Guidelines of text and background contrast ratios.
+* designer
+* beautiful
+* color
+* palettes
+
+http://www.slideshare.net
+SlideShare began with a simple goal: To share knowledge online. Since then, SlideShare has grown to become the world’s largest community for sharing presentations and other professional content.
+* slide
+* knowledge
+
 
 # Useful help tools
 
@@ -867,6 +887,10 @@ https://plutov.by
 Web development is my passion. I enjoy making my websites fast, stable and great.
 * blog
 
+https://kuroikaze85.wordpress.com
+Программист. Последнее время интересуюсь node.js и (в меньшей степени) Python.
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -994,3 +1018,22 @@ Learn REST: A RESTful Tutorial. Building restful web services, like other progra
 * api
 * tutorial
 
+
+# Erlang
+
+### beginner
+
+http://learnyousomeerlang.com
+This is Learn You Some Erlang for great good! This book is for you if you’ve got some programming experience and if you’re not too familiar with functional programming.
+* teaching
+* learn
+* erlang
+
+
+# Koa
+
+http://koajs.com
+Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
+* koa
+* framework
+* express
