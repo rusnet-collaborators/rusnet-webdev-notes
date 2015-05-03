@@ -1058,6 +1058,11 @@ TkDocs. Information you need to build high-quality Tk user interfaces.
 * tcl
 * doc
 
+http://www.opennet.ru/docs/RUS/tcltk
+* tcl
+* doc
+* opennet
+
 ### libs framework
 
 http://tanzer.io
