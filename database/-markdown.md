@@ -1078,3 +1078,10 @@ A static site generator with template support written in Tcl.
 * generator
 * template
 
+http://auriocus.github.io/VecTcl
+VecTcl. A numerical array extension for Tcl.
+This package provides a numerical array extension for Tcl with support for vectors, matrices and higher-rank tensors of integers, floating point and complex numbers.
+* vector
+* tcl
+* numerical array
+
