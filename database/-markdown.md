@@ -1071,3 +1071,10 @@ tänzer: The lovable web server framework for Tcl!
 * web server
 * framework
 
+https://github.com/tclssg/tclssg
+A static site generator with template support written in Tcl.
+* tcl
+* framework
+* generator
+* template
+
