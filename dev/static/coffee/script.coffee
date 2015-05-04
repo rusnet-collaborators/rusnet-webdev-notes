@@ -75,9 +75,9 @@ Rusnet.wrap_content = ->
         .attr('class', 'wrap')
       $(collection).wrapAll(wrap)
 
-      $(i).find('a').parents('h1').on 'click', (event) ->
+      $(i).on 'click', (event) ->
         event.preventDefault()
-        wrap_inner = $(@).parent().next('.wrap')
+        wrap_inner = $(@).next('.wrap')
         $(wrap_inner).toggleClass('show', 500)
 
 

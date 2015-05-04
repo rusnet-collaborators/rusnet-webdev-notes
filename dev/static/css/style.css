@@ -120,6 +120,7 @@ a.white {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
   border: 0 solid #ffffff;
   margin: 0 0 10px;
+  cursor: pointer;
   font-size: 18px; }
 
 .row {
