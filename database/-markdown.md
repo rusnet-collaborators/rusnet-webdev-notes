@@ -1091,7 +1091,9 @@ Simple and powerful MVC web framework for Tcl using XOTcl OO framework
 * framework
 
 
-# NES Cover & Chiptune
+# NES Cover & Chiptune & Demoscene & other
+
+не может человек творить без вдохновения
 
 ### youtube
 
@@ -1107,6 +1109,18 @@ by PLAYER PIANO
 
 http://www.youtube.com/watch?v=IHuD-ySr1AY
 Street Fighter (Guile's Theme) - PLAYER PIANO - YouTube
+
+http://www.youtube.com/watch?v=Tv_FRBRM0cg
+Doctor Who Theme - PLAYER PIANO - YouTube
+
+http://www.youtube.com/watch?v=Q7ucIberDoU
+Bohemian Rhapsody (Queen) - Player Piano - YouTube
+
+http://www.youtube.com/watch?v=xGHW21QsQSM
+Ghost Waltz - PLAYER PIANO (SONYA BELOUSOVA) - YouTube
+
+http://www.youtube.com/watch?v=TF8pA3vvLDY
+Montagues and Capulets (Prokofiev) - PLAYER PIANO - YouTube
 
 by Vomitron
 
