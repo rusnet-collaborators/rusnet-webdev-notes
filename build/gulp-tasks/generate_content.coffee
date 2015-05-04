@@ -36,12 +36,12 @@ gulp.task 'gen_preffix', ->
 gulp.task 'gen_markdown', ->
   gulp.src path.join config.database_path, '*.md'
     .pipe $.markdown()
-    .pipe gulp.dest config.dev_path_static
+    .pipe gulp.dest config.dev_path
 
 gulp.task 'gen_html', (cb) ->
-  gulp.src path.join config.dev_path_static, '*.html'
+  gulp.src path.join config.dev_path, '*.html'
     .pipe $.htmlincluder()
-    .pipe gulp.dest config.prod_path_static
+    .pipe gulp.dest config.prod_path
   cb()
 
 gulp.task 'generate_content', gulpsync.sync [

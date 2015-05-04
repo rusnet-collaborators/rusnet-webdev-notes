@@ -5,6 +5,6 @@ path   = require 'path'
 
 gulp.task 'predeploy', ->
   gulp.src path.join config.dev_path, 'CNAME'
-    .pipe gulp.dest config.prod_path_static
+    .pipe gulp.dest config.prod_path
 
 gulp.task 'deploy', ['predeploy'], $.shell.task [ 'surge ' + config.prod_path_static ]
