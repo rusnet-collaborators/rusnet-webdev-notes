@@ -1063,7 +1063,7 @@ http://www.opennet.ru/docs/RUS/tcltk
 * doc
 * opennet
 
-### libs framework
+### libs, framework
 
 http://tanzer.io
 tänzer: The lovable web server framework for Tcl!
@@ -1084,4 +1084,24 @@ This package provides a numerical array extension for Tcl with support for vecto
 * vector
 * tcl
 * numerical array
+
+https://github.com/Setok/Spindle
+Simple and powerful MVC web framework for Tcl using XOTcl OO framework
+* tcl
+* framework
+
+
+# NES Cover & Chiptune
+
+### youtube
+
+by Zeta
+
+http://www.youtube.com/watch?v=eSQ8qLEvExI
+NES Contra Theme Piano Cover by Zeta - YouTube
+
+http://www.youtube.com/watch?v=KtATU0aLq6I
+NES Jackal Theme Piano Cover by Zeta - YouTube
+
+### just
 
