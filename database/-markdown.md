@@ -1103,7 +1103,21 @@ NES Contra Theme Piano Cover by Zeta - YouTube
 http://www.youtube.com/watch?v=KtATU0aLq6I
 NES Jackal Theme Piano Cover by Zeta - YouTube
 
+by PLAYER PIANO
+
+http://www.youtube.com/watch?v=IHuD-ySr1AY
+Street Fighter (Guile's Theme) - PLAYER PIANO - YouTube
+
+by Vomitron
+
+http://www.youtube.com/watch?v=bUj_47hVobc
+Vomitron - Contra Theme (Guitar Cover) - YouTube
+
 ### just
 
 ### demoscene
+
+http://www.youtube.com/watch?v=2sr8e47Z_l8
+{DEMOSCENE}{PC} : fr-043 : Rove by Farbrausch - YouTube
+
 
