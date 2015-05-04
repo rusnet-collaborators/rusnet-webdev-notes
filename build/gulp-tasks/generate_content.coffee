@@ -46,8 +46,8 @@ gulp.task 'gen_html', (cb) ->
 
 gulp.task 'generate_content', gulpsync.sync [
   'gen_js'
-  #'gen_css'
-  #'gen_preffix'
+  'gen_css'
+  'gen_preffix'
   'gen_markdown'
   'gen_html'
 ]
