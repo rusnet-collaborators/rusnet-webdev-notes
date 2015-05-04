@@ -11,14 +11,14 @@ Rusnet.init_view = ->
         text = $(item).find('a').text()
         wrap_inner = $(item).next('.wrap')
         if new RegExp(search, 'i').test(text)
-          $(item).show 100
+          $(item).show 0
         else
-          $(wrap_inner).removeClass 'show', 100
-          $(item).hide 100
+          $(wrap_inner).removeClass 'show', 0
+          $(item).hide 0
         return
     else
-      $('h1.custom-h1-block').show 100
-      $('.wrap').removeClass 'show', 100
+      $('h1.custom-h1-block').show 0
+      $('.wrap').removeClass 'show', 0
     return    
 
   $('#notes_wrap h1').addClass 'custom-h1-block'
