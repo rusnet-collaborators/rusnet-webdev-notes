@@ -11,6 +11,5 @@ gulp.task 'build_and_deploy', gulpsync.sync [
   'clean'
   'generate_content'
   'copy_static'
-  'version'
   'deploy'
 ]
