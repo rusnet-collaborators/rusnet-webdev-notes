@@ -2,6 +2,25 @@ Rusnet = ->
   return
 
 Rusnet.init_view = ->
+
+  $('#findString').keyup (e) ->
+    code = e.keyCode or e.which
+    search = $(this).val()
+    if search
+      $('h1.custom-h1-block').each (index, item) ->
+        text = $(item).find('a').text()
+        wrap_inner = $(item).next('.wrap')
+        if new RegExp(search, 'i').test(text)
+          $(item).show 100
+        else
+          $(wrap_inner).removeClass 'show', 100
+          $(item).hide 100
+        return
+    else
+      $('h1.custom-h1-block').show 100
+      $('.wrap').removeClass 'show', 100
+    return    
+
   $('#notes_wrap h1').addClass 'custom-h1-block'
   items = $('#notes_wrap h1')
   menu = $('#menu').find('ul')
