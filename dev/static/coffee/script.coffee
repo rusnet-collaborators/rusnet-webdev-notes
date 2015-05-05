@@ -3,26 +3,7 @@ Rusnet = ->
 
 Rusnet.init_view = ->
 
-  $('#findString').keyup (e) ->
-    code = e.keyCode or e.which
-    search = $(this).val()
-    if search
-      $('h1.custom-h1-block').each (index, item) ->
-        text = $(item).find('a').text()
-        wrap_inner = $(item).next('.wrap')
-        if new RegExp(search, 'i').test(text)
-          $(item).show 0
-        else
-          $(wrap_inner).removeClass 'show', 0
-          $(item).hide 0
-        return
-    else
-      $('h1.custom-h1-block').show 0
-      $('.wrap').removeClass 'show', 0
-    return    
-
-  $('#notes_wrap h1').addClass 'custom-h1-block'
-  items = $('#notes_wrap h1')
+  items = $('#notes_wrap h1').addClass 'custom-h1-block'
   menu = $('#menu').find('ul')
   for i in items
     do (i) ->
@@ -60,7 +41,7 @@ Rusnet.init_view = ->
 
       $(li).append(link_menu)
       $(menu).append(li)
-
+        
 Rusnet.add_target_link = ->
   items = $('#notes_wrap p a')
   for i in items
@@ -99,8 +80,45 @@ Rusnet.wrap_content = ->
         wrap_inner = $(@).next('.wrap')
         $(wrap_inner).toggleClass('show', 500)
 
+Rusnet.search_engine = ->
 
-Rusnet.init_view()
-Rusnet.add_target_link()
-Rusnet.add_tag_link()
-Rusnet.wrap_content()
+  debounce = (fn, delay) ->
+    timer = null
+    ->
+      context = this
+      args = arguments
+      clearTimeout timer
+      timer = setTimeout((->
+        fn.apply context, args
+        return
+      ), delay)
+      
+  headers = $('h1.custom-h1-block')
+  $wrap = $('.wrap')
+  
+  $('#findString').on 'keyup', debounce(((e) ->
+    code = e.keyCode or e.which
+    search = $(this).val()
+    if search
+      headers.each (index, item) ->
+        $item = $(item)
+        text = $item.find('a').text()
+        $wrap_inner = $item.next('.wrap')
+        if new RegExp(search, 'i').test(text)
+          $item.show 0
+        else
+          $wrap_inner.removeClass 'show', 0
+          $item.hide 0
+        return
+    else
+      headers.show 0
+      $wrap.removeClass 'show', 0
+    return
+  ), 200)
+
+$ ->
+  Rusnet.init_view()
+  Rusnet.add_target_link()
+  Rusnet.add_tag_link()
+  Rusnet.wrap_content()
+  Rusnet.search_engine()
