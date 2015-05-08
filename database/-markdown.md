@@ -76,6 +76,14 @@ StrongLoop offers a subscription-based product known as StrongLoop Suite. Strong
 * npm
 * packages
 
+http://highlandjs.org
+HIGHLAND
+The high-level streams library for Node.js and the browser.
+* highlandjs
+* stream
+* library
+* nodejs
+
 ### master
 
 http://www.rq.crockford.com/
