@@ -167,6 +167,12 @@ http://habrahabr.ru/post/252745
 * gulp
 * plugins
 
+https://github.com/daylilyfield/pipe-joint
+you can pipe streams with a bit better notation to read.
+* gulp
+* plugins
+* stream
+* pipe
 
 # Express
 
