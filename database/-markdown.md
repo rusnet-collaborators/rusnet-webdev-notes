@@ -76,6 +76,12 @@ StrongLoop offers a subscription-based product known as StrongLoop Suite. Strong
 * npm
 * packages
 
+https://iojs.org
+JavaScript I/O io.js — npm-совместимая платформа, разработанная на основе node.js™.
+* iojs
+* javascript
+* fork
+
 ### master
 
 http://www.rq.crockford.com/
@@ -844,6 +850,12 @@ CSS with superpowers :) Sass is the most mature, stable, and powerful profession
 * powerful
 * scss
 
+http://www.gradient-animator.com
+* css
+* gradient
+* animation
+* generator
+
 
 # Graphviz
 
@@ -890,6 +902,9 @@ Web development is my passion. I enjoy making my websites fast, stable and great
 https://kuroikaze85.wordpress.com
 Программист. Последнее время интересуюсь node.js и (в меньшей степени) Python.
 * blog
+
+http://lenta.iadlab.ru
+Ядоблог - I can do that hold my beer
 
 ### может это и не блог, но тоже полезно
 
@@ -1007,6 +1022,11 @@ Webix - JavaScript UI Framework for desktop and mobile browsers.
 * UI
 * desktop
 * mobile
+
+https://github.com/kopipejst/progressbar
+* progressbar
+* ui
+* jquery
 
 
 # HTTP
