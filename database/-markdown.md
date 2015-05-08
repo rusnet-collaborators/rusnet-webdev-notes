@@ -912,6 +912,13 @@ https://kuroikaze85.wordpress.com
 http://lenta.iadlab.ru
 Ядоблог - I can do that hold my beer
 
+http://dmitrysoshnikov.com
+ECMA-262 by Dmitry Soshnikov
+* ecmascript
+* ecma-262
+* must have, must read
+* javascript
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
