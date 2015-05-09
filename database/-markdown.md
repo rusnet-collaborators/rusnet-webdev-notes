@@ -48,6 +48,20 @@ http://bakhirev.biz
 Книга «Сюрреализм на JavaScript»
 В книге содержатся различные рекомендации, советы и идеи касательно разработки сложного фронтенда на JavaScript. Рассматривается архитектура игровых движков и проблемы создания веб-игр и веб-приложений. Так же в книге приведено множество рекомендаций касательно верстки интерфейсов под различные устройства и особенностей разработки на JavaScript под различные платформы.
 
+http://nodeschool.io
+Open source воркшопы, которые обучают веб разработке. Создавайте собственные воркшопы или присоединяйтесь к разработке существующих в вашей стране.
+* school
+* nodejs
+* source
+* learn
+
+https://nodejs.org
+As an asynchronous event driven framework, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection the callback is fired, but if there is no work to be done Node is sleeping.
+* nodejs
+* asynchronous
+* event
+* framework
+
 ### advanced
 
 http://callbackhell.com
