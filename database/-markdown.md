@@ -901,6 +901,10 @@ http://thecodelesscode.com/contents?lang=ru
 An illustrated collection of (sometimes violent) fables concerning the Art and Philosophy of software development, written in the spirit of Zen kōans
 * codeless code
 
+http://lifehacker.ru
+Лайфхакер
+* life
+* hack
 
 # Интересные блоги
 
