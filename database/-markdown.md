@@ -918,6 +918,7 @@ Node.js, JavaScript, and other Tutorials by Cap'n Hack Sparrow
 https://nodesource.com/blog
 NodeSource is the Enterprise Node.js and io.js company providing Node.js training, support, software, solutions, and consulting to enterprises worldwide.
 * blog
+* nodesource
 
 https://plutov.by
 Web development is my passion. I enjoy making my websites fast, stable and great.
@@ -929,6 +930,7 @@ https://kuroikaze85.wordpress.com
 
 http://lenta.iadlab.ru
 Ядоблог - I can do that hold my beer
+* blog
 
 http://dmitrysoshnikov.com
 ECMA-262 by Dmitry Soshnikov
@@ -936,6 +938,10 @@ ECMA-262 by Dmitry Soshnikov
 * ecma-262
 * must have, must read
 * javascript
+
+http://blog.frankgrimm.net
+Frank Grimm. I am currently working at aconso as a software engineer and doing my master’s degree in Intelligent Systems at the University of Bielefeld.
+* blog
 
 ### может это и не блог, но тоже полезно
 
