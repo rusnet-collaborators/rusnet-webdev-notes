@@ -234,14 +234,28 @@ This document covers the basics of how to write node.js programs with streams.
 
 https://angularjs.org
 AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+* javascript
+* angular
 
 http://www.angular.ru
 AngularJS позволяет расширить синтаксис HTML. В результате код получается выразительным, читаемым, и легко поддерживается.
+* javascript
+* angular
+
+http://textangular.com
+A Lightweight, Two-Way-Bound & Totally Awesome Angular.js Text-Editor
+* javascript
+* angular
+* editor
+* WYSIWYG
 
 ### beginner
 
 https://github.com/mgechev/angularjs-style-guide
 The goal of this style guide is to present a set of best practices and style guidelines for one AngularJS application.
+* javascript
+* angular
+* education
 
 ### advanced
 
@@ -251,7 +265,15 @@ The goal of this style guide is to present a set of best practices and style gui
 
 http://ng-inspector.org
 The AngularJS inspector pane for your browser
+* javascript
+* angular
+* inspector
 
+https://github.com/angular/angularjs-batarang
+Batarang. AngularJS WebInspector Extension for Chrome
+* javascript
+* angular
+* inspector
 
 # Backbone.js
 
