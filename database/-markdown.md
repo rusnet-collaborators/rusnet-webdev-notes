@@ -655,6 +655,13 @@ DB Browser for SQLite
 * tool
 * sqlite
 
+http://sqlitestudio.pl
+SQLiteStudio is a SQLite database manager.
+* sqlite
+* portable
+* powerful
+* configurable
+
 https://asciinema.org
 Record and share your terminal sessions, the right way.
 * terminal
