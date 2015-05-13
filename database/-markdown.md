@@ -139,21 +139,6 @@ RQ: Better living through asynchronicity.  Douglas Crockford. 2015-04-14.
 http://surge.sh
 Static Web Publishing for Front-End Developers
 
-### library
-
-https://github.com/sbstjn/timesheet.js
-Simple JavaScript library to create HTML time sheets.
-example: http://sbstjn.github.io/timesheet.js
-
-http://vitalets.github.io/x-editable
-This library allows you to create editable elements on your page. It can be used with any engine (bootstrap, jquery-ui, jquery only) and includes both popup and inline modes. Please try out demo to see how it works.
-
-http://d3js.org
-D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.
-* javascript
-* library
-* data drawing
-
 ### ---
 
 https://nodejsmodules.org
@@ -491,6 +476,12 @@ a Ruby regular expression editor
 * online
 * tools
 * experimenting
+
+http://pythondigest.ru
+PYTHON ДАЙДЖЕСТ. Всё самое интересное прямо здесь и сейчас!
+* python
+* info
+* news
 
 
 # Python
@@ -1128,6 +1119,19 @@ https://github.com/kopipejst/progressbar
 * progressbar
 * ui
 * jquery
+
+https://github.com/sbstjn/timesheet.js
+Simple JavaScript library to create HTML time sheets.
+example: http://sbstjn.github.io/timesheet.js
+
+http://vitalets.github.io/x-editable
+This library allows you to create editable elements on your page. It can be used with any engine (bootstrap, jquery-ui, jquery only) and includes both popup and inline modes. Please try out demo to see how it works.
+
+http://d3js.org
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.
+* javascript
+* library
+* data drawing
 
 
 # HTTP
