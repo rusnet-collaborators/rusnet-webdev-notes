@@ -21,6 +21,24 @@ Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
 * online
 * editor
 
+### js library online editor
+
+http://hallojs.org
+Hallo — distraction-free writing for the web. Hallo is the simplest web editor imaginable. Instead of cluttered forms or toolbars, you edit your web content as it is. Just you, your web design, and your content.
+* markdown
+* simple
+* editor
+* online
+* web
+* jquery
+
+http://lab.lepture.com/editor
+A markdown editor. still on development.
+* markdown
+* editor
+* web
+* online
+
 
 # Nodejs & Javascript
 
