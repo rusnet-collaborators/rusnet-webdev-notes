@@ -39,6 +39,13 @@ A markdown editor. still on development.
 * web
 * online
 
+http://markitup.jaysalvat.com
+markItUp! universal markup jQuery editor. markItUp! is a JavaScript plugin built on the jQuery library. It allows you to turn any textarea into a markup editor. Html, Textile, Wiki Syntax, Markdown, BBcode or even your own Markup system can be easily implemented.
+* editor
+* universal
+* jquery
+* library
+
 
 # Nodejs & Javascript
 
