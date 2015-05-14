@@ -998,6 +998,14 @@ http://blog.frankgrimm.net
 Frank Grimm. I am currently working at aconso as a software engineer and doing my master’s degree in Intelligent Systems at the University of Bielefeld.
 * blog
 
+http://humanwebdevelopment.com/blog
+Human Web Development is focused on creating unparalleled user experience. We thrive on learning new things and applying years of experience to each project we work on.
+* http
+* development
+* rails
+* ruby
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -1132,6 +1140,13 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 * javascript
 * library
 * data drawing
+
+http://highlandjs.org
+HIGHLAND. The high-level streams library for Node.js and the browser.
+* highlandjs
+* stream
+* library
+* nodejs
 
 
 # HTTP
