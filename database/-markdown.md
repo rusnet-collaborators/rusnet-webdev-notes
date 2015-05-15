@@ -349,6 +349,12 @@ A suite of jQuery plugins written in CoffeeScript
 
 # Coffeescript
 
+http://coffeescript.org
+CoffeeScript is a little language that compiles into JavaScript. Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
+* coffeescript
+* language
+* javascript
+
 ### beginner
 
 http://cidocs.ru/coffeescript
@@ -363,13 +369,37 @@ CoffeeLint is a style checker that helps keep CoffeeScript code clean and consis
 * coffelint
 * checked code
 
+https://www.ibm.com/developerworks/ru/library/wa-coffee1
+Ваша первая чашечка CoffeeScript
+* coffeescript
+* learning
+
+https://www.codeschool.com/courses/coffeescript
+Learn CoffeeScript, the powerful little language that compiles into JavaScript. Take a sip of our CoffeeScript tutorial & learn to get more done with less code.
+* codeschool
+* coffeescript
+* learning
+
+http://autotelicum.github.io/Smooth-CoffeeScript
+Free Book. Smooth CoffeeScript is a book about CoffeeScript and programming. Start with programming fundamentals, learn about functional programming with Underscore and problem solving, study object orientation and modularity. It covers client/server web apps with Canvas and WebSockets.
+* coffeescript
+* book
+* free
+* learning
+
 ### advanced
 
 http://arcturo.github.io/library/coffeescript
 The Little Book on CoffeeScript
+* coffeescript
+* learning
+* book
 
 http://coffeescript2ru.github.io
 Данная страничка посвящена языку CoffeeScript
+* coffeescript
+* convert
+* javascript
 
 ### master
 
@@ -380,6 +410,62 @@ Compile JavaScript into CoffeeScript online.
 
 http://js2coffee.thomaskalka.de
 Analog js2.coffee. This hacked version of js2coffe tries to preserve comments.
+* coffeescript
+* convert
+* javascript
+
+### some github
+
+https://github.com/bevry/cson
+CoffeeScript-Object-Notation. Same as JSON but for CoffeeScript objects.
+* coffeescript
+* json
+* cson
+
+### cheatsheet
+
+https://github.com/icebob/coffeescript_cheatsheet
+CoffeeScript Cheatsheet
+
+
+# JSON
+
+http://json.org
+JSON (JavaScript Object Notation) - простой формат обмена данными, удобный для чтения и написания как человеком, так и компьютером. Он основан на подмножестве языка программирования JavaScript, определенного в стандарте ECMA-262 3rd Edition - December 1999. JSON - текстовый формат, полностью независимый от языка реализации, но он использует соглашения, знакомые программистам C-подобных языков, таких как C, C++, C#, Java, JavaScript, Perl, Python и многих других. Эти свойства делают JSON идеальным языком обмена данными.
+* json
+
+https://learn.javascript.ru/json
+Формат JSON, метод toJSON.
+* json
+* javascript
+
+### online tools
+
+http://jsonviewer.stack.hu
+Convert JSON Strings to a Friendly Readable Format. Online JSON parse & viewer.
+* json
+* online
+* parse
+* viewer
+
+https://www.jsoneditoronline.org
+JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in a code editor.
+* json
+* online
+* editor
+
+http://jsonlint.com
+JSONLint. The JSON Validator.
+* json
+* validator
+* online
+
+### advanced
+
+http://jsonapi.org
+json.api. A standard for building APIs in JSON.
+* json
+* api
 
 
 # Moment.js
@@ -643,6 +729,11 @@ The email service for developers. Powerful APIs that enable you to send, receive
 * powerful
 * email
 * send
+
+https://github.com/detailyang/cheat-sheets
+useful cheat sheets as reference.
+* collection
+* cheatsheet
 
 
 # Useful help tools
