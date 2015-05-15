@@ -483,6 +483,12 @@ PYTHON ДАЙДЖЕСТ. Всё самое интересное прямо зд�
 * info
 * news
 
+http://railsdiff.org
+RailsDiff is about what you'd have to change about your app's configuration when upgrading Rails versions, not about what Rails has changed internally.
+* railsdiff
+* ruby
+* resource
+
 
 # Python
 
