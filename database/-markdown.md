@@ -575,6 +575,12 @@ RailsDiff is about what you'd have to change about your app's configuration when
 * ruby
 * resource
 
+https://rubygems.org
+Find, install, and publish RubyGems.
+* ruby
+* rails
+* gem
+
 
 # Python
 
