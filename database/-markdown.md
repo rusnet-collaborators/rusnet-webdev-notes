@@ -521,6 +521,12 @@ http://rusrails.ru
 * docs
 * guide
 
+https://practicingruby.com
+Practicing Ruby. Delightful lessons for dedicated programmers.
+* ruby
+* practice
+* learn
+
 ### advanced
 
 http://learnrubythehardway.org/book
