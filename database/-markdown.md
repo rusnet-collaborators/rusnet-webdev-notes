@@ -1034,6 +1034,13 @@ CSS3 Generator.
 * generator
 * simply
 
+http://www.stripegenerator.com
+Stripe Generator - ajax diagonal stripes background designer. Generate seamless striped background images!
+* stripe
+* generator
+* online
+* tool
+
 
 # Graphviz
 
