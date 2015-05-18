@@ -1386,6 +1386,12 @@ xmonad is a dynamically tiling X11 window manager that is written and configured
 * tiling
 * window manager
 
+http://habrahabr.ru/post/242351
+XMonad + XMobar = ❤
+* xmonad
+* howto
+* habrahabr
+
 
 # NES Cover & Chiptune & Demoscene & other
 
