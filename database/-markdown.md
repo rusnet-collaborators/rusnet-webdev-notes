@@ -1359,6 +1359,34 @@ Simple and powerful MVC web framework for Tcl using XOTcl OO framework
 * framework
 
 
+# HASKELL
+
+https://www.haskell.org
+Haskell. An advanced purely-functional programming language.
+* haskell
+* official
+
+https://wiki.haskell.org/Haskell
+The Haskell Programming Language.
+* haskell
+* wiki
+
+### beginner
+
+http://habrahabr.ru/post/132969
+Как питонистам читать Haskell.
+* haskell
+* habrahabr
+
+### some packages
+
+http://xmonad.org
+xmonad is a dynamically tiling X11 window manager that is written and configured in Haskell. In a normal WM, you spend half your time aligning and searching for windows. xmonad makes work easier, by automating this.
+* xmonad
+* tiling
+* window manager
+
+
 # NES Cover & Chiptune & Demoscene & other
 
 не может человек творить без вдохновения
