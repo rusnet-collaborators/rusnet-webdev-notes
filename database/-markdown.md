@@ -987,6 +987,12 @@ As a developer you use code written by other people all the time. To keep upstre
 * manual
 * online
 
+### cheatsheet
+
+http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png
+* git
+* cheatsheet
+
 ### play with me
 
 http://pcottle.github.io/learnGitBranching
