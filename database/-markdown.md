@@ -874,6 +874,15 @@ http://www.blindtextgenerator.com/ru
 * text
 * generator
 
+http://ghv.artzub.com
+This service lets the user to see statistics of repositories.
+Your GitHub data will be used only for analysis and visualisation.
+They will not be passed to third parties.
+* repositories
+* analysis
+* visualisation
+* github
+
 
 # Тренировки и развитие
 
