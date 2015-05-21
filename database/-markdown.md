@@ -1433,6 +1433,24 @@ Simple and powerful MVC web framework for Tcl using XOTcl OO framework
 
 # HASKELL
 
+# GO
+
+https://golang.org
+Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+* go
+* language
+* open source
+
+
+# YAML
+
+http://yaml.org
+YAML: YAML Ain't Markup Languag
+* yaml
+* language
+* markup
+
+
 https://www.haskell.org
 Haskell. An advanced purely-functional programming language.
 * haskell
