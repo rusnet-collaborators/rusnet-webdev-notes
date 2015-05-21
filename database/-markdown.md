@@ -527,6 +527,12 @@ Practicing Ruby. Delightful lessons for dedicated programmers.
 * practice
 * learn
 
+http://railsgirls.com
+Rails Girls - Get started with tech. Our aim is to give tools and a community for women to understand technology and to build their ideas. We do this by providing a great experience on building things and by making technology more approachable.
+* rails
+* girls
+* event
+
 ### advanced
 
 http://learnrubythehardway.org/book
@@ -747,6 +753,16 @@ useful cheat sheets as reference.
 * collection
 * cheatsheet
 
+http://www.tech-girls.org/resources.html
+Tech-Girls is all about empowering girls to imagine and achieve their future dreams in our tech-savvy world.
+* tech
+* girls
+
+https://www.bento.io
+Everything you need to know about web development
+* collection
+* web development
+
 
 # Useful help tools
 
@@ -853,6 +869,11 @@ http://www.paratype.ru
 * truetype
 * opentype
 
+http://www.blindtextgenerator.com/ru
+Здесь абсолютно комфортно вы можете генерировать тексты-«рыбы» для решения задач в области макетирования.
+* text
+* generator
+
 
 # Тренировки и развитие
 
@@ -935,6 +956,18 @@ http://vimawesome.com
 Vim Awesome is a directory of Vim plugins sourced from GitHub, Vim.org, and user submissions. Plugin usage data is extracted from dotfiles repos on GitHub.
 * vim
 * plugins
+* collection
+
+http://vimgolf.com
+Real Vim ninjas count every keystroke - do you? Колдунство в VIM
+* vim
+* ninjas
+
+https://www.girldevelopit.com/materials
+Girl Develop It materials are built by our community, which is made up of industry-leading technologists, instructors, and leaders.
+* girl
+* development
+* materials
 * collection
 
 
@@ -1134,6 +1167,24 @@ Human Web Development is focused on creating unparalleled user experience. We th
 * ruby
 * blog
 
+http://tomdallimore.com/blog
+* blog
+* rails
+
+http://paydrotalks.com/writings.html
+* blog
+
+http://nakkaya.com
+* blog
+
+http://thepugautomatic.com
+A blog by Henrik Nyh
+* blog
+
+http://www.intridea.com/blog
+в плане дизайна тоже очень интересный
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -1275,6 +1326,12 @@ HIGHLAND. The high-level streams library for Node.js and the browser.
 * stream
 * library
 * nodejs
+
+https://github.com/hakimel/reveal.js
+The HTML Presentation Framework. A framework for easily creating beautiful presentations using HTML.
+* presentations
+* javascript
+* framework
 
 
 # HTTP
