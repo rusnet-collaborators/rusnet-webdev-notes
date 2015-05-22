@@ -1200,6 +1200,10 @@ http://www.intridea.com/blog
 в плане дизайна тоже очень интересный
 * blog
 
+http://rhnh.net
+New non-tech blog.
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -1433,24 +1437,6 @@ Simple and powerful MVC web framework for Tcl using XOTcl OO framework
 
 # HASKELL
 
-# GO
-
-https://golang.org
-Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-* go
-* language
-* open source
-
-
-# YAML
-
-http://yaml.org
-YAML: YAML Ain't Markup Languag
-* yaml
-* language
-* markup
-
-
 https://www.haskell.org
 Haskell. An advanced purely-functional programming language.
 * haskell
@@ -1481,6 +1467,34 @@ XMonad + XMobar = ❤
 * xmonad
 * howto
 * habrahabr
+
+
+# GO
+
+https://golang.org
+Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+* go
+* language
+* open source
+
+
+# YAML
+
+http://yaml.org
+YAML: YAML Ain't Markup Languag
+* yaml
+* language
+* markup
+
+https://ru.wikipedia.org/wiki/YAML
+YAML — человекочитаемый формат сериализации данных, концептуально близкий к языкам разметки, но ориентированный на удобство ввода-вывода типичных структур данных многих языков программирования.
+* wiki
+* yaml
+
+http://rhnh.net/2011/01/31/yaml-tutorial
+YAML Tutorial. Many years ago I wrote a tutorial on using YAML in ruby. It still sees the most google traffic of any post, by far. So people want to know about YAML? I’ll help them out.
+* yaml
+* tutorial
 
 
 # NES Cover & Chiptune & Demoscene & other
