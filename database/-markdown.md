@@ -551,6 +551,13 @@ APIdock is a web app that provides a rich and usable interface for searching, pe
 * apidock
 * doc
 
+http://ruby-doc.org
+Help and documentation for the Ruby programming language.
+* ruby
+* doc
+* apidock
+
+
 ### advanced
 
 http://learnrubythehardway.org/book
@@ -1229,6 +1236,10 @@ http://rhnh.net
 New non-tech blog.
 * blog
 
+http://eax.me
+Записки программиста. Блог о программировании, операционных системах, СУБД, девайсах, сетях, алгоритмах и пр.
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -1452,6 +1463,22 @@ Vue.js is a library for building interactive web interfaces. It provides data-re
 * library
 * interactive
 * data-reactive
+
+http://mediaelementjs.com
+HTML5 <video> and <audio> made easy. One file. Any browser. Same UI.
+* javascript
+* video
+* audio
+
+http://www.videojs.com
+The open source HTML5 video player
+* blog
+
+http://nvd3.org
+NVD3 Re-usable charts for d3.js. This project is an attempt to build re-usable charts and chart components for d3.js without taking away the power that d3.js gives you.
+* nvd3
+* charts
+* light
 
 
 # HTTP
