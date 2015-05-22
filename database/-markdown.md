@@ -151,6 +151,12 @@ npm semver calculator
 * npm
 * semver
 
+http://mathjs.org
+Math.js is an extensive math library for JavaScript and Node.js.
+* math.js
+* library
+* extensive
+
 ### cheatsheet
 
 http://browsenpm.org/help
@@ -494,6 +500,13 @@ Favic-o-matic generates the favicon, both .ico & .png, and the HTML code needed 
 http://www.cronchecker.net
 Sometimes it’s hard to remember exactly what the arcane Cron syntax means.
 
+### advanced
+
+http://habrahabr.ru/post/253121
+Гид по заголовкам кэширования HTTP для начинающих
+* http
+* rack-cache
+
 
 # Ruby & Ruby on Rails
 
@@ -533,6 +546,11 @@ Rails Girls - Get started with tech. Our aim is to give tools and a community fo
 * girls
 * event
 
+http://apidock.com
+APIdock is a web app that provides a rich and usable interface for searching, perusing and improving the documentation of projects that are included in the app.
+* apidock
+* doc
+
 ### advanced
 
 http://learnrubythehardway.org/book
@@ -564,6 +582,11 @@ Integration of RubyMoney - Money with Rails
 
 https://github.com/plataformatec/devise
 Flexible authentication solution for Rails with Warden
+
+http://rtomayko.github.io/rack-cache
+Rack::Cache is suitable as a quick drop-in component to enable HTTP caching for Rack-based applications that produce freshness (Expires, Cache-Control) and/or validation (Last-Modified, ETag) information.
+* rack-cache
+* rails
 
 ### useful help tools
 
@@ -763,20 +786,16 @@ Everything you need to know about web development
 * collection
 * web development
 
+http://javascriptweekly.com
+JavaScript Weekly. A free, once–weekly e-mail round-up of JavaScript news and articles.
+* javascript
+* weekly
+* news
+* articles
+* collection
+
 
 # Useful help tools
-
-http://sqlitebrowser.org
-DB Browser for SQLite
-* tool
-* sqlite
-
-http://sqlitestudio.pl
-SQLiteStudio is a SQLite database manager.
-* sqlite
-* portable
-* powerful
-* configurable
 
 https://asciinema.org
 Record and share your terminal sessions, the right way.
@@ -890,6 +909,12 @@ http://www.codeabbey.com
 We believe that three things lead to success: Practice, Practice and Practice!
 * testing
 * practice
+
+https://projecteuler.net
+Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve.
+* projecteuler
+* practices
+* mathematical
 
 
 # Wiki
@@ -1352,6 +1377,82 @@ The HTML Presentation Framework. A framework for easily creating beautiful prese
 * javascript
 * framework
 
+http://addyosmani.github.io/basket.js
+A simple (proof-of-concept) script loader that caches scripts with localStorage
+* basket
+* script loader
+* cache
+* localStorage
+
+http://threejs.org
+JavaScript 3D library. The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides <canvas>, <svg>, CSS3D and WebGL renderers.
+* threejs
+* 3D library
+* lightweight
+* canvas
+* svg
+* CSS3D
+
+http://fgnass.github.io/spin.js
+Spin.js dynamically creates spinning activity indicators that can be used as resolution-independent replacement for AJAX loading GIFs.
+* spin
+* indicators
+
+http://philogb.github.io/jit
+The JavaScript InfoVis Toolkit provides tools for creating Interactive Data Visualizations for the Web.
+* javascript
+* infovis
+* toolkit
+* interactive
+* data
+* visualisation
+
+http://www.jqplot.com
+jqPlot is a plotting and charting plugin for the jQuery Javascript framework. jqPlot produces beautiful line, bar and pie charts with many features
+* jqPlot
+* plotting
+* charting
+* framework
+
+http://www.jscharts.com
+Easier charting with JS Charts graph generator! Whether you own a website, blog or web application, with JS charts is now much easier to make your point!
+* jscharts
+* charting
+* graph
+* generator
+
+http://jasmine.github.io
+Behavior-Driven JavaScript. Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
+* jasmine
+* testing
+* framework
+* javascript
+
+http://www.amcharts.com
+amCharts is an advanced charting library that will suit any data visualization need. Our charting solution include Column, Bar, Line, Area, Step, Step without risers, Smoothed line, Candlestick, OHLC, Pie/Donut, Radar/ Polar, XY/Scatter/Bubble, Bullet, Funnel/Pyramid charts as well as Gauges.
+* amcharts
+* charting
+* library
+* visualisation
+
+http://www.highcharts.com
+Highcharts. Create interactive charts easily for your web projects.
+* highcharts
+* interactive
+* charts
+
+http://jslinterrors.com
+JSLint and the popular alternatives JSHint and ESLint are brilliant tools that make your code more consistent.
+* jslinterrors
+* tools
+
+http://vuejs.org
+Vue.js is a library for building interactive web interfaces. It provides data-reactive components with a simple and flexible API.
+* vuejs
+* library
+* interactive
+* data-reactive
+
 
 # HTTP
 
@@ -1539,5 +1640,38 @@ Vomitron - Contra Theme (Guitar Cover) - YouTube
 
 http://www.youtube.com/watch?v=2sr8e47Z_l8
 {DEMOSCENE}{PC} : fr-043 : Rove by Farbrausch - YouTube
+
+
+# SQLITE
+
+http://www.sqlite.org
+SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world.
+* sqlite
+* base
+
+http://sqlitebrowser.org
+DB Browser for SQLite
+* tool
+* sqlite
+
+http://sqlitestudio.pl
+SQLiteStudio is a SQLite database manager.
+* sqlite
+* portable
+* powerful
+* configurable
+
+http://sqliteonline.com
+sqliteonline.com - is online manager for sqlite
+* sqlite
+* online
+* browser
+
+https://addons.mozilla.org/ru/firefox/addon/sqlite-manager
+SQLite Manager. Manage any SQLite database on your computer.
+* sqlite
+* manager
+* addons
+* firefox
 
 
