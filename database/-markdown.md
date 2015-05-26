@@ -46,6 +46,15 @@ markItUp! universal markup jQuery editor. markItUp! is a JavaScript plugin built
 * jquery
 * library
 
+### tools
+
+http://pandoc.org
+If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
+* pandoc
+* tools
+* convert
+* all2all
+
 
 # Nodejs & Javascript
 
@@ -1542,6 +1551,12 @@ http://www.opennet.ru/docs/RUS/tcltk
 * tcl
 * doc
 * opennet
+
+http://tclstudy.narod.ru/tcl
+Юрий "Yurez" Горбачев. Уроки TCL
+* tcl
+* doc
+* lessons
 
 ### libs, framework
 
