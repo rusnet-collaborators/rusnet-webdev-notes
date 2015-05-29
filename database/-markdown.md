@@ -1497,6 +1497,35 @@ NVD3 Re-usable charts for d3.js. This project is an attempt to build re-usable c
 * charts
 * light
 
+https://www.muicss.com
+MUI is a lightweight HTML, CSS and JS framework for sites that follow Google's Material Design guidelines.
+* mui
+* lightweight
+* html
+* css
+* js
+* framework
+
+http://materializecss.com
+Materialize. Современная, адаптивная платформа, построенная на принципе материального дизайна.
+* material design
+* framework
+* html
+* css
+* js
+* framework
+
+http://material-ui.com
+material ui. A Set of React Components that Implement Google's Material Design.
+* material design
+
+http://themes.suggelab.com
+suggelab. dynamic admin.
+* dynamic
+* admin
+* template
+* bootstrap
+
 
 # HTTP
 
