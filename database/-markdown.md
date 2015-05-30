@@ -814,6 +814,12 @@ JavaScript Weekly. A free, once–weekly e-mail round-up of JavaScript news and 
 * articles
 * collection
 
+http://dns.js.org
+Providing nice and free domains for GitHub Pages
+* dns
+* domain
+* free
+
 
 # Useful help tools
 
@@ -1256,6 +1262,8 @@ http://eax.me
 http://maksd.info
 За 10 лет работы в IT индустрии мне довелось поработать с множеством разнообразных платформ и технологий. В настоящий момент в круг моих обязанностей и интересов в основном входит разработка веб-приложений на Rails, back-end сервисов на Ruby и мобильных приложений для платформы iOS в свободное время.
 * blog
+
+http://spf13.com
 
 ### может это и не блог, но тоже полезно
 
@@ -1757,5 +1765,13 @@ SQLite Manager. Manage any SQLite database on your computer.
 * manager
 * addons
 * firefox
+
+
+# Analytics tools
+
+http://piwik.org
+Piwik is the leading open-source analytics platform that gives you more than just powerful analytics
+* piwik
+* analytics
 
 
