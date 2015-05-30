@@ -1030,6 +1030,12 @@ Girl Develop It materials are built by our community, which is made up of indust
 * materials
 * collection
 
+http://vimcasts.org
+Learn Essential Vim Skills with Drew Neil, author of Practical Vim.
+* vim
+* vimcasts
+* learn
+
 
 # Git
 
