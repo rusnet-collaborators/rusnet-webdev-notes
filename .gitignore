@@ -84,3 +84,4 @@ tags
 #IDE files
 .idea
 src
+/.project
