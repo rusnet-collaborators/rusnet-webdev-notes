@@ -46,6 +46,12 @@ markItUp! universal markup jQuery editor. markItUp! is a JavaScript plugin built
 * jquery
 * library
 
+http://epiceditor.com
+An Embeddable JavaScript Markdown Editor
+* markdown
+* editor
+* javascript
+
 ### tools
 
 http://pandoc.org
