@@ -1170,6 +1170,11 @@ CSS ARROW PLEASE! Generate the CSS for a tooltip arrow.
 * generator
 * arrow
 
+### table native color from css
+http://www.yellowpipe.com/yis/tools/hex-to-rgb/color-converter.php
+
+http://www.crockford.com/wrrrld/color.html
+
 
 # Graphviz
 
