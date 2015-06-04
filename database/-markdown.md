@@ -964,6 +964,15 @@ https://pp.vk.me/c617725/v617725400/b966/VJHqhoVV23I.jpg
 
 http://www.nooooooooooooooo.com
 
+http://factorized.tumblr.com/post/4180288873/programming-motherfucker
+Пиши код блять!
+
+http://macode.ru
+Манифест, блять!
+
+http://megamozg.ru/post/2168
+Что может помочь менеджеру проектов в работе с программистами
+
 
 # EcmaScript 6
 
