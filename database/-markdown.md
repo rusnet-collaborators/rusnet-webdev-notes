@@ -826,6 +826,17 @@ Providing nice and free domains for GitHub Pages
 * domain
 * free
 
+http://showmethetitle.ru
+Генератор заголовков
+* generator
+* title page
+
+https://vesna.yandex.ru/referats
+Генератор рыбы
+* fish
+* generator
+* yandex
+
 
 # Useful help tools
 
