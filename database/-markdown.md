@@ -837,6 +837,12 @@ https://vesna.yandex.ru/referats
 * generator
 * yandex
 
+http://www.blindtextgenerator.com
+генератор рыбных текстов
+* fish
+* generator
+* text
+
 
 # Useful help tools
 
@@ -930,11 +936,6 @@ http://www.paratype.ru
 * postscript
 * truetype
 * opentype
-
-http://www.blindtextgenerator.com/ru
-Здесь абсолютно комфортно вы можете генерировать тексты-«рыбы» для решения задач в области макетирования.
-* text
-* generator
 
 http://ghv.artzub.com
 This service lets the user to see statistics of repositories.
