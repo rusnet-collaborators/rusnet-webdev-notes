@@ -843,6 +843,20 @@ http://www.blindtextgenerator.com
 * generator
 * text
 
+http://www.theodinproject.com/courses
+This is Your Path to Learning Web Development.
+If you want to learn web development, you've come to the right place. We found the best free resources out there and grouped them into the courses listed below so you don't have to waste time doing it yourself.
+* learning
+* ruby
+* development
+* courses
+* rails
+* ruby
+* rails
+* javascript
+* jquery
+* learning
+
 
 # Useful help tools
 
