@@ -187,6 +187,43 @@ http://habrahabr.ru/post/171359
 * habrahabr
 * secret
 
+### drag and drop plugins, library javascript
+
+http://gridster.net
+Plug in to the grid. This is it, the mythical drag-and-drop multi-column grid has arrived. Gridster is a jQuery plugin that allows building intuitive draggable layouts from elements spanning multiple columns.
+* gridster
+* drag and drop
+* library
+
+http://draggabilly.desandro.com
+Draggabilly. Make that shiz draggable.
+* drag and drop
+* plugin
+
+http://interactjs.io
+JavaScript drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers (and also IE8+)
+* drag and drop
+* javascript
+
+http://ubervu.github.io/grid
+Drag and drop library for two-dimensional, resizable and responsive lists
+* drag and drop
+* javascript
+
+http://pep.briangonzalez.org
+jquery.pep.js is a lightweight jQuery plugin which turns any DOM element into a draggable object. It works across mostly all browsers, from old to new, from touch to click.
+* drag and drop
+* javascript
+* plugin
+
+### fileupload plugins, library javascript
+
+http://www.dropzonejs.com
+DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews. It’s lightweight, doesn’t depend on any other library (like jQuery) and is highly customizable.
+* fileupload
+* plugin
+* jQuery
+
 
 # Gulp
 
@@ -999,6 +1036,8 @@ http://macode.ru
 http://megamozg.ru/post/2168
 Что может помочь менеджеру проектов в работе с программистами
 
+http://rubaxa.github.io/hell.html
+Ипотечный АД!!!
 
 # EcmaScript 6
 
@@ -1368,6 +1407,9 @@ http://maksd.info
 * blog
 
 http://spf13.com
+
+http://rubaxa.github.io
+Lebedev Konstantin
 
 ### может это и не блог, но тоже полезно
 
