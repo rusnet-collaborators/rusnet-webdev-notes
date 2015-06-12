@@ -19,3 +19,4 @@ tags
 .sass-cache
 .idea
 src
+/dev/static/-markdown.html
