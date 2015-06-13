@@ -1026,6 +1026,14 @@ Learn REST: A RESTful Tutorial. Building restful web services, like other progra
 * api
 * tutorial
 
+http://restcookbook.com
+REST is hot! And REST is finally rediscovered by API programmers all over the world. But REST isn't always as easy as it seems on first look.
+The RESTful cookbook website is inspired by the puppetcookbook from Dean Wilson, who created cookbook recipes on how to deal with some of the issues people are facing over and over again when using the Puppet Configuration management tool.
+* rest
+* cookbook
+* book
+* learn
+
 
 # Erlang
 
