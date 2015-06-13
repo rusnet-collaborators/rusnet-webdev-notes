@@ -1079,6 +1079,9 @@ http://www.opennet.ru/docs/RUS/tcltk
 * doc
 * opennet
 
+https://www.tcl.tk/man/tcl8.5/tutorial/tcltutorial.html
+Tcl Tutorial
+
 ### libs, framework
 
 http://tanzer.io
