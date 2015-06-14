@@ -1410,6 +1410,12 @@ http://spf13.com
 
 http://rubaxa.github.io
 Lebedev Konstantin
+* blog
+
+http://www.jstoolbox.com
+Блог о веб-технологиях и JavaScript
+* blog
+* javascript
 
 ### может это и не блог, но тоже полезно
 
