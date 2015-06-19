@@ -114,6 +114,14 @@ http://habrahabr.ru/post/219873
 * template
 * habrahabr
 
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills
+HTML5 Cross Browser Polyfills
+* javascript
+* browser
+* cross-browser
+* polyfills
+* modernizer
+
 https://github.com/marcuswestin/store.js
 localStorage wrapper for all browsers without using cookies or flash
 
