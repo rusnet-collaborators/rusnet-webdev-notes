@@ -114,14 +114,6 @@ http://habrahabr.ru/post/219873
 * template
 * habrahabr
 
-https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills
-HTML5 Cross Browser Polyfills
-* javascript
-* browser
-* cross-browser
-* polyfills
-* modernizer
-
 https://github.com/marcuswestin/store.js
 localStorage wrapper for all browsers without using cookies or flash
 
@@ -1530,6 +1522,14 @@ http://modernizr.com
 Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 * modernizr
 * library
+
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills
+HTML5 Cross Browser Polyfills
+* javascript
+* browser
+* cross-browser
+* polyfills
+* modernizer
 
 http://lokeshdhakar.com/projects/lightbox2
 Lightbox is a script used to overlay images on the current page. It's a snap to setup and works on all modern browsers.
