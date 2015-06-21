@@ -1589,7 +1589,7 @@ A simple (proof-of-concept) script loader that caches scripts with localStorage
 * localStorage
 
 http://threejs.org
-JavaScript 3D library. The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides <canvas>, <svg>, CSS3D and WebGL renderers.
+JavaScript 3D library. The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides canvas, svg, CSS3D and WebGL renderers.
 * threejs
 * 3D library
 * lightweight
@@ -1658,7 +1658,7 @@ Vue.js is a library for building interactive web interfaces. It provides data-re
 * data-reactive
 
 http://mediaelementjs.com
-HTML5 <video> and <audio> made easy. One file. Any browser. Same UI.
+HTML5 video and audio made easy. One file. Any browser. Same UI.
 * javascript
 * video
 * audio
