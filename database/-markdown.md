@@ -256,6 +256,7 @@ you can pipe streams with a bit better notation to read.
 * stream
 * pipe
 
+
 # Express
 
 http://expressjs.com
@@ -901,6 +902,15 @@ If you want to learn web development, you've come to the right place. We found t
 * learning
 
 https://regex101.com
+Online regex tester and debugger: JavaScript, Python, PHP, and PCRE
+* online
+* regex
+* testing
+
+http://progopedia.ru
+Прогопедия — свободная энциклопедия языков программирования
+* progopedia
+* education
 
 
 # Useful help tools
@@ -1123,6 +1133,24 @@ Learn Essential Vim Skills with Drew Neil, author of Practical Vim.
 * vim
 * vimcasts
 * learn
+
+### awesome plugins
+
+https://github.com/Valloric/YouCompleteMe
+A code-completion engine for Vim
+* code-completion
+* engine
+* vim
+
+
+# EMACS
+
+### beginner
+
+http://habrahabr.ru/post/190790
+Почему Emacs?
+* emacs
+* habrahabr
 
 
 # Git
