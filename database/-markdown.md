@@ -446,6 +446,23 @@ Free Book. Smooth CoffeeScript is a book about CoffeeScript and programming. Sta
 * free
 * learning
 
+https://coffeescript-cookbook.github.io
+CoffeeScript Cookbook. Welcome to the CoffeeScript Cookbook!
+* coffeescript
+* cookbook
+* guide
+
+http://www.coffeescriptlove.com/2012/08/coffeescript-and-jquery.html
+CoffeeScript and jQuery. The CoffeeScript project page is overflowing with great examples of the little language used in a clean, uncluttered, academic context.
+* coffeescript
+* manual
+* RTFM
+
+https://github.com/jashkenas/coffeescript/issues/1207
+интересное обсуждение coffeescript синтаксиса
+* coffeescript
+* manual
+
 ### advanced
 
 http://arcturo.github.io/library/coffeescript
@@ -485,6 +502,14 @@ CoffeeScript-Object-Notation. Same as JSON but for CoffeeScript objects.
 
 https://github.com/icebob/coffeescript_cheatsheet
 CoffeeScript Cheatsheet
+
+### some example
+
+https://css-tricks.com/jquery-coffeescript
+jQuery with CoffeeScript
+* jquery
+* coffeescript
+* example
 
 
 # JSON
@@ -685,6 +710,11 @@ Find, install, and publish RubyGems.
 * ruby
 * rails
 * gem
+
+### useful help resource
+
+http://rusrails.ru/rails-form-helpers
+Хелперы форм
 
 
 # Python
@@ -911,6 +941,9 @@ http://progopedia.ru
 Прогопедия — свободная энциклопедия языков программирования
 * progopedia
 * education
+
+http://pikabu.ru/story/ogromnyiy_spisok_poleznyikh_resursov_dlya_dizaynerov_i_webrazrabotchikov_2321120
+Огромный список полезных ресурсов для дизайнеров и web-разработчиков
 
 
 # Useful help tools
@@ -1921,6 +1954,11 @@ by Vomitron
 
 http://www.youtube.com/watch?v=bUj_47hVobc
 Vomitron - Contra Theme (Guitar Cover) - YouTube
+
+by //
+
+https://www.youtube.com/watch?v=Ay8vzCHkgEk
+[Black MIDI] Synthesia - "Pi" π/3.14 MILLION (3,141,592) ~ TheSuperMarioBros2
 
 ### just
 
