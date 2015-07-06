@@ -1009,6 +1009,25 @@ The Visual Understanding Environment (VUE) is an Open Source project based at Tu
 * tufts
 * information
 
+http://www.danstools.com
+Below is a collection of various tools that I have found helpful for many years. They are all available here for free for the developers and users out there who might find them useful. 
+* tools
+* util
+* web
+* design
+* html
+* css
+* javascript
+* converter
+* generator
+* formatter
+
+http://www.cssfontstack.com
+A complete collection of web safe CSS font stacks.
+* css
+* util
+* font
+
 http://www.colorzilla.com/gradient-editor
 Ultimate CSS Gradient Generator
 * css
