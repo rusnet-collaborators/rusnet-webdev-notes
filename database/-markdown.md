@@ -945,6 +945,12 @@ http://progopedia.ru
 http://pikabu.ru/story/ogromnyiy_spisok_poleznyikh_resursov_dlya_dizaynerov_i_webrazrabotchikov_2321120
 Огромный список полезных ресурсов для дизайнеров и web-разработчиков
 
+http://it-ebooks.info
+IT eBooks. Free Download IT eBooks.
+* books
+* free
+* download
+
 
 # Useful help tools
 
@@ -1010,7 +1016,7 @@ The Visual Understanding Environment (VUE) is an Open Source project based at Tu
 * information
 
 http://www.danstools.com
-Below is a collection of various tools that I have found helpful for many years. They are all available here for free for the developers and users out there who might find them useful. 
+Below is a collection of various tools that I have found helpful for many years. They are all available here for free for the developers and users out there who might find them useful.
 * tools
 * util
 * web
@@ -2028,3 +2034,11 @@ Piwik is the leading open-source analytics platform that gives you more than jus
 * analytics
 
 
+# JAVA
+
+### beginner
+
+http://javarush.ru
+Классные уроки по java. Миссия – переучить миллион человек на Java-программистов.
+* java
+* learning
