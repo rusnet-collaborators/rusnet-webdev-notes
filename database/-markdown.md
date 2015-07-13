@@ -2042,3 +2042,13 @@ http://javarush.ru
 Классные уроки по java. Миссия – переучить миллион человек на Java-программистов.
 * java
 * learning
+
+
+# Command line
+
+### learning
+
+http://habrahabr.ru/post/262127
+Искусство командной строки
+
+
