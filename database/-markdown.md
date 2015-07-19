@@ -657,6 +657,12 @@ The RubyGems software allows you to easily download, install, and use ruby softw
 
 https://github.com/ruby/ruby/tree/trunk/doc/syntax
 
+http://ruby-doc.com/docs/ProgrammingRuby/html/index.html
+Programming Ruby. The Pragmatic Programmer's Guide.
+* programming
+* pragmatic
+* guide
+
 ### master
 
 ### articles
@@ -715,6 +721,17 @@ Find, install, and publish RubyGems.
 
 http://rusrails.ru/rails-form-helpers
 Хелперы форм
+
+http://rubyquicktips.com
+Random Ruby and Rails tips. This blog is dedicated to deliver short, interesting and practical tidbits of the Ruby language and Ruby on Rails framework.
+* ruby
+* tips
+* quick
+
+http://rubylearning.com/blog
+Ruby Learning. Not Just Ruby Any More!
+* ruby
+* learning
 
 
 # Python
