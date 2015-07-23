@@ -975,6 +975,32 @@ http://www.linuxlib.ru
 * articles
 * free
 
+http://codecall.net
+* codecall
+* forum
+
+http://www.tutorialspoint.com
+The largest Tutorials Library on the web
+* tutorial
+* online
+* library
+
+http://www.codingunit.com
+CodingUnit Programming Tutorials
+* programming
+* tutorials
+
+http://cppstudio.com
+CppStudio - Программирование для начинающих на С++
+* C++
+* C
+* beginner
+
+http://www.cprogramming.com
+Welcome! Cprogramming.com is your source for everything C and C++ and other
+* tutorials
+* library
+
 
 # Useful help tools
 
@@ -2076,3 +2102,20 @@ http://habrahabr.ru/post/262127
 Искусство командной строки
 
 
+# Lua
+
+http://www.lua.org/pil/contents.html
+Programming in Lua (first edition)
+* lua
+* programming
+* book
+* online
+* learn
+
+
+# PHP
+
+http://php.net/manual/ru
+Руководство по PHP
+* php
+* manual
