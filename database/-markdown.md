@@ -733,6 +733,12 @@ Ruby Learning. Not Just Ruby Any More!
 * ruby
 * learning
 
+http://rubykoans.com
+Learn Ruby. With the neo ruby koans
+* koans
+* ruby
+* learn
+
 
 # Python
 
@@ -792,6 +798,14 @@ XlsxWriter is a Python module for creating Excel XLSX files
 * module
 * xlsx
 * xls
+
+### framework
+
+https://twistedmatrix.com
+Twisted — это событийно-ориентированный сетевой фреймворк, написанный на Python и распространяемый под лицензией MIT.
+* twisted
+* framework
+* python
 
 
 # Useful help resources
@@ -1561,6 +1575,24 @@ http://www.jstoolbox.com
 * blog
 * javascript
 
+http://alexott.net/ru
+Alex Ott's home page
+* blog
+* lisp
+* clojure
+* erlang
+* scheme
+* c++
+* emacs
+
+http://programming-pages.com
+Programming pages. Notes on programming.
+* android
+* c#
+* clojure
+* javascript
+* R
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -2119,3 +2151,11 @@ http://php.net/manual/ru
 Руководство по PHP
 * php
 * manual
+
+
+# Clojure
+
+http://feeds.feedburner.com/RussianClojurePlanet
+Russian Clojure Planet.
+* clojure
+* Russian
