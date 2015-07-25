@@ -2015,8 +2015,6 @@ XMonad + XMobar = ❤
 * habrahabr
 
 
-
-
 # GO
 
 https://golang.org
