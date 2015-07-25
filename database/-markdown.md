@@ -216,6 +216,13 @@ jquery.pep.js is a lightweight jQuery plugin which turns any DOM element into a 
 * javascript
 * plugin
 
+http://hammerjs.github.io
+Hammer is a open-source library that can recognize gestures made by touch, mouse and pointerEvents.
+* hammerjs
+* touch
+* library
+* javascript
+
 ### fileupload plugins, library javascript
 
 http://www.dropzonejs.com
@@ -806,6 +813,15 @@ Twisted — это событийно-ориентированный сетев�
 * twisted
 * framework
 * python
+
+http://kivy.org
+Kivy - Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps.
+* python
+* kivy
+* open source
+* library
+* application
+* touch
 
 
 # Useful help resources
@@ -1888,6 +1904,11 @@ Learn REST: A RESTful Tutorial. Building restful web services, like other progra
 
 # Erlang
 
+http://www.erlang.org
+Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
+* erlang
+* official page
+
 ### beginner
 
 http://learnyousomeerlang.com
@@ -1895,6 +1916,11 @@ This is Learn You Some Erlang for great good! This book is for you if you’ve g
 * teaching
 * learn
 * erlang
+
+http://rsdn.ru/article/erlang/GettingStartedWithErlang.xml
+Начала работы с Erlang
+* erlang
+* learn
 
 
 # Koa
