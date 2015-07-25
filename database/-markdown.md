@@ -1983,6 +1983,23 @@ http://habrahabr.ru/post/132969
 * haskell
 * habrahabr
 
+http://habrahabr.ru/post/152889
+Через тернии к Haskell. 1/2
+* haskell
+* learn
+* habrahabr
+
+http://habrahabr.ru/post/153383
+Через тернии к Haskell (перевод). 2/2
+* haskell
+* learn
+* habrahabr
+
+http://learnyouahaskell.com/chapters
+Learn You a Haskell for Great Good!
+* haskell
+* learn
+
 ### some packages
 
 http://xmonad.org
@@ -1996,6 +2013,8 @@ XMonad + XMobar = ❤
 * xmonad
 * howto
 * habrahabr
+
+
 
 
 # GO
