@@ -2023,6 +2023,14 @@ Go is an open source programming language that makes it easy to build simple, re
 * language
 * open source
 
+### beginner
+
+https://gobyexample.com
+Go by Example. Go is an open source programming language designed for building simple, fast, and reliable software.
+* go
+* language
+* examples
+
 
 # YAML
 
@@ -2176,3 +2184,33 @@ http://feeds.feedburner.com/RussianClojurePlanet
 Russian Clojure Planet.
 * clojure
 * Russian
+
+
+# Rust
+
+### beginner
+
+http://rustbyexample.com
+Rust by Example. Rust by Example is a collection of examples that illustrate various Rust concepts and the standard libraries.
+* rust
+* examples
+* collection
+
+
+# Assembler && NASM
+
+http://www.nasm.us
+
+### beginner
+
+http://asmtutor.com
+Learn Assembly Language. This project was put together to teach myself NASM 64bit assembly language on linux.
+* assembler
+* tutorial
+* NASM
+
+http://cs.lmu.edu/~ray/notes/nasmtutorial
+NASM Tutorial
+* assembler
+* tutorial
+* NASM
