@@ -653,6 +653,12 @@ https://ru.wikibooks.org/wiki/Ruby
 * ruby
 * doc
 
+http://phrogz.net/programmingruby/frameset.html
+The Pragmatic Programmer's Guide
+* ruby
+* programming
+* book
+
 ### advanced
 
 http://learnrubythehardway.org/book
@@ -695,6 +701,29 @@ http://rtomayko.github.io/rack-cache
 Rack::Cache is suitable as a quick drop-in component to enable HTTP caching for Rack-based applications that produce freshness (Expires, Cache-Control) and/or validation (Last-Modified, ETag) information.
 * rack-cache
 * rails
+
+http://rspec.info
+Behaviour Driven. Development for Ruby. Making TDD Productive and Fun.
+* rspec
+* official site
+* gem
+
+http://betterspecs.org
+RSpec - это великолепный инструмент для behavior-driven development (BDD), необходимый для написания читаемых спецификаций (тестов), способных направлять и валидировать процесс разработки.
+* rspec
+* documentation
+* gem
+* test
+
+https://robots.thoughtbot.com/back-to-basics-writing-unit-tests-first
+Back to Basics: Writing Unit Tests First
+* rspec
+* example
+
+http://test-unit.github.io
+test-unit is a xUnit family unit testing framework for Ruby.
+* unit-test
+* gem
 
 ### useful help tools
 
@@ -1608,6 +1637,23 @@ Programming pages. Notes on programming.
 * clojure
 * javascript
 * R
+
+http://www.tweetegy.com
+I am a Software Developer & Entrepreneur. I use Ruby and JavaScript as my tools of choice usually bulding applications in Rails and/or AngularJS.
+* blog
+* ruby
+* python
+* rails
+* javascript
+
+http://lucaguidi.com
+I'm a developer and Open Source leader, author of Lotus and Redis::Store. Ruby is my favourite language. I strive for well crafted and performant code.
+* ruby
+
+http://opensoul.org
+I am Brandon Keepers. I build Internet things,  work at GitHub, and live in Holland, MI
+* opensoul
+* blog
 
 ### может это и не блог, но тоже полезно
 
