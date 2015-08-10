@@ -1735,6 +1735,14 @@ Linux Shell Scripting Tutorial (LSST) v2.0. Written by Vivek Gite.
 * sh
 * manual
 
+http://mywiki.wooledge.org/BashGuide
+This guide aims to aid people interested in learning to work with BASH. It aspires to teach good practice techniques for using BASH, and writing simple scripts.
+* bash
+* guide
+* learning
+* script
+
+
 # JS framework & JS library
 
 http://popcornjs.org
@@ -2248,6 +2256,12 @@ http://php.net/manual/ru
 Руководство по PHP
 * php
 * manual
+
+http://www.phptherightway.com
+The Right Way is an easy-to-read, quick reference for PHP popular coding standards, links to authoritative tutorials around the Web and what the contributors consider to be best practices at the present time.
+* php
+* right way
+* quick reference
 
 
 # Clojure
