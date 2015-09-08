@@ -1182,6 +1182,20 @@ They will not be passed to third parties.
 * visualisation
 * github
 
+http://help.ubuntu.ru/wiki/imagemagick
+ImageMagick - это кроссплатформенный консольный редактор изображений, а точнее набор консольных программ.
+На данный момент в статье рассмотрена работа с утилитами convert, montage, identify и composite.
+* imagemagick
+* pictures
+* manipulating
+* tools
+
+Linux и бесплатные облачные хранилища
+http://habrahabr.ru/post/266293
+* storage
+* online
+* linux
+
 
 # Тренировки и развитие
 
@@ -1954,6 +1968,14 @@ Learn REST: A RESTful Tutorial. Building restful web services, like other progra
 * rest
 * api
 * tutorial
+
+http://habrahabr.ru/company/yandex/blog/265569
+15 тривиальных фактов о правильной работе с протоколом HTTP
+* http
+* rest
+* rules
+* tutorial
+* learning
 
 
 # Erlang
