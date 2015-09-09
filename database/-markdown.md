@@ -62,7 +62,7 @@ If you need to convert files from one markup format into another, pandoc is your
 * all2all
 
 
-# Nodejs & Javascript
+# NodeJs & Javascript
 
 ### beginner
 
@@ -171,6 +171,12 @@ Math.js is an extensive math library for JavaScript and Node.js.
 * math.js
 * library
 * extensive
+
+http://jdataview.github.io/jBinary
+jBinary makes it easy to work with binary files in JavaScript as with native objects via declarative syntax.
+* data
+* viewer
+* jbinary
 
 ### cheatsheet
 
@@ -1756,6 +1762,12 @@ This guide aims to aid people interested in learning to work with BASH. It aspir
 * learning
 * script
 
+https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md
+Искусство командной строки
+* bash
+* art
+* command-line
+
 
 # JS framework & JS library
 
@@ -2322,3 +2334,61 @@ NASM Tutorial
 * assembler
 * tutorial
 * NASM
+
+# HTML CSS JS Framework
+
+http://www.blueprintcss.org
+Blueprint is a CSS framework, which aims to cut down on your development time.
+* html
+* css
+* framework
+
+http://susy.oddbird.net
+In a world of agile development and super-tablet-multi-magic-laptop-phones, the best layouts can’t be contained in a single framework or technique. CSS Libraries are a bloated mess of opinions about how to do your job.
+Your markup, your design, your opinions | our math.
+* html
+* css
+* js
+* framework
+
+http://getskeleton.com
+Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started.
+* html
+* css
+* js
+* framework
+
+http://www.gumbyframework.com
+A Flexible, Responsive CSS Framework - Powered by Sass.
+* html
+* css
+* js
+* framework
+
+http://www.yaml.de
+YAML Css Framework. A modular CSS framework for truly flexible, accessible and responsive websites.
+* html
+* css
+* js
+* framework
+
+http://daneden.github.io/Toast
+TOAST. Insane, no-nonsense CSS grid.
+* html
+* css
+* framework
+
+http://imperavi.com/kube
+Kube Web Framework. Kube is one of the world's most advanced and flexible frameworks.
+* html
+* css
+* js
+* framework
+
+http://semantic-ui.com
+Semantic UI. User Interface is the language of the web.
+* html
+* css
+* js
+* framework
+
