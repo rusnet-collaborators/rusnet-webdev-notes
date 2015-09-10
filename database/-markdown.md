@@ -1066,6 +1066,13 @@ Welcome! Cprogramming.com is your source for everything C and C++ and other
 * tutorials
 * library
 
+http://www.computerhope.com/jargon.htm
+Computer Hope. Computer terms, dictionary, and glossary.
+* computerhope
+* terms
+* dictionary
+* glossary
+
 
 # Useful help tools
 
