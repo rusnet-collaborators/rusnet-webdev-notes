@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/rusnet-collaborators/rusnet-webdev-notes",
   "devDependencies": {
-    "coffee-script": "^1.9.1",
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-bump": "^0.3.0",
@@ -42,7 +41,7 @@
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0",
     "coffee-script": "^1.9.1",
-    "node-sass": "~3.3.1",
+    "node-sass": "3.3.0",
     "node-sass-middleware": "*",
     "path": "*"
   }
