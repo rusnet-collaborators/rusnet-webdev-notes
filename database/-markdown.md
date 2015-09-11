@@ -2399,3 +2399,35 @@ Semantic UI. User Interface is the language of the web.
 * js
 * framework
 
+
+# LUA
+
+http://www.lua.org
+Lua is a powerful, fast, lightweight, embeddable scripting language.
+* lua
+* official page
+* language
+
+### FastRun
+
+https://zserge.wordpress.com/2012/02/23/lua-%D0%B7%D0%B0-60-%D0%BC%D0%B8%D0%BD%D1%83%D1%82
+Lua за 60 минут.
+* lua
+* speed learning
+* run
+
+http://tylerneylon.com/a/learn-lua
+Learn Lua in 15 Minutes
+* lua
+* speed learning
+* run
+
+### Blogs
+
+https://ilovelua.wordpress.com
+Я люблю Lua. I love Lua. Книжка по Lua на русском языке.
+* lua
+* blog
+* article
+* page
+
