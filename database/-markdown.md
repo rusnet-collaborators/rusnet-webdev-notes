@@ -1073,6 +1073,11 @@ Computer Hope. Computer terms, dictionary, and glossary.
 * dictionary
 * glossary
 
+http://ricostacruz.com/cheatsheets
+This is Cheatsheets — a collection of cheatsheets I've written.
+* cheatsheet
+* ricostacruz
+
 
 # Useful help tools
 
@@ -1682,10 +1687,26 @@ I am Brandon Keepers. I build Internet things,  work at GitHub, and live in Holl
 * opensoul
 * blog
 
+http://tutorialzine.com
+We are a team of highly skilled web developers and designers, based in Varna, Bulgaria. We are always open to new ideas and suggestions.
+
+http://andreysalomatin.me
+Техно Шред. Когда приложения рождаются из хаоса. И наоборот.
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
 Записки ]Mantyr[
+
+
+# Podcast
+
+http://radiojs.ru
+Подкаст о веб-разработке, javascript, фронтенде и client-side
+* podcast
+* javascript
+
 
 # Games & Competition
 
@@ -2280,17 +2301,6 @@ http://habrahabr.ru/post/262127
 Искусство командной строки
 
 
-# Lua
-
-http://www.lua.org/pil/contents.html
-Programming in Lua (first edition)
-* lua
-* programming
-* book
-* online
-* learn
-
-
 # PHP
 
 http://php.net/manual/ru
@@ -2408,6 +2418,16 @@ Lua is a powerful, fast, lightweight, embeddable scripting language.
 * official page
 * language
 
+### Docs
+
+http://www.lua.org/pil/contents.html
+Programming in Lua (first edition)
+* lua
+* programming
+* book
+* online
+* learn
+
 ### FastRun
 
 https://zserge.wordpress.com/2012/02/23/lua-%D0%B7%D0%B0-60-%D0%BC%D0%B8%D0%BD%D1%83%D1%82
@@ -2431,3 +2451,43 @@ https://ilovelua.wordpress.com
 * article
 * page
 
+
+# ReactJS
+
+http://facebook.github.io/react
+React. A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES.
+* reactjs
+* framework
+* interface
+
+### FastRun
+
+http://habrahabr.ru/post/248799
+Краткое руководство по React JS
+* reactjs
+
+http://habrahabr.ru/post/249107
+ReactJS для глупых людей
+* reactjs
+
+### Docs
+
+https://www.gitbook.com/book/mieta/developing-a-react-age
+Developing a React age. Перевод на русский язык книги Developing a React age. — Mr. Brandy Yuen.
+* book
+* online
+
+http://tftf.ru/stati/javascript/reactjs
+Reactjs (документация, руководство, примеры, flux)
+* reactjs
+* documentation
+* manual
+* guide
+* example
+
+### Cheatsheet
+
+http://ricostacruz.com/cheatsheets/react.html
+Cheatsheet for ReactJS
+* cheatsheet
+* reactjs
