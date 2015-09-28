@@ -2475,6 +2475,12 @@ http://habrahabr.ru/post/249107
 ReactJS для глупых людей
 * reactjs
 
+https://scotch.io/tutorials/learning-react-getting-started-and-concepts
+Learning React.js: Getting Started and Concepts
+* reactjs
+* speedrun
+* tutorial
+
 ### Docs
 
 https://www.gitbook.com/book/mieta/developing-a-react-age
@@ -2496,3 +2502,12 @@ http://ricostacruz.com/cheatsheets/react.html
 Cheatsheet for ReactJS
 * cheatsheet
 * reactjs
+
+### Resources
+
+https://github.com/enaqx/awesome-react
+A collection of awesome things regarding React ecosystem.
+* reactjs
+* github
+* collection
+* ecosystem
