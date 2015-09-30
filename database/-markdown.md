@@ -2522,3 +2522,25 @@ SVG is short for Scalable Vector Graphics.
 * svg
 * doc
 
+# MongoDB
+
+https://www.mongodb.org
+MongoDB is a cross-platform document-oriented database.
+* mongodb
+* nosql
+
+### Интересное
+
+http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb
+Why you should never, ever, ever use MongoDB
+* why
+* should
+* never use
+* mongodb
+
+http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb
+Why You Should Never Use MongoDB
+* why
+* should
+* never use
+* mongodb
