@@ -2544,3 +2544,27 @@ Why You Should Never Use MongoDB
 * should
 * never use
 * mongodb
+
+
+# WebSocket
+
+https://ru.wikipedia.org/wiki/WebSocket
+WebSocket — протокол полнодуплексной связи поверх TCP-соединения, предназначенный для обмена сообщениями между браузером и веб-сервером в режиме реального времени.
+* websocket
+* tcp
+
+https://learn.javascript.ru/websockets
+Протокол WebSocket (стандарт RFC 6455) предназначен для решения любых задач и снятия ограничений обмена данными между браузером и сервером.
+* websocket
+* javascript
+* learn
+* example
+
+https://devcenter.heroku.com/articles/websocket-security
+WebSocket Security
+* websocket
+* security
+
+### Short Info
+
+https://blogdotkaazingdotcom.files.wordpress.com/2012/02/cables21.jpg
