@@ -1,0 +1,101 @@
+.navbar
+  border-bottom: 1px solid lightgrey
+
+.main
+  min-height: 500px
+
+.item
+  display: inline-block
+  vertical-align: top
+  position: relative
+  width: 252px
+  height: auto
+  border: 1px solid lightgrey
+  border-radius: 2px
+  box-shadow: 0 0 10px darkgrey
+  margin: 5px
+  transition: all 0.3s ease 0s
+  background-color: #fff
+
+  .content
+    display: block
+    position: relative
+    overflow: hidden
+    width: 250px
+    height: 200px
+    padding: 0
+
+    .link_to
+      display: block
+      position: relative
+      background-color: #f0f0f0
+      padding: 5px
+      border-bottom: 1px solid lightgrey
+      z-index: 10
+      width: auto
+      height: 30px
+
+    .description
+      display: block
+      position: relative
+      width: 250px
+      height: 170px
+      overflow: hidden
+      padding: 5px
+      padding-right: 20px
+
+      p
+        position: absolute
+        top: 0px
+        z-index: 8
+
+  .panel_top, .panel_bottom
+    display: block
+    position: relative
+    width: 250px
+
+  .panel_top
+    border-bottom: 1px solid lightgrey
+    height: 25px
+
+  .panel_bottom
+    overflow: hidden
+    border-top: 1px solid lightgrey
+    min-height: 25px
+    height: auto
+
+    .tags_cloud
+      margin: 0
+      padding: 5px
+
+    .tags_item
+      display: inline-block
+      vertical-align: top
+      position: relative
+      margin: 0
+      width: auto
+      padding: 3px 5px
+
+  .fields_addon
+    display: none
+    padding: 5px 10px
+
+.clear
+  clear: both
+
+.width_100
+  width: 100px
+
+.width_50
+  width: 50px
+
+p
+  &.heading
+    margin-top: 5px
+    margin-bottom: 0
+
+.btn
+  background-color: #fff
+  outline: none
+  &:hover, &:hover:focus, &:focus, &:focus:active, &:hover:active
+    outline: none
