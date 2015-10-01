@@ -56,7 +56,9 @@
 
   .panel_top
     border-bottom: 1px solid lightgrey
-    height: 25px
+    height: auto
+    padding: 3px
+    margin: 0
 
   .panel_bottom
     overflow: hidden
@@ -78,7 +80,13 @@
 
   .fields_addon
     display: none
-    padding: 5px 10px
+    position: absolute
+    background-color: #f7f7f7
+    padding: 5px 10px 10px
+    margin-top: 10px
+    border: 1px solid lightgrey
+    border-radius: 3px
+    box-shadow: 0 0 10px lightgrey
 
 .clear
   clear: both
@@ -95,7 +103,6 @@ p
     margin-bottom: 0
 
 .btn
-  background-color: #fff
   outline: none
   &:hover, &:hover:focus, &:focus, &:focus:active, &:hover:active
     outline: none
