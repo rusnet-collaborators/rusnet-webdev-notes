@@ -2111,7 +2111,7 @@ Simple and powerful MVC web framework for Tcl using XOTcl OO framework
 * framework
 
 
-# HASKELL
+# Haskell
 
 https://www.haskell.org
 Haskell. An advanced purely-functional programming language.
@@ -2146,6 +2146,18 @@ http://learnyouahaskell.com/chapters
 Learn You a Haskell for Great Good!
 * haskell
 * learn
+
+http://anton-k.github.io/ru-haskell-book/book/toc.html
+Некий классный учебник по haskell
+* learn
+* doc
+* online
+
+http://ohaskell.dshevchenko.biz/ru
+О прекрасном языке — языком человеческим. Перед вами — книга о Haskell, удивительном, мощном и красивом языке программирования.
+* learn
+* doc
+* online
 
 ### some packages
 
