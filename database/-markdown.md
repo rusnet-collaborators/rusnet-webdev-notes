@@ -2591,3 +2591,51 @@ Welcome to the IRCv3 Working Group. We're a group of IRC client and server softw
 * irc
 * protocol
 * standard
+
+https://tools.ietf.org/html/rfc1459
+RFC 1459 Internet Relay Chat Protocol
+* rfc
+* 1459
+* irc
+
+https://tools.ietf.org/html/rfc2813
+RFC 2813 Internet Relay Chat: Server Protocol
+* rfc
+* 2813
+* irc
+
+https://tools.ietf.org/html/rfc2812
+RFC 2812 Internet Relay Chat: Client Protocol
+* rfc
+* 2812
+* irc
+
+https://tools.ietf.org/html/rfc2811
+RFC 2811 Internet Relay Chat: Channel Management
+* rfc
+* 2811
+* irc
+
+https://tools.ietf.org/html/rfc2810
+RFC 2810 Internet Relay Chat: Architecture
+* rfc
+* 2810
+* irc
+
+https://tools.ietf.org/html/rfc7194
+RFC 7194 Default Port for Internet Relay Chat (IRC) via TLS/SSL
+* rfc
+* 7194
+* irc
+
+http://irchelp.org
+Welcome to #irchelp. IRC provides a way of communicating in real time with people from all over the world.
+* irc
+* help
+* resource
+
+http://rfc2.ru/1459.rfc
+RFC 1459 — Протокол ретранслируемого интернет-чата (IRC)
+* rfc
+* irc
+* 1459
