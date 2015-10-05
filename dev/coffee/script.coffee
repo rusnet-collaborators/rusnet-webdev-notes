@@ -29,10 +29,56 @@ $ ->
     if $(target).attr('data-uid') is undefined
       target = $(target).parent()
 
-    console.log target
     uid = $(target).attr 'data-uid'
-    console.log "uid: " + uid
 
     $('[role="panel_settings"][data-uid="' + uid + '"]').toggle()
     return
+
+  set_percent = (element, data) ->
+    width = data + '%'
+    $(element)
+      .css 'width', width
+      .attr 'aria-valuenow', data
+    return
+
+  $('[data-command="study-increase"]').on 'click', (event) ->
+    event = event || window.event
+    target = event.target || event.srcElement
+    event.preventDefault()
+
+    if $(target).attr('data-uid') is undefined
+      target = $(target).parent()
+    uid = $(target).attr 'data-uid'
+    progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+    percent = parseInt $(progress).attr 'aria-valuenow'
+
+    if percent < 100
+      percent += 1
+
+    set_percent progress, percent
+
+    input = $('input[data-function="study"]').val percent
+    return
+
+  $('input[data-function="study"]')
+    .on 'change', (event) ->
+      event = event || window.event
+      target = event.target || event.srcElement
+      uid = $(target).attr 'data-uid'
+      value = $(target).val()
+      if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
+        progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+        set_percent progress, parseInt(value)
+      return
+
+    .on 'input', (event) ->
+      event = event || window.event
+      target = event.target || event.srcElement
+      uid = $(target).attr 'data-uid'
+      value = $(target).val()
+      if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
+        progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+        set_percent progress, parseInt(value)
+      return
+
   return
