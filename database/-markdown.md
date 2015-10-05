@@ -1368,6 +1368,11 @@ As a developer you use code written by other people all the time. To keep upstre
 * manual
 * online
 
+http://habrahabr.ru/company/mailru/blog/267595
+19 советов по повседневной работе с Git
+* git
+* habrahabr
+
 ### cheatsheet
 
 http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png
