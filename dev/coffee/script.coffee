@@ -39,26 +39,76 @@ $ ->
     $(element)
       .css 'width', width
       .attr 'aria-valuenow', data
+
+    input = $('input[data-function="study"]').val data
     return
 
-  $('[data-command="study-increase"]').on 'click', (event) ->
-    event = event || window.event
-    target = event.target || event.srcElement
-    event.preventDefault()
+  mousehold =
+    count: ->
+      if @command is 'increase' and @percent < 100
+        @percent += 1
+      else if @command is 'decrease' and @percent > 0
+        @percent -= 1
+      set_percent @progress, @percent
+      return
 
-    if $(target).attr('data-uid') is undefined
-      target = $(target).parent()
-    uid = $(target).attr 'data-uid'
-    progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
-    percent = parseInt $(progress).attr 'aria-valuenow'
+    run: ->
+      @interval = setInterval @count.bind(@), 50
+      return
 
-    if percent < 100
-      percent += 1
+    run_interval: ->
+      @timeout = setTimeout @run.bind(@), 500
+      return
 
-    set_percent progress, percent
+    clear: ->
+      clearInterval @interval
+      clearTimeout @timeout
+      clearInterval @interval
+      clearTimeout @timeout
+      return
 
-    input = $('input[data-function="study"]').val percent
-    return
+  $('[data-command^="study-"]')
+    .on 'click', (event) ->
+      event = event || window.event
+      target = event.target || event.srcElement
+      event.preventDefault()
+
+      if $(target).attr('data-uid') is undefined
+        target = $(target).parent()
+      uid = $(target).attr 'data-uid'
+      progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+      percent = parseInt $(progress).attr 'aria-valuenow'
+      command = $(target).attr('data-command').split('-')[1]
+
+      if command is 'increase' and percent < 100
+        percent += 1
+      else if command is 'decrease' and percent > 0
+        percent -= 1
+
+      set_percent progress, percent
+
+      return
+
+    .on 'mousedown', (event) ->
+      event = event || window.event
+      target = event.target || event.srcElement
+
+      if $(target).attr('data-uid') is undefined
+        target = $(target).parent()
+      uid = $(target).attr 'data-uid'
+      progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+      percent = parseInt $(progress).attr 'aria-valuenow'
+      command = $(target).attr('data-command').split('-')[1]
+
+      mousehold.progress = progress
+      mousehold.percent  = percent
+      mousehold.command  = command
+      mousehold.run_interval()
+      return
+
+    .on 'mouseup mouseleave mouseout', (event) ->
+      mousehold.clear()
+      return
 
   $('input[data-function="study"]')
     .on 'change', (event) ->
