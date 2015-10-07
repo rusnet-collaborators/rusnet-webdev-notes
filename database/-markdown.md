@@ -2339,10 +2339,30 @@ The Right Way is an easy-to-read, quick reference for PHP popular coding standar
 
 # Clojure
 
+http://clojure.org
+Clojure is a dynamic programming language that targets the Java Virtual Machine.
+* clojure
+
+http://clojure.ru
+Мультиплатформенный, динамический и быстрый язык с упором на многопоточность и интерактивность.
+* clojure
+* russian
+
 http://feeds.feedburner.com/RussianClojurePlanet
 Russian Clojure Planet.
 * clojure
 * Russian
+
+### docs
+
+http://habrahabr.ru/post/173071
+Почему стоит изучить Clojure?
+
+### FastRun
+
+http://alexott.net/ru/clojure/clojure-intro
+* clojure
+* fastrun
 
 
 # Rust
