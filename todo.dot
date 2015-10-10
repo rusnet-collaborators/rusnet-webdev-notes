@@ -1,6 +1,6 @@
 digraph G {
     label="rusnet webdev notes"
-    node[                         \
+    node[
         shape="record"            \
         resolution="100"          \
         fontsize="10"             \
@@ -9,7 +9,8 @@ digraph G {
         fontcolor="#0AA0DD"       \
     ]
     bgcolor="#f0f0f0"
-    edge[                         \
+
+    edge[
         color="#0AA0DD"           \
         arrowsize="0.7"           \
         fontsize="6"              \
@@ -17,25 +18,58 @@ digraph G {
         fontcolor="#0AA0DD"       \
         fontname="Free Mono Bold" \
     ]
+
     dpi=200
     splines=true
 
     Item [
-        label="{ Item     |\
-            - methods -   |\
-            :save\l       |\
-            :set\l        |\
-            - storage -   |\
-            :ItemStorage   \
+        label="{ Item              |\
+            - vars & relations - \l|\
+            :uid                 \r|\
+            :name                \r|\
+            :tags_uid            \r|\
+            - methods -          \l|\
+            :save                \r|\
+            :set                 \r|\
+            - storage -          \l|\
+            :ItemStorage          \r\
         }"
     ]
+
+    RootListForItems [
+        label="{ Root List for Items |\
+        }"
+    ]
+
     List [
-        label="{ List     |\
-            - methods -   |\
-            :set\l        |\
-            :get\l         \
+        label="{ List              |\
+            - vars & relations - \l|\
+            :uid                 \r|\
+            :name                \r|\
+            :count               \r|\
+            :items_uid           \r|\
+            - methods -          \l|\
+            :set                 \r|\
+            :get                  \r\
         }"
     ]
+
+    RoorListForLists [
+        label="{ Root List for Lists |\
+        }"
+    ]
+
+    Tag [
+        label="{ Tag               |\
+            - vars & relations - \l|\
+            :uid                 \r|\
+            :name                \r|\
+            :items_uid           \r|\
+            - methods -          \l|\
+                                  \r\
+        }"
+    ]
+
     Storage [
         label="{ Storage  |\
             - methods -   |\
@@ -44,6 +78,27 @@ digraph G {
         }"
     ]
 
+    Functions [
+        label="{ Functions    |\
+            - gen_uid -     \l|\
+            desc            \r|\
+            - render me -   \l|\
+            desc            \r|\
+        }"
+    ]
+
+    Process [
+        label="{ Process                                 |\
+            load data items                            \l|\
+            init items                                 \l|\
+            load data lists                            \l|\
+            init lists                                 \l|\
+            load json data\l [if data time is expired] \r|\
+            init json data\l [if data time is expired]  \r\
+        }"
+    ]
+
     Item -> Storage
     List -> Storage
+    Tag -> Storage
 }
