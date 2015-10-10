@@ -1,0 +1,49 @@
+digraph G {
+    label="rusnet webdev notes"
+    node[                         \
+        shape="record"            \
+        resolution="100"          \
+        fontsize="10"             \
+        color="#0AA0DD"           \
+        fontname="Free Mono Bold" \
+        fontcolor="#0AA0DD"       \
+    ]
+    bgcolor="#f0f0f0"
+    edge[                         \
+        color="#0AA0DD"           \
+        arrowsize="0.7"           \
+        fontsize="6"              \
+        shape="insulator"         \
+        fontcolor="#0AA0DD"       \
+        fontname="Free Mono Bold" \
+    ]
+    dpi=200
+    splines=true
+
+    Item [
+        label="{ Item     |\
+            - methods -   |\
+            :save\l       |\
+            :set\l        |\
+            - storage -   |\
+            :ItemStorage   \
+        }"
+    ]
+    List [
+        label="{ List     |\
+            - methods -   |\
+            :set\l        |\
+            :get\l         \
+        }"
+    ]
+    Storage [
+        label="{ Storage  |\
+            - methods -   |\
+            :set\l        |\
+            :get\l         \
+        }"
+    ]
+
+    Item -> Storage
+    List -> Storage
+}
