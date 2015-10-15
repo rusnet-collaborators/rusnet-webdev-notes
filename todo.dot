@@ -26,13 +26,21 @@ digraph G {
         label="{ Item              |\
             :uid                 \r|\
             :name                \r|\
-            :tags_uid             \r\
+            :url                 \r|\
+            :description         \r|\
+            :progress_of_learn   \r|\
+            :color_of_accent     \r|\
+            :status              \r|\
+                                 \r|\
+            :tags_uid            \r|\
+            :timer_uid           \r\
         }"
     ]
 
     Item -> Storage
-
     Item -> ItemMethods
+    Item -> PanelsItem
+    Item -> ContentItem
 
     ItemMethods [
         label="{ methods }"
@@ -40,36 +48,35 @@ digraph G {
     ItemMethods -> { save set }
 
     TopPanelButtonsList [
-        label="{ Top Panel Buttons List   |\
-            :config_toggle               \l|\
-            :timer_toggle                \l|\
-            :marked_as_remove_toggle     \l\
+        label="{ Top Panel Buttons List     |\
+            :config_toggle                \l|\
+            :timer_toggle                 \l|\
+            :marked_as_remove_toggle      \l\
         }"
     ]
 
-    Item -> Panels
-    Panels -> panel_top
-    Panels -> panel_bottom
-    panel_top -> buttons -> { config_toggle timer_toggle marked_as_remove_toggle }
-
-    panel_bottom -> config_for_item
-
-    config_for_item [
-        label="{ config for: }"
+    PanelsItem [ label="{ panels    |\
+            :panel_top            \l|\
+            :panel_bottom         \l\
+        }"
     ]
 
-    config_for_item -> progress_of_learn
-    config_for_item -> color_of_accent
+    PanelsItem -> panel_top
+    PanelsItem -> panel_bottom
+
+    ContentItem -> { itemDescription itemUrl }
+
+    panel_top -> buttons -> { config_toggle timer_toggle marked_as_remove_toggle }
+
+    panel_bottom -> area
+    area -> { progress_of_learn color_of_accent }
 
     ListOfMarks [
         label="{ List of Marks     |\
             :progress_of_learn   \l|\
-            :color_of_accent     \l|\
+            :color_of_accent     \l\
         }"
     ]
-
-    Item -> progress_of_learn
-    Item -> color_of_accent
 
     RootListForItems [
         label="{ Root List for Items |\
@@ -85,7 +92,7 @@ digraph G {
             :items_uid           \r|\
             - methods -          \l|\
             :set                 \r|\
-            :get                  \r\
+            :get                 \r\
         }"
     ]
 
@@ -101,15 +108,15 @@ digraph G {
             :name                \r|\
             :items_uid           \r|\
             - methods -          \l|\
-                                  \r\
+                                 \r\
         }"
     ]
 
     Storage [
-        label="{ Storage  |\
-            - methods -   |\
-            :set\l        |\
-            :get\l         \
+        label="{ Storage   |\
+            - methods -    |\
+            :set         \l|\
+            :get         \l\
         }"
     ]
 
@@ -118,7 +125,7 @@ digraph G {
             - gen_uid -     \l|\
             desc            \r|\
             - render me -   \l|\
-            desc            \r|\
+            desc            \r\
         }"
     ]
 
@@ -129,7 +136,7 @@ digraph G {
             load data lists                            \l|\
             init lists                                 \l|\
             load json data\l [if data time is expired] \r|\
-            init json data\l [if data time is expired]  \r\
+            init json data\l [if data time is expired] \r\
         }"
     ]
 
