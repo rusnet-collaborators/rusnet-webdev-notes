@@ -24,17 +24,52 @@ digraph G {
 
     Item [
         label="{ Item              |\
-            - vars & relations - \l|\
             :uid                 \r|\
             :name                \r|\
-            :tags_uid            \r|\
-            - methods -          \l|\
-            :save                \r|\
-            :set                 \r|\
-            - storage -          \l|\
-            :ItemStorage          \r\
+            :tags_uid             \r\
         }"
     ]
+
+    Item -> Storage
+
+    Item -> ItemMethods
+
+    ItemMethods [
+        label="{ methods }"
+    ]
+    ItemMethods -> { save set }
+
+    TopPanelButtonsList [
+        label="{ Top Panel Buttons List   |\
+            :config_toggle               \l|\
+            :timer_toggle                \l|\
+            :marked_as_remove_toggle     \l\
+        }"
+    ]
+
+    Item -> Panels
+    Panels -> panel_top
+    Panels -> panel_bottom
+    panel_top -> buttons -> { config_toggle timer_toggle marked_as_remove_toggle }
+
+    panel_bottom -> config_for_item
+
+    config_for_item [
+        label="{ config for: }"
+    ]
+
+    config_for_item -> progress_of_learn
+    config_for_item -> color_of_accent
+
+    ListOfMarks [
+        label="{ List of Marks     |\
+            :progress_of_learn   \l|\
+            :color_of_accent     \l|\
+        }"
+    ]
+
+    Item -> progress_of_learn
+    Item -> color_of_accent
 
     RootListForItems [
         label="{ Root List for Items |\
@@ -98,7 +133,6 @@ digraph G {
         }"
     ]
 
-    Item -> Storage
     List -> Storage
     Tag -> Storage
 }
