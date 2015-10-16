@@ -10,6 +10,8 @@ digraph G {
     ]
     bgcolor="#f0f0f0"
 
+    node [ color="#0AA0DD" ]
+
     edge[
         color="#0AA0DD"           \
         arrowsize="0.7"           \
@@ -19,11 +21,14 @@ digraph G {
         fontname="Free Mono Bold" \
     ]
 
+    edge [ color="#0AA0DD" ]
+
     dpi=200
     splines=true
 
+//===========
     Item [
-        label="{ Item              |\
+        label="{ [ Item ]          |\
             :uid                 \r|\
             :name                \r|\
             :url                 \r|\
@@ -31,6 +36,10 @@ digraph G {
             :progress_of_learn   \r|\
             :color_of_accent     \r|\
             :status              \r|\
+                                 \r|\
+            :panel_top           \r|\
+            :panel_bottom        \r|\
+            :content_part        \r|\
                                  \r|\
             :tags_uid            \r|\
             :timer_uid           \r\
@@ -43,9 +52,11 @@ digraph G {
     Item -> ContentItem
 
     ItemMethods [
-        label="{ methods }"
+        label="{ methods        |\
+            :save             \r|\
+            :set              \r\
+        }"
     ]
-    ItemMethods -> { save set }
 
     TopPanelButtonsList [
         label="{ Top Panel Buttons List     |\
@@ -55,21 +66,51 @@ digraph G {
         }"
     ]
 
-    PanelsItem [ label="{ panels    |\
-            :panel_top            \l|\
-            :panel_bottom         \l\
+    node [ color="#A0DD0A" fontcolor="#A0DD0A" ]
+    edge [ color="#A0DD0A" fontcolor="#A0DD0A" ]
+    PanelsItem [
+        color="#A0DD0A"
+        fontcolor="#A0DD0A"
+        color="#A0DD0A"
+        label="{ panels area    |\
+            :panel_top        \l|\
+            :panel_bottom     \l\
         }"
     ]
 
     PanelsItem -> panel_top
     PanelsItem -> panel_bottom
 
-    ContentItem -> { itemDescription itemUrl }
+    ContentItem [
+        color="#A0DD0A"
+        fontcolor="#A0DD0A"
+        color="#A0DD0A"
+        label="{ content_part area   |\
+            :description           \l|\
+            :url                   \l\
+        }"
+    ]
+
+    ItemDescription [
+        label="{ description \
+        }"
+    ]
+
+    ItemUrl [
+        label="{ url \
+        }"
+    ]
+
+    ContentItem -> { ItemDescription ItemUrl }
 
     panel_top -> buttons -> { config_toggle timer_toggle marked_as_remove_toggle }
 
-    panel_bottom -> area
-    area -> { progress_of_learn color_of_accent }
+    panel_bottom -> { progress_of_learn color_of_accent }
+
+//=============
+
+    node [ color="#0AA0DD" fontcolor="#0AA0DD" ]
+    edge [ color="#0AA0DD" ]
 
     ListOfMarks [
         label="{ List of Marks     |\
