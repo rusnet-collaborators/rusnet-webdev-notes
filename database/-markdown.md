@@ -1704,6 +1704,11 @@ http://najomi.org
 * blog
 * notes
 
+http://icodealot.com
+ICODEALOT Hello, World!
+* blog
+* notes
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -1719,6 +1724,12 @@ http://radiojs.ru
 
 
 # Games & Competition
+
+https://screeps.com
+The world's first. MMO strategy open world game for programmers.
+* screeps
+* games
+* programmers
 
 
 # Emmet
@@ -2664,3 +2675,21 @@ RFC 1459 — Протокол ретранслируемого интернет-
 * rfc
 * irc
 * 1459
+
+
+# NoSQL
+
+### Redis
+
+http://redis.io
+Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker.
+* redis
+* nosql
+* database
+
+http://redis.js.org
+REDIS - A NODE.JS REDIS CLIENT. This is a complete and feature rich Redis client for node.js. It supports all Redis commands and focuses on performance.
+* redis
+* nosql
+* database
+
