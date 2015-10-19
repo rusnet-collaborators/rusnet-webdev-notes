@@ -26,7 +26,6 @@ digraph G {
     dpi=200
     splines=true
 
-//===========
     Item [
         label="{ [ Item ]          |\
             :uid                 \r|\
@@ -66,12 +65,7 @@ digraph G {
         }"
     ]
 
-    node [ color="#A0DD0A" fontcolor="#A0DD0A" ]
-    edge [ color="#A0DD0A" fontcolor="#A0DD0A" ]
     PanelsItem [
-        color="#A0DD0A"
-        fontcolor="#A0DD0A"
-        color="#A0DD0A"
         label="{ panels area    |\
             :panel_top        \l|\
             :panel_bottom     \l\
@@ -82,9 +76,6 @@ digraph G {
     PanelsItem -> panel_bottom
 
     ContentItem [
-        color="#A0DD0A"
-        fontcolor="#A0DD0A"
-        color="#A0DD0A"
         label="{ content_part area   |\
             :description           \l|\
             :url                   \l\
@@ -106,11 +97,6 @@ digraph G {
     panel_top -> buttons -> { config_toggle timer_toggle marked_as_remove_toggle }
 
     panel_bottom -> { progress_of_learn color_of_accent }
-
-//=============
-
-    node [ color="#0AA0DD" fontcolor="#0AA0DD" ]
-    edge [ color="#0AA0DD" ]
 
     ListOfMarks [
         label="{ List of Marks     |\
@@ -160,6 +146,8 @@ digraph G {
             :get         \l\
         }"
     ]
+
+    Storage -> LocalStorage [ label="like as driver" ]
 
     Functions [
         label="{ Functions    |\
