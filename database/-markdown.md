@@ -1214,6 +1214,11 @@ http://habrahabr.ru/post/266293
 * online
 * linux
 
+http://openmymind.net
+Классные каталогизированные заметки
+* blog
+* notes
+
 
 # Тренировки и развитие
 
@@ -2692,4 +2697,14 @@ REDIS - A NODE.JS REDIS CLIENT. This is a complete and feature rich Redis client
 * redis
 * nosql
 * database
+
+http://www.rediscookbook.org
+The Redis cookbook. A collection of Redis how-to's, built by the Redis community.
+* redis
+* cookbook
+
+https://www.quora.com/What-are-5-mistakes-to-avoid-when-using-Redis
+What are 5 mistakes to avoid when using Redis?
+* redis
+* mistake
 
