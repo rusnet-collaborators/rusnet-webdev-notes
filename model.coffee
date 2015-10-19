@@ -31,10 +31,10 @@ gen_uid =
 
     c = @count[key]
     @count[key] += 1
-    return c
+    return key + '_' + c
 
 class Item
-  constructor: (@url, @uri, @url_raw, @description, @tags = []) ->
+  constructor: (@url, @uri, @url_raw, @description, @tags_uid = [], @header_uid = [], @list_uid = []) ->
     @uid = gen_uid.get @constructor.name.toLowerCase()
 
   set_url: (url) ->
@@ -56,6 +56,14 @@ class Item
     else
       return false
 
+  add_relation: (item) ->
+    if item is undefined
+      return false
+    else
+      name_item = item.constructor.name.toLowerCase()
+      if name_item is 'tag'
+        @
+
 class Tag
   constructor: (@name, @items = []) ->
     @uid = gen_uid.get @constructor.name.toLowerCase()
@@ -64,10 +72,16 @@ class Header
   constructor: (@name, @description, @items = []) ->
     @uid = gen_uid.get @constructor.name.toLowerCase()
 
-tag_storage = Object.create null
+class List
+  constructor: (@name, @description, @items = []) ->
+    @uid = gen_uid.get @constructor.name.toLowerCase()
 
-module.exports = [
-  Item
-  Tag
-  Header
-]
+storage = Object.create null
+
+module.exports =
+  item: Item
+  tag: Tag
+  header: Header
+  storage: storage
+  get_uid: gen_uid
+  localStorage: localStorage
