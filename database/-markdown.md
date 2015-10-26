@@ -1378,6 +1378,13 @@ http://habrahabr.ru/company/mailru/blog/267595
 * git
 * habrahabr
 
+### git-flow
+
+http://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html
+Шпаргалка по git-flow
+* git
+* git-flow
+
 ### cheatsheet
 
 http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png
