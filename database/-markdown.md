@@ -2708,3 +2708,15 @@ What are 5 mistakes to avoid when using Redis?
 * redis
 * mistake
 
+# R
+
+https://www.r-project.org
+R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. To download R, please choose your preferred CRAN mirror.
+* R
+* language
+
+http://www.r-bloggers.com
+R-Bloggers.com is a central hub (e.g: A blog aggregator) of content collected from bloggers who write about R (in English).
+* language
+* R
+* blog
