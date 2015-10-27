@@ -35,11 +35,11 @@ gulp.task 'gen_markdown', ->
     .pipe $.markdown()
     .pipe gulp.dest config.dev_path_static
 
-gulp.task 'gen_html', (cb) ->
+gulp.task 'gen_html', ->
   gulp.src path.join config.dev_path_static, '*.html'
     .pipe htmlincluder()
     .pipe gulp.dest config.prod_path_static
-  cb()
+  return
 
 gulp.task 'generate_content', gulpsync.sync [
   'gen_js'

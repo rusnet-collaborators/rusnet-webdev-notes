@@ -11,5 +11,6 @@ gulp.task 'copy', ->
     .pipe gulp.dest config.prod_path_img
   gulp.src path.join config.dev_path_js, '*.js'
     .pipe gulp.dest config.prod_path_js
+  return
 
 gulp.task 'copy_static', ['copy']
