@@ -2218,6 +2218,11 @@ Go by Example. Go is an open source programming language designed for building s
 * language
 * examples
 
+https://github.com/golang/go/wiki/Learn
+In addition to the resources available at golang.org there are a range of community-driven initiatives
+* go
+* learning
+
 
 # YAML
 
