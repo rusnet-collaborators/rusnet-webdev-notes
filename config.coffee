@@ -1,6 +1,6 @@
 path = require 'path'
 
-root = path.resolve '.', '..'
+root = __dirname
 
 database_path    = path.join root, 'database'
 
@@ -20,7 +20,7 @@ prod_path_css    = path.join prod_path_static, 'css'
 prod_path_sass   = path.join prod_path_static, 'sass'
 prod_path_img    = path.join prod_path_static, 'img'
 
-module.exports = ->
+module.exports =
   root:             root
 
   database_path:    database_path

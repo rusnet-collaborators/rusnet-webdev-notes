@@ -1,15 +1,20 @@
-$        = (require 'gulp-load-plugins')()
-config   = (require './config.coffee')()
-gulp     = require 'gulp'
-gulpsync = $.sync gulp
-path     = require 'path'
-del      = require 'del'
+$            = (require 'gulp-load-plugins')()
+gulp         = require 'gulp'
+gulpsync     = $.sync gulp
+path         = require 'path'
+config       = require './config.coffee'
+del          = require 'del'
 htmlincluder = require 'gulp-htmlincluder'
+
+gulp.task 'clean', ->
+  del config.prod_path_static, force: true
+  return
 
 gulp.task 'gen_js', ->
   gulp.src path.join config.dev_path_coffee, '*.coffee'
     .pipe $.coffee({bare: true}).on 'error', $.util.log
     .pipe gulp.dest path.join config.prod_path_js
+  return
 
 gulp.task 'gen_css', ->
   gulp.src path.join config.dev_path_sass, '*.sass'
@@ -29,11 +34,13 @@ gulp.task 'gen_css', ->
       ]
       cascade: true
     .pipe gulp.dest config.prod_path_css
+  return
 
 gulp.task 'gen_markdown', ->
   gulp.src path.join config.database_path, '*.md'
     .pipe $.markdown()
     .pipe gulp.dest config.dev_path_static
+  return
 
 gulp.task 'gen_html', ->
   gulp.src path.join config.dev_path_static, '*.html'
@@ -41,9 +48,29 @@ gulp.task 'gen_html', ->
     .pipe gulp.dest config.prod_path_static
   return
 
-gulp.task 'generate_content', gulpsync.sync [
+gulp.task 'copy', ->
+  gulp.src path.join config.dev_path_css, '*.css'
+    .pipe gulp.dest config.prod_path_css
+  gulp.src path.join config.dev_path_img, '*.png'
+    .pipe gulp.dest config.prod_path_img
+  gulp.src path.join config.dev_path_img, '*.jpg'
+    .pipe gulp.dest config.prod_path_img
+  gulp.src path.join config.dev_path_js, '*.js'
+    .pipe gulp.dest config.prod_path_js
+  return
+
+gulp.task 'predeploy', ->
+  gulp.src path.join config.dev_path, 'CNAME'
+    .pipe gulp.dest config.prod_path_static
+
+gulp.task 'deploy', ['predeploy'], $.shell.task [ 'surge ' + config.prod_path_static ]
+
+gulp.task 'default', gulpsync.sync [
+  'clean'
   'gen_js'
   'gen_css'
   'gen_markdown'
   'gen_html'
+  'copy'
+  'deploy'
 ]
