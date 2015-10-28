@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "server": "coffee ./bin/www.coffee"
+    "server": "coffee ./bin/www.coffee",
+    "test": "cd ./build && gulp"
   },
   "repository": {
     "type": "git",
