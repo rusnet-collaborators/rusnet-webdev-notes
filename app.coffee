@@ -11,7 +11,7 @@ app.use logger 'dev'
 app.use bodyParser.json()
 app.use bodyParser.urlencoded extended: false
 app.use cookieParser()
-app.use express.static path.join __dirname, 'prod', 'static'
+app.use express.static path.join __dirname, 'prod'
 
 app.use (req, res, next) ->
   err = new Error('Not Found')
