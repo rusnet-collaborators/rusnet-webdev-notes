@@ -41,7 +41,6 @@ gulp.task 'gen_markdown', ->
   gulp.src path.join config.database_path, '*.md'
     .pipe $.markdown()
     .pipe gulp.dest config.dev_path
-  return
 
 gulp.task 'gen_html', ->
   gulp.src path.join config.dev_path, '*.html'

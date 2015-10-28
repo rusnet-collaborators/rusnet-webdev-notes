@@ -4,9 +4,9 @@
   "description": "#webdev channel support on RusNet",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
+    "start":  "gulp",
     "server": "coffee ./bin/www.coffee",
-    "test": "gulp"
+    "test":   "gulp"
   },
   "repository": {
     "type": "git",
