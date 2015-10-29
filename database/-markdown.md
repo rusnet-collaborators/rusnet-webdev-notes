@@ -2720,6 +2720,15 @@ What are 5 mistakes to avoid when using Redis?
 * redis
 * mistake
 
+### tools
+
+http://redisdesktop.com
+Redis Desktop Manager (aka RDM)— is a cross-platform open source Redis DB management tool (i.e. Admin GUI). Redis Desktop Manager developed to replace hundreds of slow and ugly tools for redis.
+* redis
+* viewer
+* tools
+
+
 # R
 
 https://www.r-project.org
