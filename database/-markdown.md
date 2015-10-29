@@ -2732,3 +2732,26 @@ R-Bloggers.com is a central hub (e.g: A blog aggregator) of content collected fr
 * language
 * R
 * blog
+
+
+# Freelance
+
+https://www.upwork.com
+
+http://www.guru.com
+The best place for employers and freelancers to connect, collaborate, and get work done.
+
+https://www.freelancer.com
+Freelancer.com является крупнейшим в мире рынком фрилансинга, аутсорсинга и краудсорсинга по количеству пользователей и проектов.
+* freelance
+
+http://www.toptal.com
+Toptal was created by engineers. We are entrepreneurs, all passionate about working with top tech talent and exciting companies from all over the world.
+Toptal connects the **top 3%** of freelance designers and developers all over the world.
+* freelance
+
+https://www.fl.ru
+Fl.ru — крупнейшая русскоязычная биржа удаленной работы.
+* freelance
+
+https://codility.com
