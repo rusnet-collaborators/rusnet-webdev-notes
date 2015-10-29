@@ -2728,6 +2728,12 @@ Redis Desktop Manager (aka RDM)— is a cross-platform open source Redis DB mana
 * viewer
 * tools
 
+http://joeferner.github.io/redis-commander
+Redis-Commander is a node.js web application used to view, edit, and manage a Redis Database.
+* redis
+* viewer
+* tools
+
 
 # R
 
