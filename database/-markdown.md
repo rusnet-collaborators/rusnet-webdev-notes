@@ -2733,6 +2733,24 @@ Redis-Commander is a node.js web application used to view, edit, and manage a Re
 * redis
 * viewer
 * tools
+* nodejs
+
+http://protonail.com/products/keylord
+Cross-platform GUI application for administration key-value databases like Redis, LevelDB, etc.
+* redis
+* viewer
+
+https://github.com/marians/rebrow
+Python-Flask-based Browser for Redis Content
+* redis
+* viewer
+* python
+* flask
+
+http://fastoredis.com
+FastoRedis (fork of FastoNoSQL) — is a cross-platform open source Redis management tool (i.e. Admin GUI).
+* redis
+* viewer
 
 
 # R
