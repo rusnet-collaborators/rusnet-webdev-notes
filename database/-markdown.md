@@ -1078,6 +1078,11 @@ This is Cheatsheets — a collection of cheatsheets I've written.
 * cheatsheet
 * ricostacruz
 
+http://lzone.de
+Great Cheat Sheets Collection
+* cheatsheet
+* collection
+
 
 # Useful help tools
 
@@ -2751,6 +2756,13 @@ http://fastoredis.com
 FastoRedis (fork of FastoNoSQL) — is a cross-platform open source Redis management tool (i.e. Admin GUI).
 * redis
 * viewer
+
+### cheatsheet
+
+http://lzone.de/cheat-sheet/Redis
+Redis Cheat Sheet
+* redis
+* cheatsheet
 
 
 # R
