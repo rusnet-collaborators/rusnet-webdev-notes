@@ -237,6 +237,32 @@ DropzoneJS is an open source library that provides drag’n’drop file uploads 
 * plugin
 * jQuery
 
+### orm
+
+http://www.adaltas.com/projects/node-ron
+Redis ORM for NodeJs
+* redis
+* orm
+* nodejs
+
+http://www.camintejs.com
+Cross-db ORM for NodeJS! Multi-database ORM: redis, mongodb, mysql, sqlite, postgres, neo4j.
+* redis
+* mongodb
+* mysql
+* sqlite
+* postgres
+* orm
+* nodejs
+
+### blogs
+
+http://howtonode.org
+HowToNode.org is a community supported blog created by Tim Caswell.
+* nodejs
+* blog
+* community
+
 
 # Gulp
 
@@ -310,6 +336,17 @@ Content and site generator for Single page apps in depth (my book on single page
 
 https://github.com/substack/stream-handbook
 This document covers the basics of how to write node.js programs with streams.
+
+
+# Sails.js
+
+http://sailsjs.org
+Sails makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails.
+* framework
+* nodejs
+* mvc
+* apps
+* ruby on rails
 
 
 # AngularJS
@@ -1729,6 +1766,11 @@ http://najomi.org
 
 http://icodealot.com
 ICODEALOT Hello, World!
+* blog
+* notes
+
+http://fideloper.com
+Fideloper. Coding and servers, lots of Laravel. Open-sorcery.
 * blog
 * notes
 
