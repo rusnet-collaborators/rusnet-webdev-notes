@@ -2191,6 +2191,12 @@ Simple and powerful MVC web framework for Tcl using XOTcl OO framework
 * tcl
 * framework
 
+https://github.com/bradvoth/redis-tcl
+Tcl library for redis access
+* tcl
+* library
+* redis
+
 
 # Haskell
 
