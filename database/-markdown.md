@@ -702,6 +702,57 @@ The Pragmatic Programmer's Guide
 * programming
 * book
 
+https://gorails.com
+Screencasts for intermediate Ruby on Rails developers.
+* ruby
+* rails
+* screencast
+
+https://richonrails.com
+Welcome to RichOnRails. We strive to provide the best Ruby on Rails Tutorials on the internet.
+* ruby
+* rails
+* tutorials
+
+http://awesome-ruby.com
+A collection of awesome Ruby libraries, tools, frameworks and software. The essential Ruby to build modern Apps and Web Apps.
+* ruby
+* rails
+* tools
+* frameworks
+* librare
+
+https://rubymonk.com
+CodeMonk is an online platform to learn and teach programming in an interactive, collaborative and engaging environment.
+* ruby
+* courses
+* interactive
+* learning
+
+http://iwanttolearnruby.com
+Collection of Ruby tutorials, excercises, puzzles, screencasts, blogs, podcasts, conference recordings, and other resources to help you learn Ruby.
+* collection
+* links
+* resource
+* ruby
+* rails
+
+http://everydayrails.com
+Everyday Rails is about using the Ruby on Rails web application framework to get stuff done as a web developer. It’s about finding the best plugins, gems, and practices to get the most from Rails and help you get your apps to production.
+* ruby
+* blog
+* rails
+* tutorials
+* learning
+
+http://idiosyncratic-ruby.com
+Ruby is not only optimized for developer happiness, but also for writing one-liners and it is still one of the top choices for code golfers. Ruby's grammar definition is more than 10000 lines long and there is no editor or syntax highlighter that actually highlights Ruby correctly.
+* ruby
+* rails
+* blog
+* learning
+* tutorials
+
 ### advanced
 
 http://learnrubythehardway.org/book
