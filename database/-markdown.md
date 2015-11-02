@@ -2911,3 +2911,16 @@ Fl.ru — крупнейшая русскоязычная биржа удале�
 * freelance
 
 https://codility.com
+
+
+# Templates
+
+https://onepagelove.com
+The ultimate resource for One Page website inspiration.
+* templates
+* resources
+
+http://startbootstrap.com
+Start Bootstrap. Free Bootstrap Themes & Templates.
+* templates
+* resources
