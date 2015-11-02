@@ -1126,6 +1126,12 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 * cheatsheet
 * speed
 
+http://www.tablesgenerator.com
+Tables Generator. LaTeX Tables. HTML Tables. Text Tables. Markdown Tables. MediaWiki Tables.
+* table
+* generator
+* markdown
+
 
 # Useful help tools
 
