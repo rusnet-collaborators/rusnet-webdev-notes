@@ -641,6 +641,14 @@ http://habrahabr.ru/post/253121
 * http
 * rack-cache
 
+### xmlhttp
+
+http://xmlhttprequest.ru
+XMLHTTPRequest: описание, применение, частые проблемы
+* xml
+* http
+* request
+
 
 # Ruby & Ruby on Rails
 
@@ -1182,6 +1190,28 @@ Tables Generator. LaTeX Tables. HTML Tables. Text Tables. Markdown Tables. Media
 * table
 * generator
 * markdown
+
+http://rghost.ru
+Обмен файлами.
+* file
+* sharing
+
+http://zetcode.com
+ZetCode brings tutorials for programmers in various areas. The main are Graphical User Interfaces, databases, and programming languages. The website's mission is to provide competent, quick and easy to understand tutorials for modern-day technologies.
+* zetcode
+* examples
+* tutorials
+
+http://www.iconarchive.com
+IconArchive is a professional tag based icon search engine with more than 500,000 icons for web developers, end users and graphic artists.
+* icon
+* archive
+
+http://code.activestate.com
+ActiveState Code — Learn. Share. Get stuff done.
+* activestate
+* code
+* examples
 
 
 # Useful help tools
@@ -1831,6 +1861,11 @@ Fideloper. Coding and servers, lots of Laravel. Open-sorcery.
 * blog
 * notes
 
+http://www.simonewebdesign.it
+Simone Vittori is a web developer originally from Perugia, Italy, but now living in London, England. He strongly believes in open source, and thinks that Ruby is the best programming language ever made.
+* blog
+* notes
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -1938,6 +1973,11 @@ https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md
 * bash
 * art
 * command-line
+
+http://www.bash-scripting.ru/abs/chunks
+Advanced Bash Scripting по-русски. Детальное руководство по искусству shell-скриптинга.
+* bash
+* scripting
 
 
 # JS framework & JS library
@@ -2253,6 +2293,16 @@ Tcl library for redis access
 * tcl
 * library
 * redis
+
+* icon
+* archive
+### examples
+
+http://www.tcl.tk/software/plugin/applets.html
+Demos for the Tcl Plugin
+* tcl
+* example
+* plugins
 
 
 # Haskell
