@@ -2005,6 +2005,13 @@ Writing Robust Bash Shell Scripts
 * scripting
 * examples
 
+http://kvz.io/blog/2013/11/21/bash-best-practices
+Best Practices for Writing Bash Scripts
+* best practices
+* shell
+* bash
+* scripting
+
 
 # JS framework & JS library
 
