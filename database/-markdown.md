@@ -962,6 +962,15 @@ Kivy - Open source Python library for rapid development of applications that mak
 * application
 * touch
 
+### ---
+
+http://pythonworld.ru/osnovy/python2-vs-python3-razlichiya-sintaksisa.html
+Python2 vs Python3: различия синтаксиса
+* python2
+* python3
+* different
+* article
+
 
 # Useful help resources
 
