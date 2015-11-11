@@ -1996,6 +1996,15 @@ Advanced Bash Scripting по-русски. Детальное руководст
 * bash
 * scripting
 
+### articles
+
+http://www.davidpashley.com/articles/writing-robust-shell-scripts
+Writing Robust Bash Shell Scripts
+* bash
+* shell
+* scripting
+* examples
+
 
 # JS framework & JS library
 
