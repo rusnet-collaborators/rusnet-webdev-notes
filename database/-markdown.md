@@ -3035,3 +3035,13 @@ http://startbootstrap.com
 Start Bootstrap. Free Bootstrap Themes & Templates.
 * templates
 * resources
+
+
+# Courses & training
+
+https://www.datacamp.com
+Learn R and data analysis in the comfort of your browser with video lessons and coding challenges. Discover our R tutorials and data science courses, and start analyzing your own data.
+* courses
+* training
+* analysis
+* R
