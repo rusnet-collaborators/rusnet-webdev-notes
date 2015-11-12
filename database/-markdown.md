@@ -1896,6 +1896,12 @@ http://radiojs.ru
 * podcast
 * javascript
 
+http://www.rwpod.com
+Подскасты о ruby, RoR, javascript и другое
+* ruby
+* rails
+* podcast
+
 
 # Games & Competition
 
