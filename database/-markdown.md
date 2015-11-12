@@ -1230,6 +1230,14 @@ ActiveState Code — Learn. Share. Get stuff done.
 * code
 * examples
 
+https://www.reddit.com
+User-generated news links. Votes promote stories to the front page.
+* reddit
+* resources
+* links
+* generator
+* news
+
 
 # Useful help tools
 
@@ -2023,6 +2031,14 @@ Best Practices for Writing Bash Scripts
 * shell
 * bash
 * scripting
+
+### resources
+
+http://wiki.bash-hackers.org
+The Bash-Hackers Wiki
+* bash
+* wiki
+* hackers
 
 
 # JS framework & JS library
