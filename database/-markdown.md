@@ -1280,6 +1280,12 @@ Regex Crossword. Welcome to the fantastic world of nerdy regex fun! Start playin
 * teaching
 * online
 
+http://www.regexr.com
+RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
+* regexp
+* online
+* tool
+
 http://subtlepatterns.com
 There has always been great resources available online for designers and developers, and I’ve been using these myself since I started making websites some twelve years ago – that’s the fantastic thing about the web community.
 * background
