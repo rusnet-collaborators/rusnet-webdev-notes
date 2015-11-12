@@ -271,6 +271,14 @@ ___
 * snippets
 * express
 
+### library
+
+https://fitzgen.github.io/wu.js
+wu.js is a JavaScript library providing higher order functions (such as map, filter, and reduce) for ECMAScript 6 iterators.
+* javascript
+* providing
+* functions
+
 
 # Gulp
 
