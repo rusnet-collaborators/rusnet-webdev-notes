@@ -1677,6 +1677,35 @@ CSS ARROW PLEASE! Generate the CSS for a tooltip arrow.
 * generator
 * arrow
 
+###
+
+http://www.transformicons.com
+Transformicons: Animated icons, symbols and buttons using SVG and CSS.
+* icons
+* transformicons
+
+https://connoratherton.com
+CONNOR ATHERTON AND IMAKE COOL THINGS FOR THE WEB.
+* some
+
+http://saeedalipoor.github.io/icono
+Pure css icons, with only one element
+* icons
+
+http://thatmikeflynn.com/egg.js
+Egg.js is a simple JS library that has no prerequisites and allows you to easily add web easter eggs by watching the user's key strokes.
+* egg
+* library
+
+http://maxwellito.github.io/vivus
+vivus, bringing your SVGs to life
+* svg
+
+http://www.slashie.org/space.js
+Space.js HTML-driven narrative 3D-scrolling
+* space.js
+* scrolling
+
 ### some grid
 
 http://flexboxgrid.com
