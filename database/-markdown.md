@@ -2561,10 +2561,25 @@ by //
 https://www.youtube.com/watch?v=Ay8vzCHkgEk
 [Black MIDI] Synthesia - "Pi" π/3.14 MILLION (3,141,592) ~ TheSuperMarioBros2
 
+by Michael Sobin
+
+http://www.youtube.com/watch?v=SINjsb3plWI
+Contra (nes/dendy) - All stages OST Metal cover. With gameplay.
+
+http://www.youtube.com/watch?v=Qs4iC8O3ocY
+Earthworm Jim OST (Mega Rock Cover) New Junk City/Anything But Tangerines
+
+http://www.youtube.com/watch?v=_1wJ3SaJce0&index=9
+Иван Васильевич Меняет Профессию - Погоня (Гитарная рок версия!)
+
 ### just
 
 http://www.youtube.com/watch?v=kcnukP6KW7Q
 Alien 3 NES Music Cover version Dendy NES Famicom
+
+http://www.youtube.com/watch?v=mjLWxW3LBAA
+Darkwing Duck(NES) Guitar Cover
+
 
 ### demoscene
 
