@@ -1519,6 +1519,11 @@ Learn Essential Vim Skills with Drew Neil, author of Practical Vim.
 * vimcasts
 * learn
 
+http://vimsheet.com
+A Great Vim Cheat Sheet
+* vim
+* cheatsheet
+
 ### awesome plugins
 
 https://github.com/Valloric/YouCompleteMe
