@@ -102,6 +102,11 @@ As an asynchronous event driven framework, Node.js is designed to build scalable
 * event
 * framework
 
+https://docs.nodejitsu.com
+docs.nodejitsu.com is an open source project and is curated by the Nodejitsu team and friends. If you have articles or ideas that you would like to contribute, we'd very much like to accept your pull request!
+* nodejs
+* docs
+
 ### advanced
 
 http://callbackhell.com
