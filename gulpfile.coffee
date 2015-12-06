@@ -138,10 +138,8 @@ gulp.task 'default', gulpsync.sync [
   'gen_css'
   'gen_markdown'
   'gen_html'
-  'watcher'
 ]
 
-gulp.task 'compile', gulpsync.sync [
-  'gen_json'
-  'gen_html'
+gulp.task 'watch', gulpsync.sync [
+  'watcher'
 ]
