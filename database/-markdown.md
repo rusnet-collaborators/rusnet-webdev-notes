@@ -284,6 +284,20 @@ wu.js is a JavaScript library providing higher order functions (such as map, fil
 * providing
 * functions
 
+### resources
+
+http://www.unheap.com
+Unheap - A tidy Repository of jQuery Plugins & JavaScripts
+* javascript
+* library
+* collection
+
+https://www.javascripting.com
+The definitive source of the best JavaScript libraries, frameworks, and plugins.
+* javascript
+* library
+* collection
+
 
 # Gulp
 
