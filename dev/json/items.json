@@ -1,0 +1,26 @@
+[
+  {
+    "uid": 1,
+    "uri": "http://vimawesome.com/plugin/the-nerd-tree",
+    "url": "http://vimawesome.com/plugin/the-nerd-tree",
+    "urn": "vimawesome.com/plugin/the-nerd-tree",
+    "protocol": "http:",
+    "host": "vimawesome.com",
+    "description": "VimAwesome - awesome vim plugins across the universe",
+    "position": "auto",
+    "study": {
+      "percent": 10,
+      "part": null
+    },
+    "cluster": [
+    ],
+    "lists": [
+      "1"
+    ],
+    "tags": [
+      1,
+      2,
+      3
+    ]
+  }
+]

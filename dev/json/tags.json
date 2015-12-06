@@ -1,0 +1,23 @@
+[
+  {
+    "uid": 1,
+    "name": "vim",
+    "items": [
+      1
+    ]
+  },
+  {
+    "uid": 2,
+    "name": "plugins",
+    "items": [
+      1
+    ]
+  },
+  {
+    "uid": 3,
+    "name": "awesome",
+    "items": [
+      1
+    ]
+  }
+]
