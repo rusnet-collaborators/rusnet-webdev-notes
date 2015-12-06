@@ -1,0 +1,3 @@
+storage = Object.create null
+
+
