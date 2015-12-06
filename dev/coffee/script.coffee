@@ -1,3 +1,65 @@
+storage = Object.create null
+
+localStorage = ls = window.localStorage
+
+localStorageDriver = lsd = {}
+
+sensors = s =
+  foo: "bar"
+
+gen_uid =
+  count: {}
+
+  init: ->
+    return
+
+  get: (key) ->
+    if @count[key] is undefined
+      @count[key] = 0
+
+    c = @count[key]
+    @count[key] += 1
+    key + '_' + c
+
+class Item
+  constructor: (@url, @uri, @url_raw, @description, @tags_uid = [], @header_uid = [], @list_uid = []) ->
+    @uid = gen_uid.get @constructor.name.toLowerCase()
+
+  set_url: (url) ->
+    @url_raw = url.trim()
+    if typeof url is 'string'
+      url = url.trim().split '://'
+      index = url.length - 1
+      @uri = uri = url[index].replace /\/$/, ''
+      @url_type = url_type = url[0]
+      @url = url_type + '://' + uri
+      return true
+    else
+      return false
+
+  set_description: (data) ->
+    if typeof data is 'string'
+      @description = data.trim()
+      return true
+    else
+      return false
+
+  add_relation: (item) ->
+    if item is undefined
+      return false
+    else
+      name_item = item.constructor.name.toLowerCase()
+      if name_item is 'tag'
+        @
+
+class Tag
+  constructor: (@name, @items = []) ->
+    @uid = gen_uid.get @constructor.name.toLowerCase()
+
+class List
+  constructor: (@name, @description, @items = []) ->
+    @uid = gen_uid.get @constructor.name.toLowerCase()
+
 $ ->
   $('.description').on 'mousewheel', (event) ->
     event = event || window.event
@@ -129,6 +191,13 @@ $ ->
       if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
         progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
         set_percent progress, parseInt(value)
+      return
+
+  $.ajax
+    url: 'template.html'
+    type: 'GET'
+    success: (data) ->
+      $('.main').append(data)
       return
 
   return
