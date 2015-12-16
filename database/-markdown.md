@@ -1971,6 +1971,11 @@ Simone Vittori is a web developer originally from Perugia, Italy, but now living
 * blog
 * notes
 
+http://podrugomu.com
+ > hello, world ! ПЕРСОНАЛЬНЫЙ БЛОГ
+* blog
+* notes
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
