@@ -2004,6 +2004,11 @@ The world's first. MMO strategy open world game for programmers.
 * games
 * programmers
 
+http://habrahabr.ru/post/273003
+Игры, которые учат программированию
+* games
+* programming
+
 
 # Emmet
 
