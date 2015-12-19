@@ -1,2 +1,52 @@
-body
+a
+  outline: 0
+  &:focus, &:active, &:hover
+    outline: 0
+  &.active
+    &:focus, &:active, &:hover
+      outline: 0
+
+
+.btn
+  outline: 0
+
+  &:focus, &:active, &:hover
+    outline: 0
+
+  &.active
+    &:focus, &:active, &:hover
+      outline: 0
+
+form
+  textarea
+    resize: vertical
+
+.item
   position: relative
+  display: block
+  float: left
+  border: 1px solid #f2f2f2
+  padding: 10px
+  width: 20%
+  height: 250px
+  border-radius: 0
+  transition: all 0.3s ease 0s
+  vertical-align: top
+
+  &:hover
+    box-shadow: 0 0 20px #d0d0d0
+    border: 1px solid #e0e0e0
+
+  .item__url
+    position: relative
+    border-bottom: 1px solid #f2f2f2
+    overflow: hidden
+
+  .item__description
+    position: relative
+    margin-top: 5px
+    margin-bottom: 5px
+
+  h1, h2, h3, h4, h5
+    margin-top: 0px
+    margin-bottom: 5px
