@@ -4,6 +4,10 @@ localStorage = ls = window.localStorage
 
 localStorageDriver = lsd = {}
 
+current_item = {}
+
+html_string = ""
+
 sensors = s =
   foo: "bar"
 
@@ -51,6 +55,14 @@ class Item
       name_item = item.constructor.name.toLowerCase()
       if name_item is 'tag'
         @
+
+  draw: ->
+    html = $(html_string)
+    $(html).find('[r-for="item url"]').attr 'href', @url
+    $(html).find('[r-for="item url"]').text @uri
+    $(html).find('[r-for="item description"]').text @description
+    $('.main').append(html)
+    return
 
 class Tag
   constructor: (@name, @items = []) ->
@@ -193,11 +205,48 @@ $ ->
         set_percent progress, parseInt(value)
       return
 
+  $('[r-command]').on 'click', (event) ->
+    event = event || window.event
+    target = event.target || event.srcElement
+    command = $(target).attr('r-command')
+
+    if command is 'save_item'
+      item = new Item
+      item.set_url current_item.rawurl
+      item.set_description current_item.description
+      item.draw()
+      current_item = {}
+      $('.modal.fade.in').modal 'hide'
+
+    return
+
+  $('.modal').on 'hidden.bs.modal', (event) ->
+    event = event || window.event
+    target = event.target || event.srcElement
+
+    $('[r-write]').each (index, el) ->
+      $(el).val ''
+      return
+
+    return
+
+  $('[r-write]').on 'change input keypress', (event) ->
+    event = event || window.event
+    target = event.target || event.srcElement
+    write_for = $(target).attr 'r-write'
+    object = write_for.split(' ')[0]
+    field = write_for.split(' ')[1]
+
+    if object is 'item'
+      current_item[field] = $(target).val()
+
+    return
+
   $.ajax
     url: 'template.html'
     type: 'GET'
     success: (data) ->
-      $('.main').append(data)
+      html_string = data
       return
 
   return
