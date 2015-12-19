@@ -91,14 +91,14 @@ gulp.task 'gen_markdown', ->
     .pipe gulp.dest config.dev_path
 
 gulp.task 'gen_html', ->
-  gulp.src path.join config.dev_path, '*.html'
-    .pipe $.htmlincluder()
+  gulp.src path.join config.dev_path, '*.ejs'
+    .pipe $.ejs()
     .pipe gulp.dest config.prod_path
   return
 
 gulp.task 'gen_html_livereload', ->
-  gulp.src path.join config.dev_path, '*.html'
-    .pipe $.htmlincluder()
+  gulp.src path.join config.dev_path, '*.ejs'
+    .pipe $.ejs()
     .pipe gulp.dest config.prod_path
     .pipe $.livereload()
   return
