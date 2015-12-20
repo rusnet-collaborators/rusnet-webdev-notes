@@ -13,6 +13,7 @@ dev_path_coffee = path.join dev_path, 'coffee'
 dev_path_css    = path.join dev_path, 'css'
 dev_path_sass   = path.join dev_path, 'sass'
 dev_path_img    = path.join dev_path, 'img'
+dev_path_ejs    = path.join dev_path, 'ejs'
 
 prod_path            = path.join root, 'prod'
 prod_path_js         = path.join prod_path, 'js'
@@ -37,6 +38,7 @@ module.exports =
   dev_path_css:     dev_path_css
   dev_path_sass:    dev_path_sass
   dev_path_img:     dev_path_img
+  dev_path_ejs:     dev_path_ejs
 
   prod_path:            prod_path
   prod_path_js:         prod_path_js
