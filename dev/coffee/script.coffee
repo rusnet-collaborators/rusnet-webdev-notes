@@ -1,6 +1,6 @@
-storage = Object.create null
+rstorage = window.rstorage = Object.create null
 
-localStorage = ls = window.localStorage
+ls = window.localStorage
 
 localStorageDriver = lsd = {}
 
@@ -15,6 +15,13 @@ gen_uid =
   count: {}
 
   init: ->
+    if ls['gen_uid_count']
+      @count = JSON.parse(ls['gen_uid_count'])
+    return
+
+  save: ->
+    data = JSON.stringify @count
+    ls['gen_uid_count'] = data
     return
 
   get: (key) ->
@@ -23,11 +30,19 @@ gen_uid =
 
     c = @count[key]
     @count[key] += 1
-    key + '_' + c
+    @save()
+    key + ':' + c
 
 class Item
-  constructor: (@url, @uri, @url_raw, @description, @tags_uid = [], @header_uid = [], @list_uid = []) ->
-    @uid = gen_uid.get @constructor.name.toLowerCase()
+  constructor: (@uid, @url, @uri, @url_raw, @description, @tags_uid = [], @list_uid = []) ->
+    @type = @constructor.name.toLowerCase()
+
+  set_uid: (uid) ->
+    if uid
+      @uid = uid
+    else
+      @uid = gen_uid.get @constructor.name.toLowerCase()
+    return
 
   set_url: (url) ->
     @url_raw = url.trim()
@@ -64,6 +79,16 @@ class Item
     $('.main').append(html)
     return
 
+  save: ->
+    json = JSON.stringify(@)
+    if rstorage[@type] is undefined then rstorage[@type] = []
+    rstorage[@type].push @uid
+    ls[@uid] = json
+    ls['rstorage'] = JSON.stringify(rstorage[@type])
+    @draw()
+    return
+
+
 class Tag
   constructor: (@name, @items = []) ->
     @uid = gen_uid.get @constructor.name.toLowerCase()
@@ -72,10 +97,28 @@ class List
   constructor: (@name, @description, @items = []) ->
     @uid = gen_uid.get @constructor.name.toLowerCase()
 
+items_init = ->
+  raw_items = Object.keys ls
+  raw_items = raw_items.filter (el) ->
+    if /item/.test(el) is true
+      return true
+    else
+      return false
+
+  raw_items.forEach (el) ->
+    item_raw = JSON.parse ls[el]
+    item = new Item
+    item.set_uid item_raw.uid
+    item.set_url item_raw.url_raw
+    item.set_description item_raw.description
+    item.draw()
+    return
+  return
+
 $ ->
   $('.description').on 'mousewheel', (event) ->
-    event = event || window.event
-    target = event.target || event.srcElement
+    event = event or window.event
+    target = event.target or event.srcElement
 
     if $(target).attr('class') is 'description'
       target = $(target).find 'p'
@@ -98,8 +141,8 @@ $ ->
     return
 
   $('[data-command="item_settings"]').on 'click', (event) ->
-    event = event || window.event
-    target = event.target || event.srcElement
+    event = event or window.event
+    target = event.target or event.srcElement
     if $(target).attr('data-uid') is undefined
       target = $(target).parent()
 
@@ -143,8 +186,8 @@ $ ->
 
   $('[data-command^="study-"]')
     .on 'click', (event) ->
-      event = event || window.event
-      target = event.target || event.srcElement
+      event = event or window.event
+      target = event.target or event.srcElement
       event.preventDefault()
 
       if $(target).attr('data-uid') is undefined
@@ -164,8 +207,8 @@ $ ->
       return
 
     .on 'mousedown', (event) ->
-      event = event || window.event
-      target = event.target || event.srcElement
+      event = event or window.event
+      target = event.target or event.srcElement
 
       if $(target).attr('data-uid') is undefined
         target = $(target).parent()
@@ -186,8 +229,8 @@ $ ->
 
   $('input[data-function="study"]')
     .on 'change', (event) ->
-      event = event || window.event
-      target = event.target || event.srcElement
+      event = event or window.event
+      target = event.target or event.srcElement
       uid = $(target).attr 'data-uid'
       value = $(target).val()
       if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
@@ -196,8 +239,8 @@ $ ->
       return
 
     .on 'input', (event) ->
-      event = event || window.event
-      target = event.target || event.srcElement
+      event = event or window.event
+      target = event.target or event.srcElement
       uid = $(target).attr 'data-uid'
       value = $(target).val()
       if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
@@ -206,23 +249,24 @@ $ ->
       return
 
   $('[r-command]').on 'click', (event) ->
-    event = event || window.event
-    target = event.target || event.srcElement
+    event = event or window.event
+    target = event.target or event.srcElement
     command = $(target).attr('r-command')
 
     if command is 'save_item'
       item = new Item
+      item.set_uid()
       item.set_url current_item.rawurl
       item.set_description current_item.description
-      item.draw()
+      item.save()
       current_item = {}
       $('.modal.fade.in').modal 'hide'
 
     return
 
   $('.modal').on 'hidden.bs.modal', (event) ->
-    event = event || window.event
-    target = event.target || event.srcElement
+    event = event or window.event
+    target = event.target or event.srcElement
 
     $('[r-write]').each (index, el) ->
       $(el).val ''
@@ -231,8 +275,8 @@ $ ->
     return
 
   $('[r-write]').on 'change input keypress', (event) ->
-    event = event || window.event
-    target = event.target || event.srcElement
+    event = event or window.event
+    target = event.target or event.srcElement
     write_for = $(target).attr 'r-write'
     object = write_for.split(' ')[0]
     field = write_for.split(' ')[1]
@@ -247,6 +291,8 @@ $ ->
     type: 'GET'
     success: (data) ->
       html_string = data
+      items_init()
+      gen_uid.init()
       return
 
   return
