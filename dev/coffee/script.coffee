@@ -1,6 +1,9 @@
-rstorage = window.rstorage = Object.create null
-
 ls = window.localStorage
+
+if ls['rstorage']
+  rstorage = JSON.parse ls['rstorage']
+else
+  rstorage = window.rstorage = Object.create null
 
 localStorageDriver = lsd = {}
 
@@ -261,6 +264,10 @@ $ ->
       item.save()
       current_item = {}
       $('.modal.fade.in').modal 'hide'
+
+    if command is 'clear_local_storage'
+      ls.clear()
+      location.reload()
 
     return
 
