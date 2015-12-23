@@ -1265,6 +1265,12 @@ User-generated news links. Votes promote stories to the front page.
 * generator
 * news
 
+https://duck.mail.ru
+Утка приходит на помощь. Кто поможет найти баги в коде? Конечно же, жёлто-резиновый гений! Расскажи о своей проблеме цифровому утёнку и в процессе общения сам не заметишь, как найдешь правильное решение.
+* duck
+* mail
+* helper
+
 
 # Useful help tools
 
@@ -3147,3 +3153,12 @@ Learn R and data analysis in the comfort of your browser with video lessons and 
 * training
 * analysis
 * R
+
+
+# Linux
+
+http://elinux.org/Main_Page
+Embedded Linux Wiki
+* embedded
+* linux
+* wiki
