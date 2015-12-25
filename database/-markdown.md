@@ -465,6 +465,21 @@ Underscore — это невероятно удобная JavaScript-библи�
 ### master
 
 
+# Prototype.js
+
+http://prototypejs.org
+Prototype JavaScript framework: a foundation for ambitious web applications
+* javascript
+* framework
+* application
+
+http://www.prototypejs.ru
+Прототайп Джаваскрипт Фрэймвёрк. Лента новостей о библиотеке prototype.js: AJAX, DOM, ООП и др.
+* prototype
+* rss
+* news
+
+
 # Raphaël
 
 http://raphaeljs.com
@@ -1277,6 +1292,12 @@ https://duck.mail.ru
 * mail
 * helper
 
+https://wikivox.ru
+Словарь ассоциаций русского языка
+* wiki
+* tools
+* dictionary
+
 
 # Useful help tools
 
@@ -1800,6 +1821,12 @@ Start your next web project with Pure.
 * project
 * pure
 
+http://haml.info
+Haml is a markup language that’s used to cleanly and simply describe the HTML of any web document without the use of inline code.
+* haml
+* markup
+* language
+
 ### table native color from css
 http://www.yellowpipe.com/yis/tools/hex-to-rgb/color-converter.php
 
@@ -1987,6 +2014,13 @@ http://podrugomu.com
  > hello, world ! ПЕРСОНАЛЬНЫЙ БЛОГ
 * blog
 * notes
+
+http://zabbix-monitoring.tk
+Linux, Zabbix etc... | monitoring forever!
+* blog
+* notes
+* monitoring
+* zabbix
 
 ### может это и не блог, но тоже полезно
 
@@ -2935,6 +2969,12 @@ MongoDB is a cross-platform document-oriented database.
 * mongodb
 * nosql
 
+http://mongoosejs.com
+Mongoose ODM
+* nodejs
+* mongodb
+* object modeling
+
 ### Интересное
 
 http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb
@@ -3168,3 +3208,16 @@ Embedded Linux Wiki
 * embedded
 * linux
 * wiki
+
+http://welinux.ru
+welinux.ru / Социальная сеть не фанатично настроенных пользователей Linux
+* linux
+* social
+* network
+
+https://the-bosha.ru
+Linux настройка, команды, сервер. Linux для всех
+* linux
+* blog
+* commands
+* servers
