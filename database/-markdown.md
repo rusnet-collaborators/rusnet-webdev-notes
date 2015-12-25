@@ -284,6 +284,12 @@ wu.js is a JavaScript library providing higher order functions (such as map, fil
 * providing
 * functions
 
+https://github.com/arasatasaygin/is.js
+Micro check library http://is.js.org
+* micro
+* check
+* library
+
 ### resources
 
 http://www.unheap.com
