@@ -1298,6 +1298,11 @@ https://wikivox.ru
 * tools
 * dictionary
 
+http://www.base.vingrad.ru
+База знаний Vingrad
+* base knowledge
+* vingrad
+
 
 # Useful help tools
 
@@ -1451,6 +1456,11 @@ NoteHub. Free and Hassle-free Pastebin for Markdown Notes.
 * markdown
 * public
 * paste
+
+http://www.transliter.ru
+Транслит переводчик, транслитерация онлайн
+* transliter
+* online
 
 
 # Тренировки и развитие
