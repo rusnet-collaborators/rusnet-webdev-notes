@@ -2028,6 +2028,11 @@ Linux, Zabbix etc... | monitoring forever!
 * monitoring
 * zabbix
 
+http://www.phpied.com
+Stoyan's web dev blog: phpied.com
+* web dev
+* blog
+
 ### может это и не блог, но тоже полезно
 
 http://imagick.metlan.ru
@@ -2207,6 +2212,14 @@ http://lokeshdhakar.com/projects/lightbox2
 Lightbox is a script used to overlay images on the current page. It's a snap to setup and works on all modern browsers.
 * lightbox
 * gallery
+* library
+
+http://madrobby.github.io/scriptaculous
+script.aculo.us is a set of JavaScript libraries to enhance the user interface of web sites. It provides an visual effects engine, a drag and drop library (including sortable lists), a couple of controls (Ajax-based autocompletion, in-place editing, sliders) and more.
+* library
+* effects
+* drag and drop
+* javascript
 
 http://owlgraphic.com/owlcarousel
 OWL Carousel -
