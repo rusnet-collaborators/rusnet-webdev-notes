@@ -2670,6 +2670,17 @@ by //
 https://www.youtube.com/watch?v=Ay8vzCHkgEk
 [Black MIDI] Synthesia - "Pi" π/3.14 MILLION (3,141,592) ~ TheSuperMarioBros2
 
+by Nommyde
+
+http://www.youtube.com/watch?v=pFbHycqNToY
+Contra Force Cover 1-3 levels
+
+http://www.youtube.com/watch?v=z5uOWxvVGlY
+NES Jurassic Park Cover
+
+http://www.youtube.com/watch?v=iDNtxqJ-L84
+Teenage Mutant Ninja Turtles Tournament Fighters Sewer Cover
+
 by Michael Sobin
 
 http://www.youtube.com/watch?v=SINjsb3plWI
@@ -2680,6 +2691,23 @@ Earthworm Jim OST (Mega Rock Cover) New Junk City/Anything But Tangerines
 
 http://www.youtube.com/watch?v=_1wJ3SaJce0&index=9
 Иван Васильевич Меняет Профессию - Погоня (Гитарная рок версия!)
+
+http://www.youtube.com/watch?v=_LiI1euzK-M
+TERMINATOR ost (HARD ROCK cover!). main theme.
+
+by A. Zubareus
+
+http://www.youtube.com/watch?v=bxTW53_aJ6A
+Jurassic Park nes
+
+http://www.youtube.com/watch?v=6IgD8oXrfLM
+TMNT Tournament Fighters cover
+
+http://www.youtube.com/watch?v=QMQNNK81qsc
+Duck Tales 2 - bermuda cover
+
+http://www.youtube.com/watch?v=DAB9gaueFMw
+Double Dragon III cover
 
 ### just
 
