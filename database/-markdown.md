@@ -2709,6 +2709,16 @@ Duck Tales 2 - bermuda cover
 http://www.youtube.com/watch?v=DAB9gaueFMw
 Double Dragon III cover
 
+by Melodic Guitar Rock/Metal GuiltyGearRockYou
+
+http://www.youtube.com/watch?v=IcIDfua1Pt8
+Metal Guitar Arrange: Battletoads & Double Dragon - Stage 2
+
+by Jonas Lefvert
+
+https://www.youtube.com/watch?v=t2ftR5Nf2V4
+Metroid (NES) - Guitar Medley (Beginning, Item Theme, Brinstar, Title Screen, Kraid's lair)
+
 ### just
 
 http://www.youtube.com/watch?v=kcnukP6KW7Q
