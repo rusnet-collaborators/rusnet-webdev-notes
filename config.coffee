@@ -5,7 +5,7 @@ root = __dirname
 database_path      = path.join root, 'database'
 database_json_path = path.join root, 'database_json'
 
-dev_path        = path.join root, 'dev'
+dev_path        = path.join root,     'dev'
 dev_path_js     = path.join dev_path, 'js'
 dev_path_json   = path.join dev_path, 'json'
 dev_path_fonts  = path.join dev_path, 'fonts'
@@ -15,7 +15,7 @@ dev_path_sass   = path.join dev_path, 'sass'
 dev_path_img    = path.join dev_path, 'img'
 dev_path_ejs    = path.join dev_path, 'ejs'
 
-prod_path            = path.join root, 'prod'
+prod_path            = path.join root,      'prod'
 prod_path_js         = path.join prod_path, 'js'
 prod_path_json       = path.join prod_path, 'json'
 prod_path_json_dbase = path.join prod_path, 'jsondbase'
@@ -30,15 +30,15 @@ module.exports =
   database_path:      database_path
   database_json_path: database_json_path
 
-  dev_path:         dev_path
-  dev_path_js:      dev_path_js
-  dev_path_json:    dev_path_json
-  dev_path_fonts:   dev_path_fonts
-  dev_path_coffee:  dev_path_coffee
-  dev_path_css:     dev_path_css
-  dev_path_sass:    dev_path_sass
-  dev_path_img:     dev_path_img
-  dev_path_ejs:     dev_path_ejs
+  dev_path:        dev_path
+  dev_path_js:     dev_path_js
+  dev_path_json:   dev_path_json
+  dev_path_fonts:  dev_path_fonts
+  dev_path_coffee: dev_path_coffee
+  dev_path_css:    dev_path_css
+  dev_path_sass:   dev_path_sass
+  dev_path_img:    dev_path_img
+  dev_path_ejs:    dev_path_ejs
 
   prod_path:            prod_path
   prod_path_js:         prod_path_js

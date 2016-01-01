@@ -76,6 +76,13 @@ class Item
 
   draw: ->
     html = $(html_string)
+    if window.column
+      column = window.column
+      if window.column < 4 then window.column += 1 else window.column = 0
+    else
+      window.column = 0
+      column = window.column
+
     $(html).find('[r-for="item url"]').attr 'href', @url
     $(html).find('[r-for="item url"]').text @uri
     $(html).find('[r-for="item description"]').text @description
