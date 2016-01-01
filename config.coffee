@@ -2,9 +2,6 @@ path = require 'path'
 
 root = __dirname
 
-database_path      = path.join root, 'database'
-database_json_path = path.join root, 'database_json'
-
 dev_path        = path.join root,     'dev'
 dev_path_js     = path.join dev_path, 'js'
 dev_path_json   = path.join dev_path, 'json'
@@ -18,17 +15,11 @@ dev_path_ejs    = path.join dev_path, 'ejs'
 prod_path            = path.join root,      'prod'
 prod_path_js         = path.join prod_path, 'js'
 prod_path_json       = path.join prod_path, 'json'
-prod_path_json_dbase = path.join prod_path, 'jsondbase'
-prod_path_coffee     = path.join prod_path, 'coffee'
 prod_path_css        = path.join prod_path, 'css'
-prod_path_sass       = path.join prod_path, 'sass'
 prod_path_img        = path.join prod_path, 'img'
 
 module.exports =
   root:             root
-
-  database_path:      database_path
-  database_json_path: database_json_path
 
   dev_path:        dev_path
   dev_path_js:     dev_path_js
@@ -43,8 +34,5 @@ module.exports =
   prod_path:            prod_path
   prod_path_js:         prod_path_js
   prod_path_json:       prod_path_json
-  prod_path_json_dbase: prod_path_json_dbase
-  prod_path_coffee:     prod_path_coffee
   prod_path_css:        prod_path_css
-  prod_path_sass:       prod_path_sass
   prod_path_img:        prod_path_img
