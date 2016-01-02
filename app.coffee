@@ -46,7 +46,8 @@ onError = (error) ->
 
 onListening = ->
   addr = server.address()
-  bind = if typeof addr is 'string' then 'pipe: ' + addr else 'port: ' + addr.port
+  bind = if typeof addr is 'string' then 'pipe: ' + addr else 'port: ' +
+    addr.port
   debug 'Listening on ' + bind
   return
 

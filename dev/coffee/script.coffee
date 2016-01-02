@@ -37,7 +37,8 @@ gen_uid =
     key + ':' + c
 
 class Item
-  constructor: (@uid, @url, @uri, @url_raw, @description, @tags_uid = [], @list_uid = []) ->
+  constructor: (@uid, @url, @uri, @url_raw, @description, @tags_uid = [],
+    @list_uid = []) ->
     @type = @constructor.name.toLowerCase()
 
   set_uid: (uid) ->
@@ -203,7 +204,8 @@ $ ->
       if $(target).attr('data-uid') is undefined
         target = $(target).parent()
       uid = $(target).attr 'data-uid'
-      progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+      progress = $('.progress-bar[data-function="study"][data-uid="' + uid +
+        '"]')
       percent = parseInt $(progress).attr 'aria-valuenow'
       command = $(target).attr('data-command').split('-')[1]
 
@@ -223,7 +225,8 @@ $ ->
       if $(target).attr('data-uid') is undefined
         target = $(target).parent()
       uid = $(target).attr 'data-uid'
-      progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+      progress = $('.progress-bar[data-function="study"][data-uid="' + uid +
+        '"]')
       percent = parseInt $(progress).attr 'aria-valuenow'
       command = $(target).attr('data-command').split('-')[1]
 
@@ -244,7 +247,8 @@ $ ->
       uid = $(target).attr 'data-uid'
       value = $(target).val()
       if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
-        progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+        progress = $('.progress-bar[data-function="study"][data-uid="' + uid +
+          '"]')
         set_percent progress, parseInt(value)
       return
 
@@ -254,7 +258,8 @@ $ ->
       uid = $(target).attr 'data-uid'
       value = $(target).val()
       if /^[0-9]{1,}$/.test(value) and parseInt(value) >= 0 and parseInt(value) <= 100
-        progress = $('.progress-bar[data-function="study"][data-uid="' + uid + '"]')
+        progress = $('.progress-bar[data-function="study"][data-uid="' + uid +
+          '"]')
         set_percent progress, parseInt(value)
       return
 

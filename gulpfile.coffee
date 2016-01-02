@@ -95,11 +95,16 @@ gulp.task 'copy_json_livereload', ->
 gulp.task 'watcher', ->
   $.livereload.listen
     port: 35729
-  gulp.watch path.join(config.dev_path_sass, '*.sass'),     ['gen_css_livereload']
-  gulp.watch path.join(config.dev_path_coffee, '*.coffee'), ['gen_js_livereload']
-  gulp.watch path.join(config.dev_path_json, '*.json'),     ['copy_json_livereload']
-  gulp.watch path.join(config.dev_path, '*.ejs'),           ['gen_html_livereload']
-  gulp.watch path.join(config.dev_path_ejs, '*.ejs'),       ['gen_html_livereload']
+  gulp.watch path.join(config.dev_path_sass, '*.sass'),
+    ['gen_css_livereload']
+  gulp.watch path.join(config.dev_path_coffee, '*.coffee'),
+    ['gen_js_livereload']
+  gulp.watch path.join(config.dev_path_json, '*.json'),
+    ['copy_json_livereload']
+  gulp.watch path.join(config.dev_path, '*.ejs'),
+    ['gen_html_livereload']
+  gulp.watch path.join(config.dev_path_ejs, '*.ejs'),
+    ['gen_html_livereload']
   return
 
 gulp.task 'default', gulpsync.sync [
