@@ -3288,3 +3288,9 @@ Linux настройка, команды, сервер. Linux для всех
 * blog
 * commands
 * servers
+
+
+# Flash
+
+http://help.adobe.com/ru_RU/FlashPlatform/reference/actionscript/3/index.html
+Справочник по ActionScript® 3.0 для платформы Adobe® Flash® содержит элементы языка ActionScript, основные библиотеки, а также пакеты и классы компонентов для средств, сред выполнения, служб и серверов, работающих на платформе Flash.
