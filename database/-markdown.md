@@ -1303,6 +1303,12 @@ http://www.base.vingrad.ru
 * base knowledge
 * vingrad
 
+http://www.flaticon.com
+flaticon is a free project, created for and by designers and developers.
+* flaticon
+* icons
+* pack
+
 
 # Useful help tools
 
@@ -2929,6 +2935,51 @@ Lua is a powerful, fast, lightweight, embeddable scripting language.
 * lua
 * official page
 * language
+
+https://luarocks.org
+LuaRocks is the package manager for Lua modules.
+* lua
+* package
+* manager
+
+http://lua-users.org
+lua-users.org is an internet site for and by users of the programming language Lua.
+* lua
+* scripting
+* resource
+
+http://www.lua.ru
+lua - русская документация.
+* lua
+* russian
+
+http://ilovelua.narod.ru
+Я люблю Lua. I love Lua.
+* lua
+* russian
+
+https://ilovelua.wordpress.com
+Я люблю Lua. I love Lua.
+* lua
+* russian
+
+http://luadist.org
+LuaDist A distribution of the Lua programming language
+* lua
+* dist
+* package
+* manager
+
+https://github.com/LewisJEllis/awesome-lua
+Some Lua Link Manager
+* lua
+* links
+* resource
+
+http://thomaslauer.com/download/luarefv51.pdf
+Lua Ref Card
+* lua
+* cheatsheet
 
 ### Docs
 
