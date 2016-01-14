@@ -3014,6 +3014,15 @@ https://ilovelua.wordpress.com
 * article
 * page
 
+### VIM
+
+http://peterodding.com/code/vim/lua-inspect
+luainspect.vim Semantic highlighting for Lua in Vim
+* lua
+* inspect
+* vim
+* highlights
+
 
 # ReactJS
 
