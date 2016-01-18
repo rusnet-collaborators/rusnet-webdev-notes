@@ -1468,6 +1468,10 @@ http://www.transliter.ru
 * transliter
 * online
 
+https://dpaste.de
+dpaste.de is powered by dpaste, which is open source.
+* paste
+
 
 # Тренировки и развитие
 
