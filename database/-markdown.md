@@ -2570,8 +2570,12 @@ Tcl library for redis access
 * library
 * redis
 
-* icon
-* archive
+http://www.xdobry.de/ttclcheck
+ttclcheck - Typed Tcl Checker
+* ttclcheck
+* tcl
+* checker
+
 ### examples
 
 http://www.tcl.tk/software/plugin/applets.html
@@ -2579,6 +2583,13 @@ Demos for the Tcl Plugin
 * tcl
 * example
 * plugins
+
+### test
+
+http://patorjk.com/pk/quizzes/tcl-tk-basics
+Tcl/Tk Basics By patorjk
+* tcl
+* test
 
 
 # Haskell
