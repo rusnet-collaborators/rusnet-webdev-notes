@@ -697,13 +697,32 @@ http://habrahabr.ru/post/253121
 * http
 * rack-cache
 
-### xmlhttp
+
+# XMLHTTP & AJAX
+
+https://www.w3.org/TR/XMLHttpRequest
+XMLHttpRequest
+* xmlhttprequest
+* w3
 
 http://xmlhttprequest.ru
 XMLHTTPRequest: описание, применение, частые проблемы
-* xml
-* http
-* request
+* xmlhttprequest
+
+http://www.w3schools.com/ajax
+AJAX Tutorial
+* xmlhttprequest
+
+http://api.jquery.com/jquery.ajax
+jQuery.ajax()
+* jquery
+* ajax
+
+https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest
+XMLHttpRequest is a JavaScript object that was designed by Microsoft and adopted by Mozilla, Apple, and Google.
+* ajax
+* xmlhttprequest
+* jquery
 
 
 # Ruby & Ruby on Rails
@@ -2109,16 +2128,7 @@ https://asciinema.org/a/8289
 https://asciinema.org/a/4568
 
 
-# Browsers
-
-http://caniuse.com
-"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
-* browsers
-* html
-* css
-* js
-* standart
-* supported
+# HTML5
 
 http://html5please.com
 When Can I Use tells you the browser support story, while Modernizr gives you the power of feature detection. HTML5 Please helps you out with recommendations for polyfills and implementation so you can decide if and how to put each of these features to use.
@@ -2140,6 +2150,42 @@ html5.by - статьи, новости, события, вопросы и от�
 * questions
 * answers
 * api
+
+http://www.html5rocks.com/en/resources
+HTML5 ROCKS RESOURCES All HTML5, all the time.
+* html5
+* resources
+
+http://w3c.github.io/html-reference
+HTML: The Markup Language (an HTML language reference)
+* html5
+* markup
+* reference
+
+
+# CSS
+
+https://www.w3.org/TR/CSS
+CSS Snapshot 2015 w3
+* css
+* reference
+
+https://www.w3.org/Style/CSS
+Cascading Style Sheets home page
+* css
+* reference
+
+
+# Browsers
+
+http://caniuse.com
+"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+* browsers
+* html
+* css
+* js
+* standart
+* supported
 
 
 # BASH
