@@ -3415,3 +3415,13 @@ Linux настройка, команды, сервер. Linux для всех
 
 http://help.adobe.com/ru_RU/FlashPlatform/reference/actionscript/3/index.html
 Справочник по ActionScript® 3.0 для платформы Adobe® Flash® содержит элементы языка ActionScript, основные библиотеки, а также пакеты и классы компонентов для средств, сред выполнения, служб и серверов, работающих на платформе Flash.
+
+
+# Colors
+
+http://www.color-hex.com
+Color-hex gives information about colors including color models (RGB,HSL,HSV and CMYK)
+* colors
+* palettes
+* hex
+* rgb
