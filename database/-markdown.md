@@ -3042,6 +3042,12 @@ Lua Ref Card
 * lua
 * cheatsheet
 
+https://luapower.com
+Luapower is a binary+source module distribution for LuaJIT and a way of deploying and sharing Lua modules.
+* lua
+* module
+* distribution
+
 ### Docs
 
 http://www.lua.org/pil/contents.html
