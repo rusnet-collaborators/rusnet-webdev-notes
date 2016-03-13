@@ -805,6 +805,12 @@ A collection of awesome Ruby libraries, tools, frameworks and software. The esse
 * frameworks
 * librare
 
+https://github.com/markets/awesome-ruby
+A collection of awesome Ruby libraries, tools, frameworks and software http://awesome-ruby.com
+* ruby
+* awesome
+* collection
+
 https://rubymonk.com
 CodeMonk is an online platform to learn and teach programming in an interactive, collaborative and engaging environment.
 * ruby
