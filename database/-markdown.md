@@ -183,6 +183,12 @@ jBinary makes it easy to work with binary files in JavaScript as with native obj
 * viewer
 * jbinary
 
+https://npmsearch.com
+Search for node packages on the npm registry.
+* node.js
+* search
+* packages
+
 ### cheatsheet
 
 http://browsenpm.org/help
