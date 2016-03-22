@@ -1517,6 +1517,12 @@ Project Euler is a series of challenging mathematical/computer programming probl
 * practices
 * mathematical
 
+https://duck.mail.ru
+Утка приходит на помощь.
+* duck
+* help
+* mail.ru
+
 
 # Wiki
 
