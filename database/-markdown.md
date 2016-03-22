@@ -1523,6 +1523,14 @@ https://duck.mail.ru
 * help
 * mail.ru
 
+http://loader.io
+Loader.io is a FREE load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections.
+* loader
+* free
+* web-apps
+* concurrent
+* connections
+
 
 # Wiki
 
