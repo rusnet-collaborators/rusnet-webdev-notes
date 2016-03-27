@@ -1012,6 +1012,12 @@ XlsxWriter is a Python module for creating Excel XLSX files
 * xlsx
 * xls
 
+https://github.com/winpython/winpython/blob/master/changelogs/WinPython-3.4.3.7.md
+The following packages are included in WinPython v3.4.3.7.
+* python
+* modules
+* list
+
 ### framework
 
 https://twistedmatrix.com
