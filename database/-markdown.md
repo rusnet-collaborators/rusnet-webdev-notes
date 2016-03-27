@@ -183,6 +183,12 @@ jBinary makes it easy to work with binary files in JavaScript as with native obj
 * viewer
 * jbinary
 
+https://npmsearch.com
+Search for node packages on the npm registry.
+* node.js
+* search
+* packages
+
 ### cheatsheet
 
 http://browsenpm.org/help
@@ -804,6 +810,12 @@ A collection of awesome Ruby libraries, tools, frameworks and software. The esse
 * tools
 * frameworks
 * librare
+
+https://github.com/markets/awesome-ruby
+A collection of awesome Ruby libraries, tools, frameworks and software http://awesome-ruby.com
+* ruby
+* awesome
+* collection
 
 https://rubymonk.com
 CodeMonk is an online platform to learn and teach programming in an interactive, collaborative and engaging environment.
@@ -1510,6 +1522,26 @@ Project Euler is a series of challenging mathematical/computer programming probl
 * projecteuler
 * practices
 * mathematical
+
+https://duck.mail.ru
+Утка приходит на помощь.
+* duck
+* help
+* mail.ru
+
+http://loader.io
+Loader.io is a FREE load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections.
+* loader
+* free
+* web-apps
+* concurrent
+* connections
+
+http://www.responsivegridsystem.com
+Responsive Grid System. Spectacularly Easy Responsive Design. The Responsive Grid System isn't a framework. It's not a boilerplate either. It's a quick, easy & flexible way to create a responsive web site.
+* responsive
+* grid
+* design
 
 
 # Wiki
@@ -3048,6 +3080,12 @@ Lua Ref Card
 * lua
 * cheatsheet
 
+https://luapower.com
+Luapower is a binary+source module distribution for LuaJIT and a way of deploying and sharing Lua modules.
+* lua
+* module
+* distribution
+
 ### Docs
 
 http://www.lua.org/pil/contents.html
@@ -3421,3 +3459,13 @@ Linux настройка, команды, сервер. Linux для всех
 
 http://help.adobe.com/ru_RU/FlashPlatform/reference/actionscript/3/index.html
 Справочник по ActionScript® 3.0 для платформы Adobe® Flash® содержит элементы языка ActionScript, основные библиотеки, а также пакеты и классы компонентов для средств, сред выполнения, служб и серверов, работающих на платформе Flash.
+
+
+# Colors
+
+http://www.color-hex.com
+Color-hex gives information about colors including color models (RGB,HSL,HSV and CMYK)
+* colors
+* palettes
+* hex
+* rgb
