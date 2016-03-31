@@ -1346,6 +1346,12 @@ flaticon is a free project, created for and by designers and developers.
 * icons
 * pack
 
+http://iconka.com
+Creativity. Responsibility. Talent.
+* iconka
+* icons
+* gif
+
 
 # Useful help tools
 
