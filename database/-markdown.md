@@ -1352,6 +1352,13 @@ Creativity. Responsibility. Talent.
 * icons
 * gif
 
+http://tympanus.net/codrops/category/tutorials
+Codrops :: Tutorials - In this section you will find in-depth how-tos involving common web development and web design techniques.
+* css
+* html
+* markup
+* tutorials
+
 
 # Useful help tools
 
