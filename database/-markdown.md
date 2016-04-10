@@ -1015,6 +1015,13 @@ PLEAC-Python. PLEAC - Programming Language Examples Alike Cookbook for python.
 * examples
 * cookbook
 
+http://pydata.org
+Pydata A community for developers and users of Python data tools
+* pydata
+* python
+* data
+* big data
+
 ### modules
 
 https://xlsxwriter.readthedocs.org
