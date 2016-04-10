@@ -1591,6 +1591,12 @@ http://megamozg.ru/post/2168
 http://rubaxa.github.io/hell.html
 Ипотечный АД!!!
 
+http://sscce.org
+The SSCCE. Short, Self Contained, Correct (Compilable), Example.
+* sscce
+* methodologies
+
+
 # EcmaScript 6
 
 https://esdiscuss.org
