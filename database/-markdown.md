@@ -384,6 +384,15 @@ Content and site generator for Single page apps in depth (my book on single page
 https://github.com/substack/stream-handbook
 This document covers the basics of how to write node.js programs with streams.
 
+### tools
+
+http://forbeslindesay.github.io/express-route-tester
+Express Route Tester
+* express
+* route
+* test
+* online
+
 
 # Sails.js
 
@@ -3358,6 +3367,12 @@ https://www.quora.com/What-are-5-mistakes-to-avoid-when-using-Redis
 What are 5 mistakes to avoid when using Redis?
 * redis
 * mistake
+
+https://github.com/karlseguin/the-little-redis-book
+The Little Redis Book is a free book introducing Redis.
+* redis
+* book
+* free
 
 ### tools
 
