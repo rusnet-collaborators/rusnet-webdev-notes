@@ -15,5 +15,6 @@ dot -Tpng $DOTFILE -o $OUTPNG
 ```
 
 ```
-irc rusnet #webdev channel
+irc rusnet server - irc.intertax.ru/6666
+irc rusnet #notes channel
 ```
