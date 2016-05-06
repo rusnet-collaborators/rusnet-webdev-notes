@@ -6,15 +6,9 @@ config       = require './config.coffee'
 del          = require 'del'
 htmlincluder = require 'gulp-htmlincluder'
 
-gulp.task 'clean', ->
-  del config.prod_path, force: true
-  return
-
 gulp.task 'gen_js', ->
   gulp.src path.join config.dev_path_coffee, '*.coffee'
-    .pipe $.coffee(
-      bare: true
-    ).on 'error', $.util.log
+    .pipe $.coffee bare: true
     .pipe gulp.dest path.join config.prod_path_js
   return
 
@@ -66,11 +60,10 @@ gulp.task 'predeploy', ->
 gulp.task 'deploy', ['predeploy'], $.shell.task [ 'surge ' + config.prod_path ]
 
 gulp.task 'default', gulpsync.sync [
-  'clean'
   'gen_js'
   'gen_css'
   'gen_markdown'
   'gen_html'
   'copy'
-  'deploy'
+  #'deploy'
 ]

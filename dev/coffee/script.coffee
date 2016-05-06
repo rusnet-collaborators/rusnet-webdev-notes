@@ -1,8 +1,6 @@
-Rusnet = ->
-  return
+Rusnet = {}
 
 Rusnet.init_view = ->
-
   items = $('#notes_wrap h1').addClass 'custom-h1-block'
   menu = $('#menu').find('ul')
   for i in items
@@ -37,6 +35,8 @@ Rusnet.init_view = ->
 
       $(li).append(link_menu)
       $(menu).append(li)
+      return
+  return
         
 Rusnet.add_target_link = ->
   items = $('#notes_wrap p a')
@@ -46,6 +46,8 @@ Rusnet.add_target_link = ->
         .text( i.textContent.replace(/(http|https):\/\/(www){0,1}\.{0,1}/, '') )
         .text( i.textContent.replace(/\/$/, '') )
       $('<br/>').insertAfter(i)
+      return
+  return
 
 Rusnet.add_tag_link = ->
   tags = $('#notes_wrap ul li')
@@ -59,6 +61,8 @@ Rusnet.add_tag_link = ->
         .attr('class', 'label label-primary')
         .text('')
         .append(link_tag)
+      return
+  return
 
 Rusnet.wrap_content = ->
   $items = $('#notes_wrap h1')
@@ -70,9 +74,22 @@ Rusnet.wrap_content = ->
           $(@).next('.wrap').toggleClass 'show', 500
         .nextUntil('h1')
         .wrapAll $('<div>').attr('class', 'wrap')
+      return
+  return
+
+Rusnet.research_engine = ->
+  cache = window.cache = {}
+  names = window.names = []
+
+  headers = $('h1.custom-h1-block').get()
+  headers.forEach (el) ->
+    text = $(el).text().trim().toLowerCase()
+    names.push text
+    cache[text] = el
+    return
+  return
 
 Rusnet.search_engine = ->
-
   debounce = (fn, delay) ->
     timer = null
     ->
@@ -113,4 +130,5 @@ $ ->
   Rusnet.add_target_link()
   Rusnet.add_tag_link()
   Rusnet.wrap_content()
-  Rusnet.search_engine()
+  #Rusnet.search_engine()
+  Rusnet.research_engine()
