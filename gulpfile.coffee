@@ -65,5 +65,5 @@ gulp.task 'default', gulpsync.sync [
   'gen_markdown'
   'gen_html'
   'copy'
-  #'deploy'
+  'deploy'
 ]
